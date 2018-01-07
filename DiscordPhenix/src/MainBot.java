@@ -10,7 +10,6 @@ public class MainBot {
 
 	private JDA jda;
 
-	private boolean stop = false;
 
 	MainBot(String token) {
 		try {
@@ -23,14 +22,7 @@ public class MainBot {
 		System.out.println("Connecte avec: " + jda.getSelfUser());
 		int i;
 		System.out.println("Le bot est autorisé sur " + (i = jda.getGuilds().size()) + " serveur" + (i > 1 ? "s" : ""));
-		while (!stop) {
-			Scanner scanner = new Scanner(System.in);
-			String cmd = scanner.next();
-			if (cmd.equalsIgnoreCase("stop")) {
-				jda.shutdown();
-				stop = true;
-			}
-		}
+		jda.addEventListener(new MyListener());
 	}
 
 	public static void main(String[] args) {
