@@ -3,12 +3,20 @@ package net.phenix.discord.bot.manager;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+import org.apache.log4j.Logger;
+
 import net.dv8tion.jda.core.entities.MessageChannel;
 import net.phenix.discord.bot.MainBot;
 
 public class PetManager {
 
-	static public void petForecast(MessageChannel channel, String content) {
+	Logger log = Logger.getLogger(getClass());
+
+	public static PetManager getInstance() {
+		return new PetManager();
+	}
+	
+	public void petForecast(MessageChannel channel, String content) {
 		String[] args = content.split(" ");
 		
 		String exemple = "exemple : !petfc 32 3 7";
@@ -67,31 +75,31 @@ public class PetManager {
 		
 		
 		if(petLevel == 0){				
-			channel.sendMessage("★ : "+ forecast1+"\n"
-					+ "★★: "+ forecast2+"\n"
-					+ "★★★: "+ forecast3+"\n"
-					+ "★★★★ : "+ forecast4+"\n"
-					+ "★★★★★ : "+ forecast5+"\n").queue();
+			channel.sendMessage("1: "+ forecast1+"\n"
+					+ "2: "+ forecast2+"\n"
+					+ "3: "+ forecast3+"\n"
+					+ "4: "+ forecast4+"\n"
+					+ "5: "+ forecast5+"\n").queue();
 			return;
 			
 		} else if(petLevel == 1){
-			channel.sendMessage( "★★: "+ forecast2+"\n"
-					+ "★★★: "+ forecast3+"\n"
-					+ "★★★★ : "+ forecast4+"\n"
-					+ "★★★★★ : "+ forecast5+"\n").queue();
+			channel.sendMessage( "2: "+ forecast2+"\n"
+					+ "3: "+ forecast3+"\n"
+					+ "4: "+ forecast4+"\n"
+					+ "5: "+ forecast5+"\n").queue();
 			return;
 		} else if(petLevel == 2){
-			channel.sendMessage( "★★★: "+ forecast3+"\n"
-					+ "★★★★ : "+ forecast4+"\n"
-					+ "★★★★★ : "+ forecast5+"\n").queue();
+			channel.sendMessage( "3: "+ forecast3+"\n"
+					+ "4: "+ forecast4+"\n"
+					+ "5: "+ forecast5+"\n").queue();
 			return;
 			
 		} else if(petLevel == 3){
-			channel.sendMessage( "★★★★ : "+ forecast4+"\n"
-					+ "★★★★★ : "+ forecast5+"\n").queue();
+			channel.sendMessage( "4: "+ forecast4+"\n"
+					+ "5: "+ forecast5+"\n").queue();
 			return;
 		} else if(petLevel == 4){
-			channel.sendMessage( "★★★★★ : "+ forecast5+"\n").queue();
+			channel.sendMessage( "5: "+ forecast5+"\n").queue();
 			return;
 		} else if(petLevel == 5){
 			channel.sendMessage("Tu peux pas avoir mieux :)").queue();
@@ -99,7 +107,7 @@ public class PetManager {
 		}
 	}
 
-	private static String petFC(Double curFrag, Double nbFragPerDay, Double maxFrag, Double petLevel) {
+	private String petFC(Double curFrag, Double nbFragPerDay, Double maxFrag, Double petLevel) {
 		Double totalFrag = curFrag;
 		if(petLevel == 1){
 			totalFrag += 10;
@@ -124,4 +132,5 @@ public class PetManager {
 		SimpleDateFormat sdf = new SimpleDateFormat(MainBot.DATE_FORMATTER);
 		return sdf.format(forecast.getTime());
 	}
+
 }
