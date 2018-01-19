@@ -1,0 +1,4236 @@
+<treasureList>
+	<treasure>
+		<kindNum>1</kindNum>
+		<name>마법생도의 로브</name>
+		<mainCode>A</mainCode>
+		<subCode>1</subCode>
+		<grade>1</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 체력증가</desc>
+		<openCost>0|0|0|5|0</openCost>
+		<skillCode1>hp_E</skillCode1>
+		<ability1>51</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>1</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>1</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>2</kindNum>
+		<name>청동 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>3</subCode>
+		<grade>1</grade>
+		<maxLv>20</maxLv>
+		<desc>퀘스트 골드획득증가</desc>
+		<openCost>0|0|0|5|0</openCost>
+		<skillCode1>questGoldGain_A</skillCode1>
+		<ability1>6</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>1</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>2</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>3</kindNum>
+		<name>용병의 망치</name>
+		<mainCode>W</mainCode>
+		<subCode>1</subCode>
+		<grade>1</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 공격력증가</desc>
+		<openCost>0|0|0|0|5</openCost>
+		<skillCode1>damage_H</skillCode1>
+		<ability1>11</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>1</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>3</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>4</kindNum>
+		<name>초심자용 수정 지팡이</name>
+		<mainCode>W</mainCode>
+		<subCode>3</subCode>
+		<grade>1</grade>
+		<maxLv>20</maxLv>
+		<desc>퀘스트 오픈골드 감소</desc>
+		<openCost>0|0|0|0|5</openCost>
+		<skillCode1>questOpenGold_A</skillCode1>
+		<ability1>11</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>1</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>4</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>5</kindNum>
+		<name>마법생도의 모자</name>
+		<mainCode>H</mainCode>
+		<subCode>1</subCode>
+		<grade>1</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 방어력 증가</desc>
+		<openCost>0|0|5|0|0</openCost>
+		<skillCode1>defense_O</skillCode1>
+		<ability1>36</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>1</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>5</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>6</kindNum>
+		<name>청동 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>3</subCode>
+		<grade>1</grade>
+		<maxLv>20</maxLv>
+		<desc>퀘스트 업그레이드 비용감소</desc>
+		<openCost>0|0|5|0|0</openCost>
+		<skillCode1>questUpgradeGold_A</skillCode1>
+		<ability1>16</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>1</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>6</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>7</kindNum>
+		<name>마법생도의 신발</name>
+		<mainCode>S</mainCode>
+		<subCode>1</subCode>
+		<grade>1</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 부활시간 감소</desc>
+		<openCost>0|5|0|0|0</openCost>
+		<skillCode1>reviveTime_U</skillCode1>
+		<ability1>76</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>1</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>7</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>8</kindNum>
+		<name>청동 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>3</subCode>
+		<grade>1</grade>
+		<maxLv>20</maxLv>
+		<desc>병사 업그레이드 비용 감소</desc>
+		<openCost>0|5|0|0|0</openCost>
+		<skillCode1>unitUpgradeGold_A</skillCode1>
+		<ability1>16</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>1</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>8</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>9</kindNum>
+		<name>용병의 망토</name>
+		<mainCode>C</mainCode>
+		<subCode>3</subCode>
+		<grade>1</grade>
+		<maxLv>20</maxLv>
+		<desc>퀘스트 시간단축</desc>
+		<openCost>5|0|0|0|0</openCost>
+		<skillCode1>questCompleteTime_A</skillCode1>
+		<ability1>26</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>1</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>9</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>10</kindNum>
+		<name>양가죽 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>2</subCode>
+		<grade>1</grade>
+		<maxLv>20</maxLv>
+		<desc>퀘스트 골드획득증가</desc>
+		<openCost>0|0|5|0|0</openCost>
+		<skillCode1>questGoldGain_A</skillCode1>
+		<ability1>6</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>1</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>10</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>11</kindNum>
+		<name>용병대장의 검</name>
+		<mainCode>W</mainCode>
+		<subCode>2</subCode>
+		<grade>1</grade>
+		<maxLv>20</maxLv>
+		<desc>퀘스트 골드획득증가</desc>
+		<openCost>0|5|0|0|0</openCost>
+		<skillCode1>questGoldGain_A</skillCode1>
+		<ability1>6</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>1</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>11</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>12</kindNum>
+		<name>양가죽 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>2</subCode>
+		<grade>1</grade>
+		<maxLv>20</maxLv>
+		<desc>퀘스트 오픈골드 감소</desc>
+		<openCost>5|0|0|0|0</openCost>
+		<skillCode1>questOpenGold_A</skillCode1>
+		<ability1>11</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>1</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>12</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>13</kindNum>
+		<name>마술사의 로브</name>
+		<mainCode>A</mainCode>
+		<subCode>1</subCode>
+		<grade>2</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프, 휴먼 체력증가</desc>
+		<openCost>0|0|0|200|0</openCost>
+		<skillCode1>hp_EH</skillCode1>
+		<ability1>52</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>2</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>13</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>14</kindNum>
+		<name>판금 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>3</subCode>
+		<grade>2</grade>
+		<maxLv>20</maxLv>
+		<desc>퀘스트 골드획득증가</desc>
+		<openCost>0|0|0|200|0</openCost>
+		<skillCode1>questGoldGain_A</skillCode1>
+		<ability1>7</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>2</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>14</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>15</kindNum>
+		<name>경비대의 강철망치</name>
+		<mainCode>W</mainCode>
+		<subCode>1</subCode>
+		<grade>2</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼, 언데드 공격력 증가</desc>
+		<openCost>0|0|0|0|200</openCost>
+		<skillCode1>damage_HU</skillCode1>
+		<ability1>12</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>2</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>15</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>16</kindNum>
+		<name>현자의 수정 지팡이</name>
+		<mainCode>W</mainCode>
+		<subCode>3</subCode>
+		<grade>2</grade>
+		<maxLv>20</maxLv>
+		<desc>퀘스트 오픈골드 감소</desc>
+		<openCost>0|0|0|0|200</openCost>
+		<skillCode1>questOpenGold_A</skillCode1>
+		<ability1>12</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>2</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>16</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>17</kindNum>
+		<name>마술사의 모자</name>
+		<mainCode>H</mainCode>
+		<subCode>1</subCode>
+		<grade>2</grade>
+		<maxLv>20</maxLv>
+		<desc>오크, 엘프 방어력 증가</desc>
+		<openCost>0|0|200|0|0</openCost>
+		<skillCode1>defense_OE</skillCode1>
+		<ability1>37</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>2</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>17</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>18</kindNum>
+		<name>판금 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>3</subCode>
+		<grade>2</grade>
+		<maxLv>20</maxLv>
+		<desc>퀘스트 업그레이드 비용감소</desc>
+		<openCost>0|0|200|0|0</openCost>
+		<skillCode1>questUpgradeGold_A</skillCode1>
+		<ability1>17</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>2</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>18</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>19</kindNum>
+		<name>마술사의 신발</name>
+		<mainCode>S</mainCode>
+		<subCode>1</subCode>
+		<grade>2</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드,오크 부활시간 감소</desc>
+		<openCost>0|200|0|0|0</openCost>
+		<skillCode1>reviveTime_UO</skillCode1>
+		<ability1>77</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>2</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>19</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>20</kindNum>
+		<name>판금 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>3</subCode>
+		<grade>2</grade>
+		<maxLv>20</maxLv>
+		<desc>병사 업그레이드 비용 감소</desc>
+		<openCost>0|200|0|0|0</openCost>
+		<skillCode1>unitUpgradeGold_A</skillCode1>
+		<ability1>17</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>2</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>20</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>21</kindNum>
+		<name>투사의 망토</name>
+		<mainCode>C</mainCode>
+		<subCode>3</subCode>
+		<grade>2</grade>
+		<maxLv>20</maxLv>
+		<desc>퀘스트 시간단축</desc>
+		<openCost>200|0|0|0|0</openCost>
+		<skillCode1>questCompleteTime_A</skillCode1>
+		<ability1>27</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2></skillCode2>
+		<ability2>0</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>2</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>21</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>22</kindNum>
+		<name>마법사의 로브</name>
+		<mainCode>A</mainCode>
+		<subCode>1</subCode>
+		<grade>3</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프, 언데드 체력증가|
+			퀘스트 골드획득증가
+		</desc>
+		<openCost>0|10000|0|10000|0</openCost>
+		<skillCode1>hp_EU</skillCode1>
+		<ability1>53</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>8</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>3</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>22</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>23</kindNum>
+		<name>늑대가죽 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>2</subCode>
+		<grade>3</grade>
+		<maxLv>20</maxLv>
+		<desc>아군타워 체력증가|
+			휴먼, 오크 체력증가
+		</desc>
+		<openCost>10000|0|0|10000|0</openCost>
+		<skillCode1>ourTowerHp_A</skillCode1>
+		<ability1>81</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>hp_HO</skillCode2>
+		<ability2>53</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>3</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>23</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>24</kindNum>
+		<name>기사의 전투망치</name>
+		<mainCode>W</mainCode>
+		<subCode>1</subCode>
+		<grade>3</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼, 오크 공격력 증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|0|10000|0|10000</openCost>
+		<skillCode1>damage_HO</skillCode1>
+		<ability1>13</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>13</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>3</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>24</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>25</kindNum>
+		<name>경비대장의 강철검</name>
+		<mainCode>W</mainCode>
+		<subCode>2</subCode>
+		<grade>3</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼, 오크 치명타확률 증가|
+			언데드, 엘프 공격력 증가
+		</desc>
+		<openCost>0|0|0|10000|10000</openCost>
+		<skillCode1>criticalPercent_HO</skillCode1>
+		<ability1>33</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>damage_UE</skillCode2>
+		<ability2>13</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>3</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>25</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>26</kindNum>
+		<name>마법사의 모자</name>
+		<mainCode>H</mainCode>
+		<subCode>1</subCode>
+		<grade>3</grade>
+		<maxLv>20</maxLv>
+		<desc>오크, 휴먼 방어력 증가|
+			퀘스트 업그레이드 비용감소
+		</desc>
+		<openCost>10000|0|10000|0|0</openCost>
+		<skillCode1>defense_OH</skillCode1>
+		<ability1>38</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>18</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>3</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>26</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>27</kindNum>
+		<name>늑대가죽 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>2</subCode>
+		<grade>3</grade>
+		<maxLv>20</maxLv>
+		<desc>오크, 휴먼 치명타데미지 증가|
+			엘프, 언데드 방어력 증가
+		</desc>
+		<openCost>0|10000|10000|0|0</openCost>
+		<skillCode1>criticalDamage_OH</skillCode1>
+		<ability1>13</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>defense_EU</skillCode2>
+		<ability2>38</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>3</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>27</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>28</kindNum>
+		<name>마법사의 신발</name>
+		<mainCode>S</mainCode>
+		<subCode>1</subCode>
+		<grade>3</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드,엘프 부활시간 감소|
+			병사 업그레이드 비용감소
+		</desc>
+		<openCost>0|10000|0|0|10000</openCost>
+		<skillCode1>reviveTime_UE</skillCode1>
+		<ability1>78</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>18</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>3</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>28</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>29</kindNum>
+		<name>늑대가죽 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>2</subCode>
+		<grade>3</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드,오크 병사출진 시간감소|
+			던전보스 체력감소|
+		</desc>
+		<openCost>10000|10000|0|0|0</openCost>
+		<skillCode1>unitBattleTime_UO</skillCode1>
+		<ability1>77</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>dungeonBossHp_A</skillCode2>
+		<ability2>77</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>3</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>29</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>30</kindNum>
+		<name>기사단장의 망토</name>
+		<mainCode>C</mainCode>
+		<subCode>3</subCode>
+		<grade>3</grade>
+		<maxLv>20</maxLv>
+		<desc>던전 일반병사 체력감소|
+			퀘스트 시간단축
+		</desc>
+		<openCost>10000|0|0|0|10000</openCost>
+		<skillCode1>dungeonNormalHp_A</skillCode1>
+		<ability1>77</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>28</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>3</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>30</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>31</kindNum>
+		<name>마도사의 로브</name>
+		<mainCode>A</mainCode>
+		<subCode>1</subCode>
+		<grade>4</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프, 오크 체력증가|
+			퀘스트 골드획득증가
+		</desc>
+		<openCost>0|500000|0|500000|0</openCost>
+		<skillCode1>hp_EO</skillCode1>
+		<ability1>54</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>9</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>4</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>31</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>32</kindNum>
+		<name>질긴 불곰의 가죽 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>2</subCode>
+		<grade>4</grade>
+		<maxLv>20</maxLv>
+		<desc>아군타워 체력증가|
+			근거리유닛 공격력 증가
+		</desc>
+		<openCost>500000|0|0|500000|0</openCost>
+		<skillCode1>ourTowerHp_A</skillCode1>
+		<ability1>82</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>damage_M</skillCode2>
+		<ability2>19</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>4</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>32</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>33</kindNum>
+		<name>근위기사의 합금 망치</name>
+		<mainCode>W</mainCode>
+		<subCode>1</subCode>
+		<grade>4</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼, 엘프 공격력 증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|0|500000|0|500000</openCost>
+		<skillCode1>damage_HE</skillCode1>
+		<ability1>14</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>14</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>4</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>33</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>34</kindNum>
+		<name>근위대장의 합금 대검</name>
+		<mainCode>W</mainCode>
+		<subCode>2</subCode>
+		<grade>4</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼, 엘프 치명타확률 증가|
+			원거리유닛 공격력 증가
+		</desc>
+		<openCost>0|0|0|500000|500000</openCost>
+		<skillCode1>criticalPercent_HE</skillCode1>
+		<ability1>34</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>damage_R</skillCode2>
+		<ability2>19</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>4</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>34</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>35</kindNum>
+		<name>마도사의 모자</name>
+		<mainCode>H</mainCode>
+		<subCode>1</subCode>
+		<grade>4</grade>
+		<maxLv>20</maxLv>
+		<desc>오크, 언데드 방어력 증가|
+			퀘스트 업그레이드 비용감소
+		</desc>
+		<openCost>500000|0|500000|0|0</openCost>
+		<skillCode1>defense_OU</skillCode1>
+		<ability1>39</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>19</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>4</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>35</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>36</kindNum>
+		<name>마도사의 신발</name>
+		<mainCode>S</mainCode>
+		<subCode>1</subCode>
+		<grade>4</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드,휴먼 부활시간 감소|
+			병사 업그레이드 비용감소
+		</desc>
+		<openCost>0|500000|0|0|500000</openCost>
+		<skillCode1>reviveTime_UH</skillCode1>
+		<ability1>79</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>19</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>4</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>36</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>37</kindNum>
+		<name>질긴 불곰가죽 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>2</subCode>
+		<grade>4</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼,엘프 병사출진 시간감소|
+			던전보스 체력감소
+		</desc>
+		<openCost>500000|500000|0|0|0</openCost>
+		<skillCode1>unitBattleTime_HE</skillCode1>
+		<ability1>78</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>dungeonBossHp_A</skillCode2>
+		<ability2>78</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>4</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>37</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>38</kindNum>
+		<name>귀족의 망토</name>
+		<mainCode>C</mainCode>
+		<subCode>3</subCode>
+		<grade>4</grade>
+		<maxLv>20</maxLv>
+		<desc>던전 일반병사 체력감소|
+			퀘스트 시간단축
+		</desc>
+		<openCost>500000|0|0|0|500000</openCost>
+		<skillCode1>dungeonNormalHp_A</skillCode1>
+		<ability1>78</ability1>
+		<ability11>0</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>29</ability2>
+		<ability12>0</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>4</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>38</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>39</kindNum>
+		<name>신관전사의 튜닉</name>
+		<mainCode>A</mainCode>
+		<subCode>1</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>체력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|30000000|0|30000000|0</openCost>
+		<skillCode1>hp_A</skillCode1>
+		<ability1>65</ability1>
+		<ability11>146</ability11>
+		<ability21>263</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>10</ability2>
+		<ability12>120</ability12>
+		<ability22>250</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>39</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>40</kindNum>
+		<name>장인의 사자가죽 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>2</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>아군타워 체력증가|
+			근거리유닛 공격력증가
+		</desc>
+		<openCost>30000000|0|0|30000000|0</openCost>
+		<skillCode1>ourTowerHp_A</skillCode1>
+		<ability1>83</ability1>
+		<ability11>157</ability11>
+		<ability21>269</ability21>
+		<skillCode2>damage_M</skillCode2>
+		<ability2>20</ability2>
+		<ability12>124</ability12>
+		<ability22>252</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>40</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>41</kindNum>
+		<name>대장군의 초합금 망치</name>
+		<mainCode>W</mainCode>
+		<subCode>1</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>공격력 증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|0|30000000|0|30000000</openCost>
+		<skillCode1>damage_A</skillCode1>
+		<ability1>25</ability1>
+		<ability11>126</ability11>
+		<ability21>253</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>15</ability2>
+		<ability12>186</ability12>
+		<ability22>273</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>41</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>42</kindNum>
+		<name>대장군의 초합금 대검</name>
+		<mainCode>W</mainCode>
+		<subCode>2</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>치명타확률 증가|
+			원거리유닛 공격력증가
+		</desc>
+		<openCost>0|0|0|30000000|30000000</openCost>
+		<skillCode1>criticalPercent_A</skillCode1>
+		<ability1>75</ability1>
+		<ability11>152</ability11>
+		<ability21>266</ability21>
+		<skillCode2>damage_R</skillCode2>
+		<ability2>20</ability2>
+		<ability12>124</ability12>
+		<ability22>252</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>42</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>43</kindNum>
+		<name>신관전사의 모자</name>
+		<mainCode>H</mainCode>
+		<subCode>1</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>방어력 증가|
+			퀘스트 업그레이드 비용감소
+		</desc>
+		<openCost>30000000|0|30000000|0|0</openCost>
+		<skillCode1>defense_A</skillCode1>
+		<ability1>50</ability1>
+		<ability11>138</ability11>
+		<ability21>259</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>20</ability2>
+		<ability12>188</ability12>
+		<ability22>274</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>43</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>44</kindNum>
+		<name>신관전사의 신발</name>
+		<mainCode>S</mainCode>
+		<subCode>1</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>부활시간 감소|
+			병사 업그레이드 비용감소
+		</desc>
+		<openCost>0|30000000|0|0|30000000</openCost>
+		<skillCode1>reviveTime_A</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>268</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>20</ability2>
+		<ability12>188</ability12>
+		<ability22>274</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>44</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>45</kindNum>
+		<name>장인의 사자가죽 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>2</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>병사출진 시간감소|
+			던전 보스 체력감소
+		</desc>
+		<openCost>30000000|30000000|0|0|0</openCost>
+		<skillCode1>unitBattleTime_A</skillCode1>
+		<ability1>79</ability1>
+		<ability11>154</ability11>
+		<ability21>267</ability21>
+		<skillCode2>dungeonBossHp_A</skillCode2>
+		<ability2>79</ability2>
+		<ability12>154</ability12>
+		<ability22>267</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>45</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>46</kindNum>
+		<name>대장군의 망토</name>
+		<mainCode>C</mainCode>
+		<subCode>3</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>던전 일반병사 체력감소|
+			퀘스트 시간단축
+		</desc>
+		<openCost>30000000|0|0|0|30000000</openCost>
+		<skillCode1>dungeonNormalHp_A</skillCode1>
+		<ability1>79</ability1>
+		<ability11>154</ability11>
+		<ability21>267</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>30</ability2>
+		<ability12>128</ability12>
+		<ability22>254</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>46</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>47</kindNum>
+		<name>음의 서리도</name>
+		<mainCode>W</mainCode>
+		<subCode>4</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력증가|
+			오크 치명타데미지 증가
+		</desc>
+		<openCost>0|30000000|30000000|0|0</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>15</ability1>
+		<ability11>122</ability11>
+		<ability21>251</ability21>
+		<skillCode2>criticalDamage_O</skillCode2>
+		<ability2>25</ability2>
+		<ability12>180</ability12>
+		<ability22>270</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>47</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>48</kindNum>
+		<name>양의 불꽃도</name>
+		<mainCode>W</mainCode>
+		<subCode>5</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 공격력증가|
+			언데드 치명타데미지 증가
+		</desc>
+		<openCost>0|0|30000000|30000000|0</openCost>
+		<skillCode1>damage_U</skillCode1>
+		<ability1>15</ability1>
+		<ability11>122</ability11>
+		<ability21>251</ability21>
+		<skillCode2>criticalDamage_U</skillCode2>
+		<ability2>25</ability2>
+		<ability12>180</ability12>
+		<ability22>270</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>48</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>49</kindNum>
+		<name>천상의 목걸이</name>
+		<mainCode>N</mainCode>
+		<subCode>4</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>근거리유닛 체력증가|
+			근거리유닛 방어력증가
+		</desc>
+		<openCost>0|30000000|0|30000000|0</openCost>
+		<skillCode1>hp_M</skillCode1>
+		<ability1>60</ability1>
+		<ability11>144</ability11>
+		<ability21>262</ability21>
+		<skillCode2>defense_M</skillCode2>
+		<ability2>45</ability2>
+		<ability12>136</ability12>
+		<ability22>258</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>49</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>50</kindNum>
+		<name>천상의 귀걸이</name>
+		<mainCode>E</mainCode>
+		<subCode>5</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>원거리유닛 체력증가|
+			원거리유닛 방어력증가
+		</desc>
+		<openCost>30000000|0|0|30000000|0</openCost>
+		<skillCode1>hp_R</skillCode1>
+		<ability1>60</ability1>
+		<ability11>144</ability11>
+		<ability21>262</ability21>
+		<skillCode2>defense_R</skillCode2>
+		<ability2>45</ability2>
+		<ability12>136</ability12>
+		<ability22>258</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>50</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>51</kindNum>
+		<name>본 와이번의 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>4</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 체력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|0|30000000|0|30000000</openCost>
+		<skillCode1>hp_U</skillCode1>
+		<ability1>55</ability1>
+		<ability11>142</ability11>
+		<ability21>261</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>10</ability2>
+		<ability12>120</ability12>
+		<ability22>250</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>51</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>52</kindNum>
+		<name>본 와이번의 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>4</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 방어력 증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|0|0|30000000|30000000</openCost>
+		<skillCode1>defense_U</skillCode1>
+		<ability1>40</ability1>
+		<ability11>134</ability11>
+		<ability21>257</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>20</ability2>
+		<ability12>188</ability12>
+		<ability22>274</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>52</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>53</kindNum>
+		<name>본 와이번의 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>4</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 부활시간 감소|
+			퀘스트 시간단축
+		</desc>
+		<openCost>30000000|0|30000000|0|0</openCost>
+		<skillCode1>reviveTime_U</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>268</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>30</ability2>
+		<ability12>128</ability12>
+		<ability22>254</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>53</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>54</kindNum>
+		<name>설산의 귀신 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>5</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 체력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|30000000|0|0|30000000</openCost>
+		<skillCode1>hp_O</skillCode1>
+		<ability1>55</ability1>
+		<ability11>142</ability11>
+		<ability21>261</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>15</ability2>
+		<ability12>186</ability12>
+		<ability22>273</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>54</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>55</kindNum>
+		<name>설산의 귀신 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>5</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 방어력 증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>30000000|30000000|0|0|0</openCost>
+		<skillCode1>defense_O</skillCode1>
+		<ability1>40</ability1>
+		<ability11>134</ability11>
+		<ability21>257</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>20</ability2>
+		<ability12>188</ability12>
+		<ability22>274</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>55</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>56</kindNum>
+		<name>설산의 귀신 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>5</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 부활시간 감소|
+			퀘스트 시간단축
+		</desc>
+		<openCost>30000000|0|0|0|30000000</openCost>
+		<skillCode1>reviveTime_O</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>268</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>30</ability2>
+		<ability12>128</ability12>
+		<ability22>254</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>56</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>57</kindNum>
+		<name>사령술사의 지팡이</name>
+		<mainCode>W</mainCode>
+		<subCode>6</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 공격력증가|
+			휴먼 치명타데미지 증가
+		</desc>
+		<openCost>0|30000000|30000000|0|0</openCost>
+		<skillCode1>damage_H</skillCode1>
+		<ability1>15</ability1>
+		<ability11>122</ability11>
+		<ability21>251</ability21>
+		<skillCode2>criticalDamage_H</skillCode2>
+		<ability2>25</ability2>
+		<ability12>180</ability12>
+		<ability22>270</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>57</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>58</kindNum>
+		<name>사령술사의 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>6</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 방어력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|0|30000000|30000000|0</openCost>
+		<skillCode1>defense_H</skillCode1>
+		<ability1>40</ability1>
+		<ability11>134</ability11>
+		<ability21>257</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>10</ability2>
+		<ability12>120</ability12>
+		<ability22>250</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>58</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>59</kindNum>
+		<name>사령술사의 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>6</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 체력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|30000000|0|30000000|0</openCost>
+		<skillCode1>hp_H</skillCode1>
+		<ability1>55</ability1>
+		<ability11>142</ability11>
+		<ability21>261</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>15</ability2>
+		<ability12>186</ability12>
+		<ability22>273</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>59</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>60</kindNum>
+		<name>사령술사의 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>6</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 병사 출진시간 감소|
+			퀘스트 업그레이드비용 감소
+		</desc>
+		<openCost>30000000|0|0|30000000|0</openCost>
+		<skillCode1>unitBattleTime_H</skillCode1>
+		<ability1>79</ability1>
+		<ability11>154</ability11>
+		<ability21>267</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>20</ability2>
+		<ability12>188</ability12>
+		<ability22>274</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>60</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>61</kindNum>
+		<name>고대 제사장의 지팡이</name>
+		<mainCode>W</mainCode>
+		<subCode>7</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 공격력증가|
+			엘프 치명타데미지 증가
+		</desc>
+		<openCost>0|0|30000000|0|30000000</openCost>
+		<skillCode1>damage_E</skillCode1>
+		<ability1>15</ability1>
+		<ability11>122</ability11>
+		<ability21>251</ability21>
+		<skillCode2>criticalDamage_E</skillCode2>
+		<ability2>25</ability2>
+		<ability12>180</ability12>
+		<ability22>270</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>61</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>62</kindNum>
+		<name>고대 제사장의 가면</name>
+		<mainCode>H</mainCode>
+		<subCode>7</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 방어력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|0|0|30000000|30000000</openCost>
+		<skillCode1>defense_E</skillCode1>
+		<ability1>40</ability1>
+		<ability11>134</ability11>
+		<ability21>257</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>10</ability2>
+		<ability12>120</ability12>
+		<ability22>250</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>62</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>63</kindNum>
+		<name>고대 제사장의 로브</name>
+		<mainCode>A</mainCode>
+		<subCode>7</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 체력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>30000000|0|30000000|0|0</openCost>
+		<skillCode1>hp_E</skillCode1>
+		<ability1>55</ability1>
+		<ability11>142</ability11>
+		<ability21>261</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>15</ability2>
+		<ability12>186</ability12>
+		<ability22>273</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>63</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>64</kindNum>
+		<name>고대 제사장의 신발</name>
+		<mainCode>S</mainCode>
+		<subCode>7</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 병사 출진시간 감소|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|30000000|0|0|30000000</openCost>
+		<skillCode1>unitBattleTime_E</skillCode1>
+		<ability1>79</ability1>
+		<ability11>154</ability11>
+		<ability21>267</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>20</ability2>
+		<ability12>188</ability12>
+		<ability22>274</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>64</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>65</kindNum>
+		<name>흑기사의 검</name>
+		<mainCode>W</mainCode>
+		<subCode>8</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드,오크 공격력증가|
+			언데드,오크 치명타데미지 증가
+		</desc>
+		<openCost>30000000|30000000|0|0|0</openCost>
+		<skillCode1>damage_UO</skillCode1>
+		<ability1>15</ability1>
+		<ability11>122</ability11>
+		<ability21>251</ability21>
+		<skillCode2>criticalDamage_UO</skillCode2>
+		<ability2>15</ability2>
+		<ability12>180</ability12>
+		<ability22>270</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>65</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>66</kindNum>
+		<name>흑기사의 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>8</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드,오크 체력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>30000000|0|0|0|30000000</openCost>
+		<skillCode1>hp_UO</skillCode1>
+		<ability1>55</ability1>
+		<ability11>142</ability11>
+		<ability21>261</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>10</ability2>
+		<ability12>120</ability12>
+		<ability22>250</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>66</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>67</kindNum>
+		<name>흑기사의 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>8</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드,오크 방어력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|30000000|30000000|0|0</openCost>
+		<skillCode1>defense_UO</skillCode1>
+		<ability1>50</ability1>
+		<ability11>134</ability11>
+		<ability21>257</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>15</ability2>
+		<ability12>186</ability12>
+		<ability22>273</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>67</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>68</kindNum>
+		<name>흑기사의 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>8</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드,오크 부활시간 감소|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|0|30000000|30000000|0</openCost>
+		<skillCode1>reviveTime_UO</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>268</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>20</ability2>
+		<ability12>188</ability12>
+		<ability22>274</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>68</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>69</kindNum>
+		<name>흑기사의 망토</name>
+		<mainCode>C</mainCode>
+		<subCode>8</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드,오크 공격력증가|
+			퀘스트 업그레이드비용 감소
+		</desc>
+		<openCost>0|30000000|0|30000000|0</openCost>
+		<skillCode1>damage_UO</skillCode1>
+		<ability1>15</ability1>
+		<ability11>122</ability11>
+		<ability21>251</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>20</ability2>
+		<ability12>188</ability12>
+		<ability22>274</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>69</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>70</kindNum>
+		<name>흑기사의 팔찌</name>
+		<mainCode>R</mainCode>
+		<subCode>8</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드,오크 체력증가|
+			퀘스트 시간단축
+		</desc>
+		<openCost>30000000|0|0|30000000|0</openCost>
+		<skillCode1>hp_UO</skillCode1>
+		<ability1>55</ability1>
+		<ability11>142</ability11>
+		<ability21>261</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>30</ability2>
+		<ability12>128</ability12>
+		<ability22>254</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>70</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>71</kindNum>
+		<name>해룡의 발톱</name>
+		<mainCode>W</mainCode>
+		<subCode>9</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼,엘프 공격력증가|
+			휴먼,엘프 치명타데미지 증가
+		</desc>
+		<openCost>0|0|30000000|0|30000000</openCost>
+		<skillCode1>damage_HE</skillCode1>
+		<ability1>15</ability1>
+		<ability11>122</ability11>
+		<ability21>251</ability21>
+		<skillCode2>criticalDamage_HE</skillCode2>
+		<ability2>15</ability2>
+		<ability12>180</ability12>
+		<ability22>270</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>71</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>72</kindNum>
+		<name>해룡의 뿔</name>
+		<mainCode>H</mainCode>
+		<subCode>9</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼,엘프 체력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|0|0|30000000|30000000</openCost>
+		<skillCode1>hp_HE</skillCode1>
+		<ability1>55</ability1>
+		<ability11>142</ability11>
+		<ability21>261</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>10</ability2>
+		<ability12>120</ability12>
+		<ability22>250</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>72</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>73</kindNum>
+		<name>해룡의 비늘</name>
+		<mainCode>A</mainCode>
+		<subCode>9</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼,엘프 방어력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>30000000|0|30000000|0|0</openCost>
+		<skillCode1>defense_HE</skillCode1>
+		<ability1>50</ability1>
+		<ability11>134</ability11>
+		<ability21>257</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>15</ability2>
+		<ability12>186</ability12>
+		<ability22>273</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>73</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>74</kindNum>
+		<name>해룡의 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>9</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼,엘프 부활시간 감소|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|30000000|0|0|30000000</openCost>
+		<skillCode1>reviveTime_HE</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>268</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>20</ability2>
+		<ability12>188</ability12>
+		<ability22>274</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>74</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>75</kindNum>
+		<name>해룡의 정수 목걸이</name>
+		<mainCode>N</mainCode>
+		<subCode>9</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼,엘프 공격력증가|
+			퀘스트 업그레이드비용 감소
+		</desc>
+		<openCost>30000000|30000000|0|0|0</openCost>
+		<skillCode1>damage_HE</skillCode1>
+		<ability1>15</ability1>
+		<ability11>122</ability11>
+		<ability21>251</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>20</ability2>
+		<ability12>188</ability12>
+		<ability22>274</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>75</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>76</kindNum>
+		<name>해룡의 정수 팔찌</name>
+		<mainCode>R</mainCode>
+		<subCode>9</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼,엘프 체력증가|
+			퀘스트 시간단축
+		</desc>
+		<openCost>30000000|0|0|0|30000000</openCost>
+		<skillCode1>hp_HE</skillCode1>
+		<ability1>55</ability1>
+		<ability11>142</ability11>
+		<ability21>261</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>30</ability2>
+		<ability12>128</ability12>
+		<ability22>254</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>76</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>77</kindNum>
+		<name>골드 드래곤의 목걸이</name>
+		<mainCode>N</mainCode>
+		<subCode>0</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>체력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|1000000000|0|1000000000|0</openCost>
+		<skillCode1>hp_A</skillCode1>
+		<ability1>96</ability1>
+		<ability11>147</ability11>
+		<ability21>216</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>85</ability2>
+		<ability12>121</ability12>
+		<ability22>190</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>77</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>78</kindNum>
+		<name>골드 드래곤의 귀걸이</name>
+		<mainCode>E</mainCode>
+		<subCode>0</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>아군타워 체력증가|
+			퀘스트 시간단축
+		</desc>
+		<openCost>1000000000|0|0|1000000000|0</openCost>
+		<skillCode1>ourTowerHp_A</skillCode1>
+		<ability1>100</ability1>
+		<ability11>158</ability11>
+		<ability21>227</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>89</ability2>
+		<ability12>129</ability12>
+		<ability22>198</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>78</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>79</kindNum>
+		<name>어둠의 뿔두건</name>
+		<mainCode>H</mainCode>
+		<subCode>1</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>공격력 증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|0|1000000000|0|1000000000</openCost>
+		<skillCode1>damage_A</skillCode1>
+		<ability1>88</ability1>
+		<ability11>127</ability11>
+		<ability21>196</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>86</ability2>
+		<ability12>187</ability12>
+		<ability22>235</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>79</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>80</kindNum>
+		<name>어둠의 장화</name>
+		<mainCode>S</mainCode>
+		<subCode>1</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>원거리유닛 체력증가|
+			원거리유닛 공격력증가
+		</desc>
+		<openCost>0|0|0|1000000000|1000000000</openCost>
+		<skillCode1>hp_R</skillCode1>
+		<ability1>95</ability1>
+		<ability11>145</ability11>
+		<ability21>214</ability21>
+		<skillCode2>damage_R</skillCode2>
+		<ability2>87</ability2>
+		<ability12>125</ability12>
+		<ability22>194</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>80</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>81</kindNum>
+		<name>어둠의 망토</name>
+		<mainCode>A</mainCode>
+		<subCode>1</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>방어력 증가|
+			퀘스트 업그레이드 비용감소
+		</desc>
+		<openCost>1000000000|0|1000000000|0|0</openCost>
+		<skillCode1>defense_A</skillCode1>
+		<ability1>93</ability1>
+		<ability11>139</ability11>
+		<ability21>208</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>87</ability2>
+		<ability12>189</ability12>
+		<ability22>237</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>81</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>82</kindNum>
+		<name>불멸의 화룡검</name>
+		<mainCode>W</mainCode>
+		<subCode>2</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>부활시간 감소|
+			병사 업그레이드 비용감소
+		</desc>
+		<openCost>0|1000000000|0|0|1000000000</openCost>
+		<skillCode1>reviveTime_A</skillCode1>
+		<ability1>99</ability1>
+		<ability11>156</ability11>
+		<ability21>225</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>87</ability2>
+		<ability12>189</ability12>
+		<ability22>237</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>82</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>83</kindNum>
+		<name>불멸의 사자갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>2</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>근거리유닛 공격력증가|
+			근거리유닛 체력증가
+		</desc>
+		<openCost>1000000000|1000000000|0|0|0</openCost>
+		<skillCode1>damage_M</skillCode1>
+		<ability1>87</ability1>
+		<ability11>125</ability11>
+		<ability21>194</ability21>
+		<skillCode2>hp_M</skillCode2>
+		<ability2>95</ability2>
+		<ability12>145</ability12>
+		<ability22>214</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>83</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>84</kindNum>
+		<name>불멸의 불꽃날개</name>
+		<mainCode>C</mainCode>
+		<subCode>2</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>던전 일반병사 체력감소|
+			퀘스트 시간단축
+		</desc>
+		<openCost>1000000000|0|0|0|1000000000</openCost>
+		<skillCode1>dungeonNormalHp_A</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>224</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>89</ability2>
+		<ability12>129</ability12>
+		<ability22>198</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>84</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>85</kindNum>
+		<name>풍요의 월계수 활</name>
+		<mainCode>W</mainCode>
+		<subCode>3</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼,엘프 공격력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|1000000000|1000000000|0|0</openCost>
+		<skillCode1>damage_HE</skillCode1>
+		<ability1>86</ability1>
+		<ability11>123</ability11>
+		<ability21>192</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>85</ability2>
+		<ability12>121</ability12>
+		<ability22>190</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>85</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>86</kindNum>
+		<name>풍요의 황금 장화</name>
+		<mainCode>S</mainCode>
+		<subCode>3</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼,엘프 방어력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|0|1000000000|1000000000|0</openCost>
+		<skillCode1>defense_HE</skillCode1>
+		<ability1>91</ability1>
+		<ability11>135</ability11>
+		<ability21>204</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>87</ability2>
+		<ability12>189</ability12>
+		<ability22>237</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>86</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>87</kindNum>
+		<name>풍요의 황금 반지</name>
+		<mainCode>R</mainCode>
+		<subCode>3</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼,엘프 체력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|1000000000|0|1000000000|0</openCost>
+		<skillCode1>hp_HE</skillCode1>
+		<ability1>94</ability1>
+		<ability11>143</ability11>
+		<ability21>212</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>86</ability2>
+		<ability12>187</ability12>
+		<ability22>235</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>87</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>88</kindNum>
+		<name>풍요의 황금 망토</name>
+		<mainCode>C</mainCode>
+		<subCode>3</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼,엘프 병사 출진시간 감소|
+			퀘스트 업그레이드비용 감소
+		</desc>
+		<openCost>1000000000|0|0|1000000000|0</openCost>
+		<skillCode1>unitBattleTime_HE</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>224</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>87</ability2>
+		<ability12>189</ability12>
+		<ability22>237</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>88</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>89</kindNum>
+		<name>고대 차원수의 둔기</name>
+		<mainCode>W</mainCode>
+		<subCode>4</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>공중유닛 공격력증가|
+			공중유닛 치명타데미지증가
+		</desc>
+		<openCost>0|0|1000000000|0|1000000000</openCost>
+		<skillCode1>damage_S</skillCode1>
+		<ability1>106</ability1>
+		<ability11>133</ability11>
+		<ability21>202</ability21>
+		<skillCode2>criticalDamage_S</skillCode2>
+		<ability2>106</ability2>
+		<ability12>185</ability12>
+		<ability22>233</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>89</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>90</kindNum>
+		<name>고대 차원수의 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>4</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>공중유닛 방어력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|0|0|1000000000|1000000000</openCost>
+		<skillCode1>defense_S</skillCode1>
+		<ability1>112</ability1>
+		<ability11>141</ability11>
+		<ability21>210</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>85</ability2>
+		<ability12>121</ability12>
+		<ability22>190</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>90</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>91</kindNum>
+		<name>고대 차원수의 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>4</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>공중유닛 체력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>1000000000|0|1000000000|0|0</openCost>
+		<skillCode1>hp_S</skillCode1>
+		<ability1>118</ability1>
+		<ability11>149</ability11>
+		<ability21>218</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>86</ability2>
+		<ability12>187</ability12>
+		<ability22>235</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>91</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>92</kindNum>
+		<name>고대 차원수의 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>4</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>공중유닛 출진시간 감소|
+			퀘스트 업그레이드비용 감소
+		</desc>
+		<openCost>0|1000000000|0|0|1000000000</openCost>
+		<skillCode1>unitBattleTime_S</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>224</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>87</ability2>
+		<ability12>189</ability12>
+		<ability22>237</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>92</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>93</kindNum>
+		<name>야차왕의 대검</name>
+		<mainCode>W</mainCode>
+		<subCode>5</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>오크, 언데드 공격력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>1000000000|1000000000|0|0|0</openCost>
+		<skillCode1>damage_OU</skillCode1>
+		<ability1>86</ability1>
+		<ability11>123</ability11>
+		<ability21>192</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>85</ability2>
+		<ability12>121</ability12>
+		<ability22>190</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>93</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>94</kindNum>
+		<name>야차왕의 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>5</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>오크, 언데드 방어력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>1000000000|0|0|0|1000000000</openCost>
+		<skillCode1>defense_OU</skillCode1>
+		<ability1>91</ability1>
+		<ability11>135</ability11>
+		<ability21>204</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>87</ability2>
+		<ability12>189</ability12>
+		<ability22>237</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>94</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>95</kindNum>
+		<name>야차왕의 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>5</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>오크, 언데드 체력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|1000000000|1000000000|0|0</openCost>
+		<skillCode1>hp_OU</skillCode1>
+		<ability1>94</ability1>
+		<ability11>143</ability11>
+		<ability21>212</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>86</ability2>
+		<ability12>187</ability12>
+		<ability22>235</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>95</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>96</kindNum>
+		<name>야차왕의 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>5</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>오크, 언데드 병사 출진시간 감소|
+			퀘스트 업그레이드비용 감소
+		</desc>
+		<openCost>0|0|1000000000|1000000000|0</openCost>
+		<skillCode1>unitBattleTime_OU</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>224</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>87</ability2>
+		<ability12>189</ability12>
+		<ability22>237</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>96</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>97</kindNum>
+		<name>빙결의 기사검</name>
+		<mainCode>W</mainCode>
+		<subCode>6</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|1000000000|0|1000000000|0</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>86</ability1>
+		<ability11>123</ability11>
+		<ability21>192</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>85</ability2>
+		<ability12>121</ability12>
+		<ability22>190</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>97</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>98</kindNum>
+		<name>빙결의 기사 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>6</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 방어력증가|
+			퀘스트 업그레이드 비용감소
+		</desc>
+		<openCost>1000000000|0|0|1000000000|0</openCost>
+		<skillCode1>defense_O</skillCode1>
+		<ability1>91</ability1>
+		<ability11>135</ability11>
+		<ability21>204</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>87</ability2>
+		<ability12>189</ability12>
+		<ability22>237</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>98</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>99</kindNum>
+		<name>빙결의 기사 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>6</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 체력증가|
+			오크 방어력증가
+		</desc>
+		<openCost>0|0|1000000000|0|1000000000</openCost>
+		<skillCode1>hp_O</skillCode1>
+		<ability1>94</ability1>
+		<ability11>143</ability11>
+		<ability21>212</ability21>
+		<skillCode2>defense_O</skillCode2>
+		<ability2>91</ability2>
+		<ability12>135</ability12>
+		<ability22>204</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>99</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>100</kindNum>
+		<name>빙결의 기사 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>6</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 병사 출진시간 감소|
+			퀘스트 시간단축
+		</desc>
+		<openCost>0|0|0|1000000000|1000000000</openCost>
+		<skillCode1>unitBattleTime_O</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>224</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>89</ability2>
+		<ability12>129</ability12>
+		<ability22>198</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>100</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>101</kindNum>
+		<name>빙결의 기사 반지</name>
+		<mainCode>R</mainCode>
+		<subCode>6</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>아군타워 체력증가|
+			던전 일반병사 체력감소
+		</desc>
+		<openCost>1000000000|0|1000000000|0|0</openCost>
+		<skillCode1>ourTowerHp_A</skillCode1>
+		<ability1>100</ability1>
+		<ability11>158</ability11>
+		<ability21>227</ability21>
+		<skillCode2>dungeonNormalHp_A</skillCode2>
+		<ability2>80</ability2>
+		<ability12>155</ability12>
+		<ability22>224</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>101</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>102</kindNum>
+		<name>빙결의 기사 방패</name>
+		<mainCode>D</mainCode>
+		<subCode>6</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력 증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|1000000000|0|0|1000000000</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>86</ability1>
+		<ability11>123</ability11>
+		<ability21>192</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>86</ability2>
+		<ability12>187</ability12>
+		<ability22>235</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>102</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>103</kindNum>
+		<name>암흑 군단장의 메이스</name>
+		<mainCode>W</mainCode>
+		<subCode>7</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 공격력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>1000000000|1000000000|0|0|0</openCost>
+		<skillCode1>damage_U</skillCode1>
+		<ability1>86</ability1>
+		<ability11>123</ability11>
+		<ability21>192</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>85</ability2>
+		<ability12>121</ability12>
+		<ability22>190</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>103</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>104</kindNum>
+		<name>암흑 군단장의 헬멧</name>
+		<mainCode>H</mainCode>
+		<subCode>7</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 방어력증가|
+			퀘스트 업그레이드 비용감소
+		</desc>
+		<openCost>1000000000|0|0|0|1000000000</openCost>
+		<skillCode1>defense_U</skillCode1>
+		<ability1>91</ability1>
+		<ability11>135</ability11>
+		<ability21>204</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>87</ability2>
+		<ability12>189</ability12>
+		<ability22>237</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>104</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>105</kindNum>
+		<name>암흑 군단장의 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>7</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 체력증가|
+			언데드 방어력증가
+		</desc>
+		<openCost>0|1000000000|1000000000|0|0</openCost>
+		<skillCode1>hp_U</skillCode1>
+		<ability1>94</ability1>
+		<ability11>143</ability11>
+		<ability21>212</ability21>
+		<skillCode2>defense_U</skillCode2>
+		<ability2>91</ability2>
+		<ability12>135</ability12>
+		<ability22>204</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>105</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>106</kindNum>
+		<name>암흑 군단장의 신발</name>
+		<mainCode>S</mainCode>
+		<subCode>7</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 병사 출진시간 감소|
+			퀘스트 시간단축
+		</desc>
+		<openCost>0|0|1000000000|1000000000|0</openCost>
+		<skillCode1>unitBattleTime_U</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>224</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>89</ability2>
+		<ability12>129</ability12>
+		<ability22>198</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>106</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>107</kindNum>
+		<name>암흑 군단장의 망토</name>
+		<mainCode>C</mainCode>
+		<subCode>7</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>아군타워 체력증가|
+			던전 일반병사 체력감소
+		</desc>
+		<openCost>0|1000000000|0|1000000000|0</openCost>
+		<skillCode1>ourTowerHp_A</skillCode1>
+		<ability1>100</ability1>
+		<ability11>158</ability11>
+		<ability21>227</ability21>
+		<skillCode2>dungeonNormalHp_A</skillCode2>
+		<ability2>80</ability2>
+		<ability12>155</ability12>
+		<ability22>224</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>107</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>108</kindNum>
+		<name>암흑 군단장의 목걸이</name>
+		<mainCode>N</mainCode>
+		<subCode>7</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 공격력 증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>1000000000|0|0|1000000000|0</openCost>
+		<skillCode1>damage_U</skillCode1>
+		<ability1>86</ability1>
+		<ability11>123</ability11>
+		<ability21>192</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>86</ability2>
+		<ability12>187</ability12>
+		<ability22>235</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>108</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>109</kindNum>
+		<name>초신성의 지팡이</name>
+		<mainCode>W</mainCode>
+		<subCode>8</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 공격력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|0|1000000000|0|1000000000</openCost>
+		<skillCode1>damage_H</skillCode1>
+		<ability1>86</ability1>
+		<ability11>123</ability11>
+		<ability21>192</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>85</ability2>
+		<ability12>121</ability12>
+		<ability22>190</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>109</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>110</kindNum>
+		<name>초신성의 모자</name>
+		<mainCode>H</mainCode>
+		<subCode>8</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 방어력증가|
+			퀘스트 업그레이드 비용감소
+		</desc>
+		<openCost>0|0|0|1000000000|1000000000</openCost>
+		<skillCode1>defense_H</skillCode1>
+		<ability1>91</ability1>
+		<ability11>135</ability11>
+		<ability21>204</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>87</ability2>
+		<ability12>189</ability12>
+		<ability22>237</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>110</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>111</kindNum>
+		<name>초신성의 로브</name>
+		<mainCode>C</mainCode>
+		<subCode>8</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 체력증가|
+			휴먼 방어력증가
+		</desc>
+		<openCost>1000000000|0|1000000000|0|0</openCost>
+		<skillCode1>hp_H</skillCode1>
+		<ability1>94</ability1>
+		<ability11>143</ability11>
+		<ability21>212</ability21>
+		<skillCode2>defense_H</skillCode2>
+		<ability2>91</ability2>
+		<ability12>135</ability12>
+		<ability22>204</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>111</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>112</kindNum>
+		<name>초신성의 신발</name>
+		<mainCode>S</mainCode>
+		<subCode>8</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 병사 출진시간 감소|
+			퀘스트 시간단축
+		</desc>
+		<openCost>0|1000000000|0|0|1000000000</openCost>
+		<skillCode1>unitBattleTime_H</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>224</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>89</ability2>
+		<ability12>129</ability12>
+		<ability22>198</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>112</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>113</kindNum>
+		<name>초신성의 반지</name>
+		<mainCode>R</mainCode>
+		<subCode>8</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>아군타워 체력증가|
+			던전 일반병사 체력감소
+		</desc>
+		<openCost>1000000000|1000000000|0|0|0</openCost>
+		<skillCode1>ourTowerHp_A</skillCode1>
+		<ability1>100</ability1>
+		<ability11>158</ability11>
+		<ability21>227</ability21>
+		<skillCode2>dungeonNormalHp_A</skillCode2>
+		<ability2>80</ability2>
+		<ability12>155</ability12>
+		<ability22>224</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>113</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>114</kindNum>
+		<name>초신성의 팔찌</name>
+		<mainCode>N</mainCode>
+		<subCode>8</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 공격력 증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>1000000000|0|0|0|1000000000</openCost>
+		<skillCode1>damage_H</skillCode1>
+		<ability1>86</ability1>
+		<ability11>123</ability11>
+		<ability21>192</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>86</ability2>
+		<ability12>187</ability12>
+		<ability22>235</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>114</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>115</kindNum>
+		<name>정의의 신궁 활</name>
+		<mainCode>W</mainCode>
+		<subCode>9</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 공격력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|1000000000|1000000000|0|0</openCost>
+		<skillCode1>damage_E</skillCode1>
+		<ability1>86</ability1>
+		<ability11>123</ability11>
+		<ability21>192</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>85</ability2>
+		<ability12>121</ability12>
+		<ability22>190</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>115</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>116</kindNum>
+		<name>정의의 신궁 모자</name>
+		<mainCode>H</mainCode>
+		<subCode>9</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 방어력증가|
+			퀘스트 업그레이드 비용감소
+		</desc>
+		<openCost>0|0|1000000000|1000000000|0</openCost>
+		<skillCode1>defense_E</skillCode1>
+		<ability1>91</ability1>
+		<ability11>135</ability11>
+		<ability21>204</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>87</ability2>
+		<ability12>189</ability12>
+		<ability22>237</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>116</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>117</kindNum>
+		<name>정의의 신궁 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>9</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 체력증가|
+			엘프 방어력증가
+		</desc>
+		<openCost>0|1000000000|0|1000000000|0</openCost>
+		<skillCode1>hp_E</skillCode1>
+		<ability1>94</ability1>
+		<ability11>143</ability11>
+		<ability21>212</ability21>
+		<skillCode2>defense_E</skillCode2>
+		<ability2>91</ability2>
+		<ability12>135</ability12>
+		<ability22>204</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>117</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>118</kindNum>
+		<name>정의의 신궁 신발</name>
+		<mainCode>S</mainCode>
+		<subCode>9</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 병사 출진시간 감소|
+			퀘스트 시간단축
+		</desc>
+		<openCost>1000000000|0|0|1000000000|0</openCost>
+		<skillCode1>unitBattleTime_E</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>224</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>89</ability2>
+		<ability12>129</ability12>
+		<ability22>198</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>118</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>119</kindNum>
+		<name>정의의 신궁 징표</name>
+		<mainCode>E</mainCode>
+		<subCode>9</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>아군타워 체력증가|
+			던전 일반병사 체력감소
+		</desc>
+		<openCost>0|0|1000000000|0|1000000000</openCost>
+		<skillCode1>ourTowerHp_A</skillCode1>
+		<ability1>100</ability1>
+		<ability11>158</ability11>
+		<ability21>227</ability21>
+		<skillCode2>dungeonNormalHp_A</skillCode2>
+		<ability2>80</ability2>
+		<ability12>155</ability12>
+		<ability22>224</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>119</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>120</kindNum>
+		<name>정의의 신궁 화살</name>
+		<mainCode>X</mainCode>
+		<subCode>9</subCode>
+		<grade>6</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 공격력 증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|0|0|1000000000|1000000000</openCost>
+		<skillCode1>damage_E</skillCode1>
+		<ability1>86</ability1>
+		<ability11>123</ability11>
+		<ability21>192</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>86</ability2>
+		<ability12>187</ability12>
+		<ability22>235</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>84</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>120</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>121</kindNum>
+		<name>암살자 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>10</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 체력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|0|45000000|0|45000000</openCost>
+		<skillCode1>hp_H</skillCode1>
+		<ability1>55</ability1>
+		<ability11>142</ability11>
+		<ability21>261</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>10</ability2>
+		<ability12>120</ability12>
+		<ability22>250</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>121</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>122</kindNum>
+		<name>암살자 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>10</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 방어력 증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|0|0|45000000|45000000</openCost>
+		<skillCode1>defense_H</skillCode1>
+		<ability1>40</ability1>
+		<ability11>134</ability11>
+		<ability21>257</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>20</ability2>
+		<ability12>188</ability12>
+		<ability22>274</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>122</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>123</kindNum>
+		<name>암살자 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>10</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 부활시간 감소|
+			퀘스트 시간단축
+		</desc>
+		<openCost>45000000|0|45000000|0|0</openCost>
+		<skillCode1>reviveTime_H</skillCode1>
+		<ability1>80</ability1>
+		<ability11>155</ability11>
+		<ability21>268</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>30</ability2>
+		<ability12>128</ability12>
+		<ability22>254</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>123</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>124</kindNum>
+		<name>비급 제 1권</name>
+		<mainCode>X</mainCode>
+		<subCode>3</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 공격력증가|
+			언데드 치명타데미지 증가
+		</desc>
+		<openCost>45000000|45000000|0|0|0</openCost>
+		<skillCode1>damage_U</skillCode1>
+		<ability1>15</ability1>
+		<ability11>122</ability11>
+		<ability21>251</ability21>
+		<skillCode2>criticalDamage_U</skillCode2>
+		<ability2>25</ability2>
+		<ability12>180</ability12>
+		<ability22>270</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>124</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>125</kindNum>
+		<name>비급 제 2권</name>
+		<mainCode>X</mainCode>
+		<subCode>4</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 방어력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>45000000|0|0|0|45000000</openCost>
+		<skillCode1>defense_U</skillCode1>
+		<ability1>40</ability1>
+		<ability11>134</ability11>
+		<ability21>257</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>10</ability2>
+		<ability12>120</ability12>
+		<ability22>250</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>125</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>126</kindNum>
+		<name>비급 제 3권</name>
+		<mainCode>X</mainCode>
+		<subCode>5</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 체력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|45000000|45000000|0|0</openCost>
+		<skillCode1>hp_U</skillCode1>
+		<ability1>55</ability1>
+		<ability11>142</ability11>
+		<ability21>261</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>15</ability2>
+		<ability12>186</ability12>
+		<ability22>273</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>126</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>127</kindNum>
+		<name>비급 제 4권</name>
+		<mainCode>X</mainCode>
+		<subCode>6</subCode>
+		<grade>5</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 병사 출진시간 감소|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|0|45000000|45000000|0</openCost>
+		<skillCode1>unitBattleTime_U</skillCode1>
+		<ability1>79</ability1>
+		<ability11>154</ability11>
+		<ability21>267</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>20</ability2>
+		<ability12>188</ability12>
+		<ability22>274</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>5</upgradeCostType>
+		<showDesc>Y</showDesc>
+		<sortId>127</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>128</kindNum>
+		<name>태만의 정수</name>
+		<mainCode>Z</mainCode>
+		<subCode>1</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 공격력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>5000000000|0|5000000000|0|0</openCost>
+		<skillCode1>damage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>128</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>129</kindNum>
+		<name>나태의 정수</name>
+		<mainCode>Z</mainCode>
+		<subCode>2</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 공격력증가|
+			퀘스트 시간단축
+		</desc>
+		<openCost>0|5000000000|0|0|5000000000</openCost>
+		<skillCode1>damage_E</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>163</ability2>
+		<ability12>199</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>129</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>130</kindNum>
+		<name>교만의 정수</name>
+		<mainCode>Z</mainCode>
+		<subCode>3</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 공격력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>5000000000|5000000000|0|0|0</openCost>
+		<skillCode1>damage_U</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>160</ability2>
+		<ability12>236</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>130</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>131</kindNum>
+		<name>벨리알의 해머</name>
+		<mainCode>Z</mainCode>
+		<subCode>4</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>5000000000|0|0|0|5000000000</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>131</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>132</kindNum>
+		<name>바실리스크의 창</name>
+		<mainCode>W</mainCode>
+		<subCode>1</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 치명타데미지 증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>5000000000|0|0|0|5000000000</openCost>
+		<skillCode1>criticalDamage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>132</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>133</kindNum>
+		<name>샐라임의 클로</name>
+		<mainCode>W</mainCode>
+		<subCode>2</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 치명타데미지 증가|
+			퀘스트 시간단축
+		</desc>
+		<openCost>0|5000000000|5000000000|0|0</openCost>
+		<skillCode1>criticalDamage_E</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>163</ability2>
+		<ability12>199</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>133</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>134</kindNum>
+		<name>이그니스의 검</name>
+		<mainCode>W</mainCode>
+		<subCode>3</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 치명타데미지 증가|
+			퀘스트 업그레이드 비용감소
+		</desc>
+		<openCost>0|5000000000|0|5000000000|0</openCost>
+		<skillCode1>criticalDamage_U</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>134</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>135</kindNum>
+		<name>바하무트의 해머</name>
+		<mainCode>W</mainCode>
+		<subCode>4</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 치명타데미지 증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>criticalDamage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>135</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>136</kindNum>
+		<name>백호 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>1</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 방어력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|0|5000000000|0|5000000000</openCost>
+		<skillCode1>defense_E</skillCode1>
+		<ability1>166</ability1>
+		<ability11>205</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>137</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>137</kindNum>
+		<name>청룡 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>1</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 방어력증가|
+			퀘스트 시간단축
+		</desc>
+		<openCost>0|0|0|5000000000|5000000000</openCost>
+		<skillCode1>defense_O</skillCode1>
+		<ability1>166</ability1>
+		<ability11>205</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>163</ability2>
+		<ability12>199</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>138</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>138</kindNum>
+		<name>주작 망토</name>
+		<mainCode>C</mainCode>
+		<subCode>1</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 방어력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>5000000000|0|5000000000|0|0</openCost>
+		<skillCode1>defense_H</skillCode1>
+		<ability1>166</ability1>
+		<ability11>205</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>160</ability2>
+		<ability12>236</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>139</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>139</kindNum>
+		<name>현무 방패</name>
+		<mainCode>D</mainCode>
+		<subCode>1</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 방어력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|5000000000|0|0|5000000000</openCost>
+		<skillCode1>defense_U</skillCode1>
+		<ability1>166</ability1>
+		<ability11>205</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>140</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>140</kindNum>
+		<name>인간 영웅의 검</name>
+		<mainCode>W</mainCode>
+		<subCode>5</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 치명타데미지 증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>5000000000|5000000000|0|0|0</openCost>
+		<skillCode1>criticalDamage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>143</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>141</kindNum>
+		<name>엘프 영웅의 활</name>
+		<mainCode>W</mainCode>
+		<subCode>6</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 치명타데미지 증가|
+			퀘스트 시간단축
+		</desc>
+		<openCost>5000000000|0|0|0|5000000000</openCost>
+		<skillCode1>criticalDamage_E</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>163</ability2>
+		<ability12>199</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>144</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>142</kindNum>
+		<name>언데드 영웅의 지팡이</name>
+		<mainCode>W</mainCode>
+		<subCode>7</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 치명타데미지 증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>5000000000|0|0|5000000000|0</openCost>
+		<skillCode1>criticalDamage_U</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>160</ability2>
+		<ability12>236</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>145</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>143</kindNum>
+		<name>오크 영웅의 도끼</name>
+		<mainCode>W</mainCode>
+		<subCode>8</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 치명타데미지 증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|5000000000|5000000000|0|0</openCost>
+		<skillCode1>criticalDamage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>146</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>144</kindNum>
+		<name>태양의 반지</name>
+		<mainCode>R</mainCode>
+		<subCode>1</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>공격력 증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|5000000000|0|5000000000|0</openCost>
+		<skillCode1>damage_A</skillCode1>
+		<ability1>162</ability1>
+		<ability11>197</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>160</ability2>
+		<ability12>236</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>136</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>145</kindNum>
+		<name>호루스의 대검</name>
+		<mainCode>W</mainCode>
+		<subCode>9</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드,오크 공격력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>damage_UO</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>160</ability2>
+		<ability12>236</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>141</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>146</kindNum>
+		<name>만독불침의 망토</name>
+		<mainCode>C</mainCode>
+		<subCode>2</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 치명타데미지 증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|0|5000000000|0|5000000000</openCost>
+		<skillCode1>criticalDamage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>160</ability2>
+		<ability12>236</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>147</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>147</kindNum>
+		<name>모래 바람의 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>2</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 치명타데미지 증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|0|0|5000000000|5000000000</openCost>
+		<skillCode1>criticalDamage_E</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>148</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>148</kindNum>
+		<name>제왕의 투구</name>
+		<mainCode>H</mainCode>
+		<subCode>2</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 치명타데미지 증가|
+			퀘스트 시간단축
+		</desc>
+		<openCost>5000000000|0|5000000000|0|0</openCost>
+		<skillCode1>criticalDamage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>163</ability2>
+		<ability12>199</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>149</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>149</kindNum>
+		<name>철벽의 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>1</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 치명타데미지 증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|5000000000|0|0|5000000000</openCost>
+		<skillCode1>criticalDamage_U</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>150</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>150</kindNum>
+		<name>황룡언월도</name>
+		<mainCode>W</mainCode>
+		<subCode>10</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼,엘프 공격력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>5000000000|5000000000|0|0|0</openCost>
+		<skillCode1>damage_HE</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>142</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>151</kindNum>
+		<name>타라토드의 완드</name>
+		<mainCode>W</mainCode>
+		<subCode>14</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 공격력증가|
+			퀘스트 시간단축
+		</desc>
+		<openCost>5000000000|0|0|0|5000000000</openCost>
+		<skillCode1>damage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>163</ability2>
+		<ability12>199</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>151</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>152</kindNum>
+		<name>네루갈의 창</name>
+		<mainCode>W</mainCode>
+		<subCode>13</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 공격력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|5000000000|5000000000|0|0</openCost>
+		<skillCode1>damage_E</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>152</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>153</kindNum>
+		<name>고르고스의 도끼</name>
+		<mainCode>W</mainCode>
+		<subCode>12</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 공격력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|5000000000|0|5000000000|0</openCost>
+		<skillCode1>damage_U</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>153</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>154</kindNum>
+		<name>바알제붑의 검</name>
+		<mainCode>W</mainCode>
+		<subCode>11</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>160</ability2>
+		<ability12>236</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>154</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>155</kindNum>
+		<name>가이아의 분노</name>
+		<mainCode>A</mainCode>
+		<subCode>4</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>체력증가|
+			퀘스트 업그레이드 비용감소
+		</desc>
+		<openCost>0|0|5000000000|0|5000000000</openCost>
+		<skillCode1>hp_A</skillCode1>
+		<ability1>172</ability1>
+		<ability11>217</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>155</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>156</kindNum>
+		<name>아레스의 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>5</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 치명타 공격력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|0|0|5000000000|5000000000</openCost>
+		<skillCode1>criticalDamage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>160</ability2>
+		<ability12>236</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>156</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>157</kindNum>
+		<name>아테네의 방패</name>
+		<mainCode>A</mainCode>
+		<subCode>3</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 체력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>5000000000|0|5000000000|0|0</openCost>
+		<skillCode1>hp_O</skillCode1>
+		<ability1>170</ability1>
+		<ability11>213</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>157</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>158</kindNum>
+		<name>헤라의 반지</name>
+		<mainCode>R</mainCode>
+		<subCode>2</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 체력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|5000000000|0|0|5000000000</openCost>
+		<skillCode1>hp_H</skillCode1>
+		<ability1>170</ability1>
+		<ability11>213</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>159</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>159</kindNum>
+		<name>헤르메스의 날개부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>2</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 치명타 공격력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>5000000000|5000000000|0|0|0</openCost>
+		<skillCode1>criticalDamage_E</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>160</ability2>
+		<ability12>236</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>162</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>160</kindNum>
+		<name>아르테미스의 활</name>
+		<mainCode>W</mainCode>
+		<subCode>15</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 공격력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>5000000000|0|0|0|5000000000</openCost>
+		<skillCode1>damage_E</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>163</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>161</kindNum>
+		<name>제우스의 창</name>
+		<mainCode>W</mainCode>
+		<subCode>16</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 공격력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|5000000000|5000000000|0|0</openCost>
+		<skillCode1>damage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>160</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>162</kindNum>
+		<name>포세이돈의 창</name>
+		<mainCode>W</mainCode>
+		<subCode>17</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 치명타 공격력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|5000000000|0|5000000000|0</openCost>
+		<skillCode1>criticalDamage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>160</ability2>
+		<ability12>236</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>161</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>163</kindNum>
+		<name>헤파이스토스의 망치</name>
+		<mainCode>W</mainCode>
+		<subCode>18</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>158</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>164</kindNum>
+		<name>디오니소스의 포션</name>
+		<mainCode>X</mainCode>
+		<subCode>1</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 치명타 공격력증가|
+			퀘스트 오픈골드 감소
+		</desc>
+		<openCost>0|0|5000000000|0|5000000000</openCost>
+		<skillCode1>criticalDamage_U</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>160</ability2>
+		<ability12>236</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>165</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>165</kindNum>
+		<name>비너스의 거울</name>
+		<mainCode>X</mainCode>
+		<subCode>2</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 체력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|0|0|5000000000|5000000000</openCost>
+		<skillCode1>hp_U</skillCode1>
+		<ability1>170</ability1>
+		<ability11>213</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>166</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>166</kindNum>
+		<name>아폴론의 하프</name>
+		<mainCode>X</mainCode>
+		<subCode>3</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 공격력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>5000000000|0|5000000000|0|0</openCost>
+		<skillCode1>damage_U</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>167</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>167</kindNum>
+		<name>풍요의 여신상</name>
+		<mainCode>X</mainCode>
+		<subCode>4</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 체력증가|
+			퀘스트 골드획득 증가
+		</desc>
+		<openCost>0|5000000000|0|0|5000000000</openCost>
+		<skillCode1>hp_E</skillCode1>
+		<ability1>170</ability1>
+		<ability11>213</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>164</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>168</kindNum>
+		<name>징벌의 화염 가면</name>
+		<mainCode>H</mainCode>
+		<subCode>3</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 공격력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|5000000000|5000000000|0|0</openCost>
+		<skillCode1>damage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>119</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>119</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>168</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>169</kindNum>
+		<name>징벌의 화염 갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>6</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 공격력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|5000000000|0|5000000000|0</openCost>
+		<skillCode1>damage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>119</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>119</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>169</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>170</kindNum>
+		<name>징벌의 화염 망토</name>
+		<mainCode>C</mainCode>
+		<subCode>3</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 공격력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>damage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>119</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>119</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>170</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>171</kindNum>
+		<name>징벌의 화염 부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>3</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 공격력증가|
+			병사 업그레이드비용 감소
+		</desc>
+		<openCost>0|0|5000000000|0|5000000000</openCost>
+		<skillCode1>damage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>119</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>119</ability12>
+		<ability22>0</ability22>
+		<skillCode3></skillCode3>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>171</sortId>
+	</treasure>
+</treasureList>
+    

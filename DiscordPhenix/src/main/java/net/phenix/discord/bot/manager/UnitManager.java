@@ -1,18 +1,14 @@
 package net.phenix.discord.bot.manager;
 
 import java.awt.Color;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -24,15 +20,15 @@ import javax.xml.xpath.XPathFactory;
 
 import org.apache.log4j.Logger;
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.MessageEmbed;
-import net.phenix.discord.bot.data.UnitUpGoldList;
-import net.phenix.discord.bot.data.UnitUpGoldList.UnitUpGold;
+import net.phenix.discord.bot.data.xml.UnitList;
+import net.phenix.discord.bot.data.xml.UnitList.Unit;
+import net.phenix.discord.bot.data.xml.UnitUpGoldList;
+import net.phenix.discord.bot.data.xml.UnitUpGoldList.UnitUpGold;
 
 public class UnitManager {
 
@@ -45,6 +41,10 @@ public class UnitManager {
 	public static Integer MAX_GOLD_LEVEL = 3400;
 	
 	public Map<Integer, Map<Integer,String>> goldLevels = new HashMap<Integer, Map<Integer,String>>();
+
+	private BundleManager bundleManager;
+	
+	private UnitList unitList;
 	
 	public String getTotalUpgradeGoldLevel(int goldLevel, int id, String bonus) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException{
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -67,16 +67,17 @@ public class UnitManager {
 		BigDecimal bonusReduction = NumberManager.getNumber(bonus);
 		bonusReduction = bonusReduction.divide(new BigDecimal(100));
 		
-		return NumberManager.getEFFormat(result.divide(bonusReduction,10,BigDecimal.ROUND_HALF_DOWN));
+		return NumberManager.getEFNumber(result.divide(bonusReduction,10,BigDecimal.ROUND_HALF_DOWN));
 	}
 	
-	public void init() throws ParserConfigurationException, XPathExpressionException, SAXException, IOException, JAXBException{
+	public void init(BundleManager bundleManager) throws ParserConfigurationException, XPathExpressionException, SAXException, IOException, JAXBException{
 		
-		InputStream isunit = getClass().getResourceAsStream("/xml/unitUpGoldList.xml");
+		this.bundleManager = bundleManager;
+		InputStream isunitGold = getClass().getResourceAsStream("/xml/unit/unitUpGoldList.xml");
 		
 		JAXBContext jaxbContext = JAXBContext.newInstance(UnitUpGoldList.class);
 		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-		UnitUpGoldList list = (UnitUpGoldList) jaxbUnmarshaller.unmarshal(isunit);
+		UnitUpGoldList list = (UnitUpGoldList) jaxbUnmarshaller.unmarshal(isunitGold);
 			
 		int nodesLength = list.getUnitUpGolds().size();
 
@@ -97,21 +98,28 @@ public class UnitManager {
 			
 			goldLevels.put(i+1, rares);
 		}
-		log.info("UnitManager : Init done");
+		log.info("unitUpGoldList : Init done");
+		
+		InputStream isunit = getClass().getResourceAsStream("/xml/unit/unitList.xml");
+		
+		jaxbContext = JAXBContext.newInstance(UnitList.class);
+		jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+		unitList = (UnitList) jaxbUnmarshaller.unmarshal(isunit);
+		
+		log.info("unitList : Init done");
+			
 	}
 
-	public MessageEmbed getUnitsList(String rank) throws ParserConfigurationException, SAXException, IOException, XPathExpressionException {
+	public MessageEmbed getUnitsListByRank(String rank) throws ParserConfigurationException, SAXException, IOException, XPathExpressionException {
 
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 
 		InputStream isunit = getClass().getResourceAsStream("/xml/unitbook.xml");
-		InputStream isfr = getClass().getResourceAsStream("/xml/fr.xml");
 
 		DocumentBuilder docbuilder = factory.newDocumentBuilder();
 		// Pour windows quand il y a des espace dans le chemin
 		Document xmlUnit = docbuilder.parse(isunit);
-		Document xmlFr = docbuilder.parse(isfr);
-
+		
 		EmbedBuilder builder = new EmbedBuilder();
 		builder.setTitle("Unité disponible : ");
 		
@@ -138,14 +146,73 @@ public class UnitManager {
 
 			int id = Integer.parseInt(nodeList.item(i).getFirstChild().getNodeValue()); 
 			if (id < 200) {
-				XPath xPathName = XPathFactory.newInstance().newXPath();
-				String unitName = xPathName.compile("/main/textList/text[id='UNIT_NAME_" + id + "']/value").evaluate(xmlFr, XPathConstants.STRING)
-						.toString();
+				String unitName = bundleManager.getBundle("/main/textList/text[id='UNIT_NAME_" + id + "']/value");
 				builder.appendDescription(id + " - " +unitName + " " + "\n");
 			}
 		}
 
 		return builder.build();
+	}
+	
+	public MessageEmbed getUnitsListByTribe(String tribe) throws ParserConfigurationException, SAXException, IOException, XPathExpressionException {
+
+		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+
+		InputStream isunit = getClass().getResourceAsStream("/xml/unitbook.xml");
+
+		DocumentBuilder docbuilder = factory.newDocumentBuilder();
+		// Pour windows quand il y a des espace dans le chemin
+		Document xmlUnit = docbuilder.parse(isunit);
+
+		EmbedBuilder builder = new EmbedBuilder();
+		builder.setTitle("Unité disponible : ");
+		
+		if(tribe.equals("human")){
+			builder.setColor(new Color(224, 25, 110));
+			tribe = "1";
+		} else if(tribe.equals("orc")){
+			builder.setColor(new Color(35, 179, 235));
+			tribe = "4";
+		} else if(tribe.equals("elf")){
+			builder.setColor(new Color(51, 183, 27));
+			tribe = "2";
+		} else if(tribe.equals("undead")){
+			builder.setColor(new Color(175, 52, 180));
+			tribe = "3";
+		}
+
+		String kindNum = "/main/unitList/unit[tribe='"+tribe+"' and cost != 0]/kindNum";
+
+		XPath xPath = XPathFactory.newInstance().newXPath();
+
+		NodeList nodeList = (NodeList) xPath.compile(kindNum).evaluate(xmlUnit, XPathConstants.NODESET);
+		for (int i = 0; i < nodeList.getLength(); i++) {
+
+			int id = Integer.parseInt(nodeList.item(i).getFirstChild().getNodeValue()); 
+			if (id < 200) {
+				String unitName = bundleManager.getBundle("/main/textList/text[id='UNIT_NAME_" + id + "']/value");
+				builder.appendDescription(id + " - " +unitName + " " + "\n");
+			}
+		}
+
+		return builder.build();
+	}
+
+	public UnitList getUnitList() {
+		return unitList;
+	}
+
+	public void setUnitList(UnitList unitList) {
+		this.unitList = unitList;
+	}
+
+	public Unit getUnitByCode(String code) {
+		for (Unit unit : unitList.getUnits()) {
+			if(unit.getKindNum().equals(code)){
+				return unit;
+			}
+		}
+		return null;
 	}
 
 }

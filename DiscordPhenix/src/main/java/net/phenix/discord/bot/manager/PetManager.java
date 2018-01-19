@@ -1,12 +1,26 @@
 package net.phenix.discord.bot.manager;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.List;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Unmarshaller;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.xpath.XPathExpressionException;
 
 import org.apache.log4j.Logger;
+import org.xml.sax.SAXException;
 
 import net.dv8tion.jda.core.entities.MessageChannel;
 import net.phenix.discord.bot.MainBot;
+import net.phenix.discord.bot.data.xml.PetList;
+import net.phenix.discord.bot.data.xml.PetList.Pet;
+import net.phenix.discord.bot.data.xml.TreasureList.Treasure;
+import net.phenix.discord.bot.data.xml.TypeList.Type;
 
 public class PetManager {
 
@@ -14,6 +28,51 @@ public class PetManager {
 
 	public static PetManager getInstance() {
 		return new PetManager();
+	}
+	
+	private List<Pet> pets;
+	
+	public void init() throws ParserConfigurationException, XPathExpressionException, SAXException, IOException, JAXBException {
+		InputStream is = getClass().getResourceAsStream("/xml/pet/petList.xml");
+
+		JAXBContext jaxbContext = JAXBContext.newInstance(PetList.class);
+		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+		PetList petList = (PetList) jaxbUnmarshaller.unmarshal(is);
+
+		setPets(petList.getPets());
+		log.info("petList : Init done ");
+
+	}
+	
+	public Pet getPetById(String id) {
+
+		Pet result = null;
+		for (Pet pet : pets) {
+			if (pet.getKindNum().equals(id)) {
+				result = pet;
+				break;
+			}
+		}
+		return result;
+	}
+	
+	public Pet getPetByUnitId(String code) {
+		Pet result = null;
+		for (Pet pet : pets) {
+			if (pet.getCouple().equals(code)) {
+				result = pet;
+				break;
+			}
+		}
+		return result;
+	}
+	
+	public String getAbilityValue(String values, String level) {
+		if(level.equals("0")){
+			return "0";
+		}
+		Integer indexLevel = Integer.parseInt(level);
+		return values.split("\\|")[indexLevel-1];
 	}
 	
 	public void petForecast(MessageChannel channel, String content) {
@@ -132,5 +191,15 @@ public class PetManager {
 		SimpleDateFormat sdf = new SimpleDateFormat(MainBot.DATE_FORMATTER);
 		return sdf.format(forecast.getTime());
 	}
+
+	public List<Pet> getPets() {
+		return pets;
+	}
+
+	public void setPets(List<Pet> pets) {
+		this.pets = pets;
+	}
+
+	
 
 }

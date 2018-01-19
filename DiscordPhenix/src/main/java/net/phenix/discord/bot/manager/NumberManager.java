@@ -17,7 +17,7 @@ public class NumberManager {
 
 	static int count = 0;
 
-	public static BigDecimal getNumberPart(BigDecimal number) {
+	private static BigDecimal getNumberPart(BigDecimal number) {
 		if (number.compareTo(new BigDecimal(1000)) > 0) {
 			number = getNumberPart(number.divide(new BigDecimal(1000)));
 			count++;
@@ -25,7 +25,7 @@ public class NumberManager {
 		return number;
 	}
 	
-	public static String getEFFormat(BigDecimal number){
+	public static String getEFNumber(BigDecimal number){
 		count = 0;
 		DecimalFormat df = new DecimalFormat("0.##");
 		return df.format(getNumberPart(number).doubleValue()) + lettersList.get(count);

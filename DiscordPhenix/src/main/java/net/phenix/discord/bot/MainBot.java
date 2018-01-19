@@ -15,8 +15,11 @@ import net.dv8tion.jda.core.JDABuilder;
 import net.dv8tion.jda.core.requests.SessionReconnectQueue;
 import net.phenix.discord.bot.listener.CmdListener;
 import net.phenix.discord.bot.manager.BattleManager;
+import net.phenix.discord.bot.manager.BuildManager;
+import net.phenix.discord.bot.manager.BundleManager;
 import net.phenix.discord.bot.manager.PetManager;
 import net.phenix.discord.bot.manager.SheetManager;
+import net.phenix.discord.bot.manager.TreasureManager;
 import net.phenix.discord.bot.manager.UnitManager;
 
 public class MainBot {
@@ -38,24 +41,38 @@ public class MainBot {
 		}
 		
 		log.info("Connecté.");
-		
+
+		BundleManager bundleManager = BundleManager.getInstance();
 		CmdListener listener = new CmdListener();
 		UnitManager unitManager = UnitManager.getInstance();
 		SheetManager sheetManager = SheetManager.getInstance();
 		PetManager petManager = PetManager.getInstance();
 		BattleManager battleManager = BattleManager.getInstance();
+		TreasureManager treasureManager = TreasureManager.getInstance();
+		BuildManager buildManager = BuildManager.getInstance();
 		try {
-			unitManager.init();
+			bundleManager.init();
+			unitManager.init(bundleManager);
 			sheetManager.init();
+			treasureManager.init();
+			petManager.init();
+			buildManager.init(bundleManager, unitManager, petManager, treasureManager);
+			
+			listener.setUnitManager(unitManager);
+			listener.setSheetManager(sheetManager);
+			listener.setBattleManager(battleManager);
+			listener.setPetManager(petManager);
+			listener.setTreasureManager(treasureManager);
+			listener.setBundleManager(bundleManager);
+			listener.setBuildManager(buildManager);
+			
+			shardBuilder.addEventListener(listener);
 		} catch (XPathExpressionException | ParserConfigurationException | SAXException | IOException | JAXBException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			System.exit(0);
 		}
-		listener.setUnitManager(unitManager);
-		listener.setSheetManager(sheetManager);
-		listener.setBattleManager(battleManager);
-		listener.setPetManager(petManager);
-		shardBuilder.addEventListener(listener);
+		
 	}
 
 	public static void main(String[] args) throws Exception {

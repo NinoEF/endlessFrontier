@@ -1,11 +1,10 @@
-package net.phenix.discord.bot.data;
+	package net.phenix.discord.bot.data.xml;
 
 import java.io.Serializable;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementRef;
-import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 
 
@@ -18,16 +17,16 @@ public class UnitUpGoldList implements Serializable{
 	 */
 	private static final long serialVersionUID = 1314979068602262237L;
 
-	List<UnitUpGold> UnitUpGolds;
+	List<UnitUpGold> unitUpGolds;
 	
 	@XmlElementRef()
 	public List<UnitUpGold> getUnitUpGolds() {
-		return UnitUpGolds;
+		return unitUpGolds;
 	}
 
 
 	public void setUnitUpGolds(List<UnitUpGold> unitUpGolds) {
-		UnitUpGolds = unitUpGolds;
+		this.unitUpGolds = unitUpGolds;
 	}
 
 
@@ -35,8 +34,6 @@ public class UnitUpGoldList implements Serializable{
 		return serialVersionUID;
 	}
 
-	
-	
 	@XmlRootElement(name = "unitUpGold")
 	public static class UnitUpGold implements Serializable {
 		

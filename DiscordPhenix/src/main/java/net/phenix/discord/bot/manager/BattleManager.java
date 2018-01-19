@@ -39,6 +39,10 @@ public class BattleManager {
 		XPathFactory xpf = XPathFactory.newInstance();
 		XPath path = xpf.newXPath();
 		
+		//pour arrondir à la dizaine inférieur
+		floor = floor/10;
+		floor = floor*10;
+		
 		String floorPath = "/main/reviveStarList/reviveStar[floor="+floor+"]/star";
 		BigDecimal medals = new BigDecimal((String) path.evaluate(floorPath,root));
 

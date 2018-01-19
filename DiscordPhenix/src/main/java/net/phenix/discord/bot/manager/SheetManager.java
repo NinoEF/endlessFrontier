@@ -49,8 +49,7 @@ public class SheetManager {
 
 	private Sheets service = null;
 
-	private MessageChannel channel;
-
+	public static String spreadsheetId = "1-AJ8kCAbq92Bqx3e6o1dBIE6AGlxZW_YRtesmJTk6JU";
 	/**
 	 * Global instance of the scopes required by this quickstart.
 	 *
@@ -103,31 +102,8 @@ public class SheetManager {
 	}
 
 	public void init() throws IOException {
-		service = getSheetsService();
+		setService(getSheetsService());
 
-		// Prints the names and majors of students in a sample spreadsheet:
-		String spreadsheetId = "1Bn3Q7fSxIg54gY2bP1zuViz_AqjdO4ytXENMZU7a_J0";
-		ValueRange response = service.spreadsheets().values().get(spreadsheetId, "decembre!A3:M32").execute();
-		List<List<Object>> values = response.getValues();
-		if (values == null || values.size() == 0) {
-			channel.sendMessage("Init - No data found.").queue();
-		} else {
-			for (List<Object> row : values) {
-				String result = "";
-				String key = "";
-				Boolean first = true;
-				
-				for (Object cell : row) {
-					if(first){
-						key = cell.toString();
-						first = false;
-					} else {
-						result += cell.toString() + " | ";
-					}
-				}
-				progressions.put(key, result);
-			}
-		}
 		log.info("SheetManager : Init done");
 	}
 
@@ -135,8 +111,12 @@ public class SheetManager {
 		return progressions.get(user);
 	}
 
-	public void setMessageChannel(MessageChannel channel) {
-		this.channel = channel;
+	public Sheets getService() {
+		return service;
+	}
+
+	public void setService(Sheets service) {
+		this.service = service;
 	}
 
 }
