@@ -90,6 +90,17 @@ public class TreasureManager {
 		return result;
 	}
 
+	public TreasureSet getTreasureSetById(String id) {
+		TreasureSet result = null;
+		for (TreasureSet treasureSet : treasureSet) {
+			if (treasureSet.getKindNum().equals(id)) {
+				result = treasureSet;
+				break;
+			}
+		}
+		return result;
+	}
+	
 	public String getAbilityValue(String indexType, String level) {
 
 		Integer index = Integer.parseInt(indexType);
@@ -123,6 +134,5 @@ public class TreasureManager {
 	public void setTreasureSet(List<TreasureSetList.TreasureSet> treasureSet) {
 		this.treasureSet = treasureSet;
 	}
-
 	
 }

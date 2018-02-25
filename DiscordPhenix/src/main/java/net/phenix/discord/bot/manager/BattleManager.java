@@ -51,7 +51,7 @@ public class BattleManager {
 		return total;
 	}
 
-	public BigDecimal getRevivalSpiritRest(Integer floor, BigDecimal bonus, Integer time) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException {
+	public BigDecimal getRevivalSpiritRest(Integer floor, BigDecimal bonus, Double time) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException {
 		BigDecimal medals = getRevivalMedalsQuantity(floor, bonus);
 		
 		BigDecimal sr = medals.divide(new BigDecimal(time), RoundingMode.CEILING);

@@ -2640,4 +2640,23 @@
 		<isPercent>Y</isPercent>
 		<isAlpha>N</isAlpha>
 	</pet>
+	<pet>
+		<kindNum>140</kindNum>
+		<className>Jindori</className>
+		<name>진도리</name>
+		<tribe>1</tribe>
+		<type>light</type>
+		<rank>3</rank>
+		<skill1>283</skill1>
+		<value1>5|10|20|30|40</value1>
+		<skill2>282</skill2>
+		<value2>0|0|1.5|2|2.5</value2>
+		<value3>0|0|0|0|60</value3>
+		<masterSkill>283</masterSkill>
+		<couple>-1</couple>
+		<incGoldLevel>4|8|12|16|20</incGoldLevel>
+		<treasure>0</treasure>
+		<isPercent>Y</isPercent>
+		<isAlpha>N</isAlpha>
+	</pet>
 </petList>

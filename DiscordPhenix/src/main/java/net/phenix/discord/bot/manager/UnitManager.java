@@ -38,6 +38,13 @@ public class UnitManager {
 		return new UnitManager();
 	}
 	
+	class Tribe{
+		static public final String HUMAN = "1";
+		static public final String ELF = "2";
+		static public final String UNDEAD = "3";
+		static public final String ORC = "4";
+	}
+	
 	public static Integer MAX_GOLD_LEVEL = 3400;
 	
 	public Map<Integer, Map<Integer,String>> goldLevels = new HashMap<Integer, Map<Integer,String>>();

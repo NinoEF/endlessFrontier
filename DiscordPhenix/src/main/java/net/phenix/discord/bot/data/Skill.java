@@ -8,7 +8,8 @@ public class Skill {
 	private BigDecimal bonusPet;
 	private BigDecimal bonusArtefact;
 	private BigDecimal bonusShop;
-
+	private BigDecimal total;
+	
 	public String getCode() {
 		return code;
 	}
@@ -51,4 +52,13 @@ public class Skill {
 		return skill.getCode().equals(this.getCode());
 	}
 
+	public BigDecimal getTotal() {
+		return total;
+	}
+
+	public void setTotal(BigDecimal total) {
+		this.total = total;
+	}
+
 }
+

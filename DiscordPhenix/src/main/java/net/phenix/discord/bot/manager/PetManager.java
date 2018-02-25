@@ -19,20 +19,22 @@ import net.dv8tion.jda.core.entities.MessageChannel;
 import net.phenix.discord.bot.MainBot;
 import net.phenix.discord.bot.data.xml.PetList;
 import net.phenix.discord.bot.data.xml.PetList.Pet;
-import net.phenix.discord.bot.data.xml.TreasureList.Treasure;
-import net.phenix.discord.bot.data.xml.TypeList.Type;
 
 public class PetManager {
 
 	Logger log = Logger.getLogger(getClass());
 
+	private BundleManager bundleManager;
+	
 	public static PetManager getInstance() {
 		return new PetManager();
 	}
 	
 	private List<Pet> pets;
 	
-	public void init() throws ParserConfigurationException, XPathExpressionException, SAXException, IOException, JAXBException {
+	public void init(BundleManager bundleManager) throws ParserConfigurationException, XPathExpressionException, SAXException, IOException, JAXBException {
+		this.setBundleManager(bundleManager);
+		
 		InputStream is = getClass().getResourceAsStream("/xml/pet/petList.xml");
 
 		JAXBContext jaxbContext = JAXBContext.newInstance(PetList.class);
@@ -108,7 +110,7 @@ public class PetManager {
 		}
 		if(petLevel < 0 || petLevel > 5){
 			channel.sendMessage("La commande est erronée.\n"
-					+ "<<lvl pet> n'est pas correct, devrait être 0,1,2,3,4 ou 5").queue();
+					+ "<lvl pet> n'est pas correct, devrait être 0,1,2,3,4 ou 5").queue();
 			return;
 		}			
 		
@@ -134,31 +136,31 @@ public class PetManager {
 		
 		
 		if(petLevel == 0){				
-			channel.sendMessage("1: "+ forecast1+"\n"
-					+ "2: "+ forecast2+"\n"
-					+ "3: "+ forecast3+"\n"
-					+ "4: "+ forecast4+"\n"
-					+ "5: "+ forecast5+"\n").queue();
+			channel.sendMessage(bundleManager.formatNote(1)+" : "+ forecast1+"\n"
+					+ bundleManager.formatNote(2)+" : "+ forecast2+"\n"
+					+ bundleManager.formatNote(3)+" : "+ forecast3+"\n"
+					+ bundleManager.formatNote(4)+" : "+ forecast4+"\n"
+					+ bundleManager.formatNote(5)+" : "+ forecast5+"\n").queue();
 			return;
 			
 		} else if(petLevel == 1){
-			channel.sendMessage( "2: "+ forecast2+"\n"
-					+ "3: "+ forecast3+"\n"
-					+ "4: "+ forecast4+"\n"
-					+ "5: "+ forecast5+"\n").queue();
+			channel.sendMessage( bundleManager.formatNote(2)+" : "+ forecast2+"\n"
+					+ bundleManager.formatNote(3)+" : "+ forecast3+"\n"
+					+ bundleManager.formatNote(4)+" : "+ forecast4+"\n"
+					+ bundleManager.formatNote(5)+" : "+ forecast5+"\n").queue();
 			return;
 		} else if(petLevel == 2){
-			channel.sendMessage( "3: "+ forecast3+"\n"
-					+ "4: "+ forecast4+"\n"
-					+ "5: "+ forecast5+"\n").queue();
+			channel.sendMessage( bundleManager.formatNote(3)+" : "+ forecast3+"\n"
+					+ bundleManager.formatNote(4)+" : "+ forecast4+"\n"
+					+ bundleManager.formatNote(5)+" : "+ forecast5+"\n").queue();
 			return;
 			
 		} else if(petLevel == 3){
-			channel.sendMessage( "4: "+ forecast4+"\n"
-					+ "5: "+ forecast5+"\n").queue();
+			channel.sendMessage( bundleManager.formatNote(4)+" : "+ forecast4+"\n"
+					+ bundleManager.formatNote(5)+" : "+ forecast5+"\n").queue();
 			return;
 		} else if(petLevel == 4){
-			channel.sendMessage( "5: "+ forecast5+"\n").queue();
+			channel.sendMessage( bundleManager.formatNote(5)+" : "+ forecast5+"\n").queue();
 			return;
 		} else if(petLevel == 5){
 			channel.sendMessage("Tu peux pas avoir mieux :)").queue();
@@ -198,6 +200,14 @@ public class PetManager {
 
 	public void setPets(List<Pet> pets) {
 		this.pets = pets;
+	}
+
+	public BundleManager getBundleManager() {
+		return bundleManager;
+	}
+
+	public void setBundleManager(BundleManager bundleManager) {
+		this.bundleManager = bundleManager;
 	}
 
 	

@@ -3,12 +3,18 @@ package net.phenix.discord.bot.manager;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
 
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp;
@@ -22,12 +28,9 @@ import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.client.util.store.FileDataStoreFactory;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.SheetsScopes;
-import com.google.api.services.sheets.v4.model.ValueRange;
-
-import net.dv8tion.jda.core.entities.MessageChannel;
 
 public class SheetManager {
-	
+
 	Logger log = Logger.getLogger(getClass());
 
 	/** Application name. */
@@ -119,4 +122,40 @@ public class SheetManager {
 		this.service = service;
 	}
 
+	public List<List<Object>> getValues(Sheet sheet, int colStart, int rowStart, int colEnd, int rowEnd) {
+		List<List<Object>> result = new ArrayList();
+		for (int i = rowStart; i <= rowEnd; i++) {
+
+			Row currentRow = sheet.getRow(i);
+			if (currentRow != null) {
+				List<Object> row = new ArrayList();
+				for (int j = colStart; j <= colEnd; j++) {
+					Cell cell = currentRow.getCell(j);
+					if (cell != null) {
+						if (cell.getCellTypeEnum() == CellType.STRING) {
+							row.add(cell.getStringCellValue());
+						} else if (cell.getCellTypeEnum() == CellType.NUMERIC) {
+							Double d = cell.getNumericCellValue();
+							row.add(String.valueOf(d.intValue()));
+						} else if (cell.getCellTypeEnum() == CellType.FORMULA) {
+							try {
+								Double d = cell.getNumericCellValue();
+								row.add(String.valueOf(d.intValue()));
+							} catch (Exception e) {
+								try {
+									row.add(cell.getStringCellValue());
+								} catch (Exception e1) {
+									row.add("");
+								}
+							}
+						}
+					} else {
+						row.add("");
+					}
+				}
+				result.add(row);
+			}
+		}
+		return result;
+	}
 }
