@@ -1,5 +1,6 @@
 package net.phenix.discord.bot.manager;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigDecimal;
@@ -20,6 +21,8 @@ import org.apache.poi.ss.usermodel.Workbook;
 
 import com.google.api.services.sheets.v4.model.ValueRange;
 
+import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.core.events.message.MessageUpdateEvent;
 import net.phenix.discord.bot.data.ArtefactSetWrap;
 import net.phenix.discord.bot.data.ArtefactWrap;
 import net.phenix.discord.bot.data.PetWrap;
@@ -34,7 +37,7 @@ import net.phenix.discord.bot.data.xml.TreasureSetList.TreasureSet;
 import net.phenix.discord.bot.data.xml.UnitList.Unit;
 import net.phenix.discord.bot.manager.UnitManager.Tribe;
 
-public class BuildManager {
+public class BuildManager extends AbstractManager{
 
 	Logger log = Logger.getLogger(getClass());
 
@@ -624,9 +627,13 @@ public class BuildManager {
 				first = false ;
 			}
 			
+			
+			String lang = ConfigManager.getConfig(event).getLang();
+			
+			
 			result += "<tr style='color: #dcdcdc;'>"
 					+ "<td/>"
-					+ "<td>" + bundleManager.getBundle("/main/textList/text[id='QUEST_NAME_" + quest.getKindNum() + "']/value") + "</td>"
+					+ "<td>" + bundleManager.getBundle("/main/textList/text[id='QUEST_NAME_" + quest.getKindNum() + "']/value",lang) + "</td>"
 					+ "<td>"+ NumberManager.getEFNumber(openPrice) + "</td"
 					+ "<td>"+ NumberManager.getEFNumber(incGold) + "</td"
 					+ "<td>"+ time + "s</td"

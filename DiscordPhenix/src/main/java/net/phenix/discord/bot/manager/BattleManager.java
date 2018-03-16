@@ -17,7 +17,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
 
-public class BattleManager {
+public class BattleManager extends AbstractManager{
 
 	Logger log = Logger.getLogger(getClass());
 	

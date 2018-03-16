@@ -1,4 +1,4 @@
-<treasureList>
+    <treasureList>
 	<treasure>
 		<kindNum>1</kindNum>
 		<name>마법생도의 로브</name>
@@ -12,11 +12,11 @@
 		<ability1>51</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>1</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -35,11 +35,11 @@
 		<ability1>6</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>1</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -58,11 +58,11 @@
 		<ability1>11</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>1</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -81,11 +81,11 @@
 		<ability1>11</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>1</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -104,11 +104,11 @@
 		<ability1>36</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>1</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -127,11 +127,11 @@
 		<ability1>16</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>1</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -150,11 +150,11 @@
 		<ability1>76</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>1</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -173,11 +173,11 @@
 		<ability1>16</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>1</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -196,11 +196,11 @@
 		<ability1>26</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>1</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -219,11 +219,11 @@
 		<ability1>6</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>1</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -242,11 +242,11 @@
 		<ability1>6</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>1</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -265,11 +265,11 @@
 		<ability1>11</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>1</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -288,11 +288,11 @@
 		<ability1>52</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>2</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -311,11 +311,11 @@
 		<ability1>7</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>2</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -334,11 +334,11 @@
 		<ability1>12</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>2</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -357,11 +357,11 @@
 		<ability1>12</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>2</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -380,11 +380,11 @@
 		<ability1>37</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>2</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -403,11 +403,11 @@
 		<ability1>17</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>2</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -426,11 +426,11 @@
 		<ability1>77</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>2</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -449,11 +449,11 @@
 		<ability1>17</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>2</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -472,11 +472,11 @@
 		<ability1>27</ability1>
 		<ability11>0</ability11>
 		<ability21>0</ability21>
-		<skillCode2></skillCode2>
+		<skillCode2/>
 		<ability2>0</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>2</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -490,8 +490,7 @@
 		<grade>3</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프, 언데드 체력증가|
-			퀘스트 골드획득증가
-		</desc>
+퀘스트 골드획득증가</desc>
 		<openCost>0|10000|0|10000|0</openCost>
 		<skillCode1>hp_EU</skillCode1>
 		<ability1>53</ability1>
@@ -501,7 +500,7 @@
 		<ability2>8</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>3</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -515,8 +514,7 @@
 		<grade>3</grade>
 		<maxLv>20</maxLv>
 		<desc>아군타워 체력증가|
-			휴먼, 오크 체력증가
-		</desc>
+휴먼, 오크 체력증가</desc>
 		<openCost>10000|0|0|10000|0</openCost>
 		<skillCode1>ourTowerHp_A</skillCode1>
 		<ability1>81</ability1>
@@ -526,7 +524,7 @@
 		<ability2>53</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>3</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -540,8 +538,7 @@
 		<grade>3</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼, 오크 공격력 증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|0|10000|0|10000</openCost>
 		<skillCode1>damage_HO</skillCode1>
 		<ability1>13</ability1>
@@ -551,7 +548,7 @@
 		<ability2>13</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>3</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -565,8 +562,7 @@
 		<grade>3</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼, 오크 치명타확률 증가|
-			언데드, 엘프 공격력 증가
-		</desc>
+언데드, 엘프 공격력 증가</desc>
 		<openCost>0|0|0|10000|10000</openCost>
 		<skillCode1>criticalPercent_HO</skillCode1>
 		<ability1>33</ability1>
@@ -576,7 +572,7 @@
 		<ability2>13</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>3</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -590,8 +586,7 @@
 		<grade>3</grade>
 		<maxLv>20</maxLv>
 		<desc>오크, 휴먼 방어력 증가|
-			퀘스트 업그레이드 비용감소
-		</desc>
+퀘스트 업그레이드 비용감소</desc>
 		<openCost>10000|0|10000|0|0</openCost>
 		<skillCode1>defense_OH</skillCode1>
 		<ability1>38</ability1>
@@ -601,7 +596,7 @@
 		<ability2>18</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>3</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -615,8 +610,7 @@
 		<grade>3</grade>
 		<maxLv>20</maxLv>
 		<desc>오크, 휴먼 치명타데미지 증가|
-			엘프, 언데드 방어력 증가
-		</desc>
+엘프, 언데드 방어력 증가</desc>
 		<openCost>0|10000|10000|0|0</openCost>
 		<skillCode1>criticalDamage_OH</skillCode1>
 		<ability1>13</ability1>
@@ -626,7 +620,7 @@
 		<ability2>38</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>3</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -640,8 +634,7 @@
 		<grade>3</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드,엘프 부활시간 감소|
-			병사 업그레이드 비용감소
-		</desc>
+병사 업그레이드 비용감소</desc>
 		<openCost>0|10000|0|0|10000</openCost>
 		<skillCode1>reviveTime_UE</skillCode1>
 		<ability1>78</ability1>
@@ -651,7 +644,7 @@
 		<ability2>18</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>3</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -665,8 +658,7 @@
 		<grade>3</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드,오크 병사출진 시간감소|
-			던전보스 체력감소|
-		</desc>
+던전보스 체력감소|</desc>
 		<openCost>10000|10000|0|0|0</openCost>
 		<skillCode1>unitBattleTime_UO</skillCode1>
 		<ability1>77</ability1>
@@ -676,7 +668,7 @@
 		<ability2>77</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>3</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -690,8 +682,7 @@
 		<grade>3</grade>
 		<maxLv>20</maxLv>
 		<desc>던전 일반병사 체력감소|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>10000|0|0|0|10000</openCost>
 		<skillCode1>dungeonNormalHp_A</skillCode1>
 		<ability1>77</ability1>
@@ -701,7 +692,7 @@
 		<ability2>28</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>3</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -715,8 +706,7 @@
 		<grade>4</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프, 오크 체력증가|
-			퀘스트 골드획득증가
-		</desc>
+퀘스트 골드획득증가</desc>
 		<openCost>0|500000|0|500000|0</openCost>
 		<skillCode1>hp_EO</skillCode1>
 		<ability1>54</ability1>
@@ -726,7 +716,7 @@
 		<ability2>9</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>4</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -740,8 +730,7 @@
 		<grade>4</grade>
 		<maxLv>20</maxLv>
 		<desc>아군타워 체력증가|
-			근거리유닛 공격력 증가
-		</desc>
+근거리유닛 공격력 증가</desc>
 		<openCost>500000|0|0|500000|0</openCost>
 		<skillCode1>ourTowerHp_A</skillCode1>
 		<ability1>82</ability1>
@@ -751,7 +740,7 @@
 		<ability2>19</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>4</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -765,8 +754,7 @@
 		<grade>4</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼, 엘프 공격력 증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|0|500000|0|500000</openCost>
 		<skillCode1>damage_HE</skillCode1>
 		<ability1>14</ability1>
@@ -776,7 +764,7 @@
 		<ability2>14</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>4</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -790,8 +778,7 @@
 		<grade>4</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼, 엘프 치명타확률 증가|
-			원거리유닛 공격력 증가
-		</desc>
+원거리유닛 공격력 증가</desc>
 		<openCost>0|0|0|500000|500000</openCost>
 		<skillCode1>criticalPercent_HE</skillCode1>
 		<ability1>34</ability1>
@@ -801,7 +788,7 @@
 		<ability2>19</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>4</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -815,8 +802,7 @@
 		<grade>4</grade>
 		<maxLv>20</maxLv>
 		<desc>오크, 언데드 방어력 증가|
-			퀘스트 업그레이드 비용감소
-		</desc>
+퀘스트 업그레이드 비용감소</desc>
 		<openCost>500000|0|500000|0|0</openCost>
 		<skillCode1>defense_OU</skillCode1>
 		<ability1>39</ability1>
@@ -826,7 +812,7 @@
 		<ability2>19</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>4</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -840,8 +826,7 @@
 		<grade>4</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드,휴먼 부활시간 감소|
-			병사 업그레이드 비용감소
-		</desc>
+병사 업그레이드 비용감소</desc>
 		<openCost>0|500000|0|0|500000</openCost>
 		<skillCode1>reviveTime_UH</skillCode1>
 		<ability1>79</ability1>
@@ -851,7 +836,7 @@
 		<ability2>19</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>4</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -865,8 +850,7 @@
 		<grade>4</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼,엘프 병사출진 시간감소|
-			던전보스 체력감소
-		</desc>
+던전보스 체력감소</desc>
 		<openCost>500000|500000|0|0|0</openCost>
 		<skillCode1>unitBattleTime_HE</skillCode1>
 		<ability1>78</ability1>
@@ -876,7 +860,7 @@
 		<ability2>78</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>4</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -890,8 +874,7 @@
 		<grade>4</grade>
 		<maxLv>20</maxLv>
 		<desc>던전 일반병사 체력감소|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>500000|0|0|0|500000</openCost>
 		<skillCode1>dungeonNormalHp_A</skillCode1>
 		<ability1>78</ability1>
@@ -901,7 +884,7 @@
 		<ability2>29</ability2>
 		<ability12>0</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>4</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -915,8 +898,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>체력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|30000000|0|30000000|0</openCost>
 		<skillCode1>hp_A</skillCode1>
 		<ability1>65</ability1>
@@ -926,7 +908,7 @@
 		<ability2>10</ability2>
 		<ability12>120</ability12>
 		<ability22>250</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -940,8 +922,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>아군타워 체력증가|
-			근거리유닛 공격력증가
-		</desc>
+근거리유닛 공격력증가</desc>
 		<openCost>30000000|0|0|30000000|0</openCost>
 		<skillCode1>ourTowerHp_A</skillCode1>
 		<ability1>83</ability1>
@@ -951,7 +932,7 @@
 		<ability2>20</ability2>
 		<ability12>124</ability12>
 		<ability22>252</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -965,8 +946,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>공격력 증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|0|30000000|0|30000000</openCost>
 		<skillCode1>damage_A</skillCode1>
 		<ability1>25</ability1>
@@ -976,7 +956,7 @@
 		<ability2>15</ability2>
 		<ability12>186</ability12>
 		<ability22>273</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -990,8 +970,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>치명타확률 증가|
-			원거리유닛 공격력증가
-		</desc>
+원거리유닛 공격력증가</desc>
 		<openCost>0|0|0|30000000|30000000</openCost>
 		<skillCode1>criticalPercent_A</skillCode1>
 		<ability1>75</ability1>
@@ -1001,7 +980,7 @@
 		<ability2>20</ability2>
 		<ability12>124</ability12>
 		<ability22>252</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1015,8 +994,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>방어력 증가|
-			퀘스트 업그레이드 비용감소
-		</desc>
+퀘스트 업그레이드 비용감소</desc>
 		<openCost>30000000|0|30000000|0|0</openCost>
 		<skillCode1>defense_A</skillCode1>
 		<ability1>50</ability1>
@@ -1026,7 +1004,7 @@
 		<ability2>20</ability2>
 		<ability12>188</ability12>
 		<ability22>274</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1040,8 +1018,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>부활시간 감소|
-			병사 업그레이드 비용감소
-		</desc>
+병사 업그레이드 비용감소</desc>
 		<openCost>0|30000000|0|0|30000000</openCost>
 		<skillCode1>reviveTime_A</skillCode1>
 		<ability1>80</ability1>
@@ -1051,7 +1028,7 @@
 		<ability2>20</ability2>
 		<ability12>188</ability12>
 		<ability22>274</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1065,8 +1042,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>병사출진 시간감소|
-			던전 보스 체력감소
-		</desc>
+던전 보스 체력감소</desc>
 		<openCost>30000000|30000000|0|0|0</openCost>
 		<skillCode1>unitBattleTime_A</skillCode1>
 		<ability1>79</ability1>
@@ -1076,7 +1052,7 @@
 		<ability2>79</ability2>
 		<ability12>154</ability12>
 		<ability22>267</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1090,8 +1066,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>던전 일반병사 체력감소|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>30000000|0|0|0|30000000</openCost>
 		<skillCode1>dungeonNormalHp_A</skillCode1>
 		<ability1>79</ability1>
@@ -1101,7 +1076,7 @@
 		<ability2>30</ability2>
 		<ability12>128</ability12>
 		<ability22>254</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1115,8 +1090,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 공격력증가|
-			오크 치명타데미지 증가
-		</desc>
+오크 치명타데미지 증가</desc>
 		<openCost>0|30000000|30000000|0|0</openCost>
 		<skillCode1>damage_O</skillCode1>
 		<ability1>15</ability1>
@@ -1126,7 +1100,7 @@
 		<ability2>25</ability2>
 		<ability12>180</ability12>
 		<ability22>270</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1140,8 +1114,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 공격력증가|
-			언데드 치명타데미지 증가
-		</desc>
+언데드 치명타데미지 증가</desc>
 		<openCost>0|0|30000000|30000000|0</openCost>
 		<skillCode1>damage_U</skillCode1>
 		<ability1>15</ability1>
@@ -1151,7 +1124,7 @@
 		<ability2>25</ability2>
 		<ability12>180</ability12>
 		<ability22>270</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1165,8 +1138,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>근거리유닛 체력증가|
-			근거리유닛 방어력증가
-		</desc>
+근거리유닛 방어력증가</desc>
 		<openCost>0|30000000|0|30000000|0</openCost>
 		<skillCode1>hp_M</skillCode1>
 		<ability1>60</ability1>
@@ -1176,7 +1148,7 @@
 		<ability2>45</ability2>
 		<ability12>136</ability12>
 		<ability22>258</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1190,8 +1162,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>원거리유닛 체력증가|
-			원거리유닛 방어력증가
-		</desc>
+원거리유닛 방어력증가</desc>
 		<openCost>30000000|0|0|30000000|0</openCost>
 		<skillCode1>hp_R</skillCode1>
 		<ability1>60</ability1>
@@ -1201,7 +1172,7 @@
 		<ability2>45</ability2>
 		<ability12>136</ability12>
 		<ability22>258</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1215,8 +1186,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 체력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|0|30000000|0|30000000</openCost>
 		<skillCode1>hp_U</skillCode1>
 		<ability1>55</ability1>
@@ -1226,7 +1196,7 @@
 		<ability2>10</ability2>
 		<ability12>120</ability12>
 		<ability22>250</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1240,8 +1210,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 방어력 증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|0|0|30000000|30000000</openCost>
 		<skillCode1>defense_U</skillCode1>
 		<ability1>40</ability1>
@@ -1251,7 +1220,7 @@
 		<ability2>20</ability2>
 		<ability12>188</ability12>
 		<ability22>274</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1265,8 +1234,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 부활시간 감소|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>30000000|0|30000000|0|0</openCost>
 		<skillCode1>reviveTime_U</skillCode1>
 		<ability1>80</ability1>
@@ -1276,7 +1244,7 @@
 		<ability2>30</ability2>
 		<ability12>128</ability12>
 		<ability22>254</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1290,8 +1258,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 체력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|30000000|0|0|30000000</openCost>
 		<skillCode1>hp_O</skillCode1>
 		<ability1>55</ability1>
@@ -1301,7 +1268,7 @@
 		<ability2>15</ability2>
 		<ability12>186</ability12>
 		<ability22>273</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1315,8 +1282,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 방어력 증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>30000000|30000000|0|0|0</openCost>
 		<skillCode1>defense_O</skillCode1>
 		<ability1>40</ability1>
@@ -1326,7 +1292,7 @@
 		<ability2>20</ability2>
 		<ability12>188</ability12>
 		<ability22>274</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1340,8 +1306,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 부활시간 감소|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>30000000|0|0|0|30000000</openCost>
 		<skillCode1>reviveTime_O</skillCode1>
 		<ability1>80</ability1>
@@ -1351,7 +1316,7 @@
 		<ability2>30</ability2>
 		<ability12>128</ability12>
 		<ability22>254</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1365,8 +1330,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 공격력증가|
-			휴먼 치명타데미지 증가
-		</desc>
+휴먼 치명타데미지 증가</desc>
 		<openCost>0|30000000|30000000|0|0</openCost>
 		<skillCode1>damage_H</skillCode1>
 		<ability1>15</ability1>
@@ -1376,7 +1340,7 @@
 		<ability2>25</ability2>
 		<ability12>180</ability12>
 		<ability22>270</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1390,8 +1354,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 방어력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|0|30000000|30000000|0</openCost>
 		<skillCode1>defense_H</skillCode1>
 		<ability1>40</ability1>
@@ -1401,7 +1364,7 @@
 		<ability2>10</ability2>
 		<ability12>120</ability12>
 		<ability22>250</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1415,8 +1378,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 체력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|30000000|0|30000000|0</openCost>
 		<skillCode1>hp_H</skillCode1>
 		<ability1>55</ability1>
@@ -1426,7 +1388,7 @@
 		<ability2>15</ability2>
 		<ability12>186</ability12>
 		<ability22>273</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1440,8 +1402,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 병사 출진시간 감소|
-			퀘스트 업그레이드비용 감소
-		</desc>
+퀘스트 업그레이드비용 감소</desc>
 		<openCost>30000000|0|0|30000000|0</openCost>
 		<skillCode1>unitBattleTime_H</skillCode1>
 		<ability1>79</ability1>
@@ -1451,7 +1412,7 @@
 		<ability2>20</ability2>
 		<ability12>188</ability12>
 		<ability22>274</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1465,8 +1426,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 공격력증가|
-			엘프 치명타데미지 증가
-		</desc>
+엘프 치명타데미지 증가</desc>
 		<openCost>0|0|30000000|0|30000000</openCost>
 		<skillCode1>damage_E</skillCode1>
 		<ability1>15</ability1>
@@ -1476,7 +1436,7 @@
 		<ability2>25</ability2>
 		<ability12>180</ability12>
 		<ability22>270</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1490,8 +1450,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 방어력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|0|0|30000000|30000000</openCost>
 		<skillCode1>defense_E</skillCode1>
 		<ability1>40</ability1>
@@ -1501,7 +1460,7 @@
 		<ability2>10</ability2>
 		<ability12>120</ability12>
 		<ability22>250</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1515,8 +1474,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 체력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>30000000|0|30000000|0|0</openCost>
 		<skillCode1>hp_E</skillCode1>
 		<ability1>55</ability1>
@@ -1526,7 +1484,7 @@
 		<ability2>15</ability2>
 		<ability12>186</ability12>
 		<ability22>273</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1540,8 +1498,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 병사 출진시간 감소|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|30000000|0|0|30000000</openCost>
 		<skillCode1>unitBattleTime_E</skillCode1>
 		<ability1>79</ability1>
@@ -1551,7 +1508,7 @@
 		<ability2>20</ability2>
 		<ability12>188</ability12>
 		<ability22>274</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1565,8 +1522,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드,오크 공격력증가|
-			언데드,오크 치명타데미지 증가
-		</desc>
+언데드,오크 치명타데미지 증가</desc>
 		<openCost>30000000|30000000|0|0|0</openCost>
 		<skillCode1>damage_UO</skillCode1>
 		<ability1>15</ability1>
@@ -1576,7 +1532,7 @@
 		<ability2>15</ability2>
 		<ability12>180</ability12>
 		<ability22>270</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1590,8 +1546,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드,오크 체력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>30000000|0|0|0|30000000</openCost>
 		<skillCode1>hp_UO</skillCode1>
 		<ability1>55</ability1>
@@ -1601,7 +1556,7 @@
 		<ability2>10</ability2>
 		<ability12>120</ability12>
 		<ability22>250</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1615,8 +1570,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드,오크 방어력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|30000000|30000000|0|0</openCost>
 		<skillCode1>defense_UO</skillCode1>
 		<ability1>50</ability1>
@@ -1626,7 +1580,7 @@
 		<ability2>15</ability2>
 		<ability12>186</ability12>
 		<ability22>273</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1640,8 +1594,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드,오크 부활시간 감소|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|0|30000000|30000000|0</openCost>
 		<skillCode1>reviveTime_UO</skillCode1>
 		<ability1>80</ability1>
@@ -1651,7 +1604,7 @@
 		<ability2>20</ability2>
 		<ability12>188</ability12>
 		<ability22>274</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1665,8 +1618,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드,오크 공격력증가|
-			퀘스트 업그레이드비용 감소
-		</desc>
+퀘스트 업그레이드비용 감소</desc>
 		<openCost>0|30000000|0|30000000|0</openCost>
 		<skillCode1>damage_UO</skillCode1>
 		<ability1>15</ability1>
@@ -1676,7 +1628,7 @@
 		<ability2>20</ability2>
 		<ability12>188</ability12>
 		<ability22>274</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1690,8 +1642,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드,오크 체력증가|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>30000000|0|0|30000000|0</openCost>
 		<skillCode1>hp_UO</skillCode1>
 		<ability1>55</ability1>
@@ -1701,7 +1652,7 @@
 		<ability2>30</ability2>
 		<ability12>128</ability12>
 		<ability22>254</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1715,8 +1666,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼,엘프 공격력증가|
-			휴먼,엘프 치명타데미지 증가
-		</desc>
+휴먼,엘프 치명타데미지 증가</desc>
 		<openCost>0|0|30000000|0|30000000</openCost>
 		<skillCode1>damage_HE</skillCode1>
 		<ability1>15</ability1>
@@ -1726,7 +1676,7 @@
 		<ability2>15</ability2>
 		<ability12>180</ability12>
 		<ability22>270</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1740,8 +1690,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼,엘프 체력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|0|0|30000000|30000000</openCost>
 		<skillCode1>hp_HE</skillCode1>
 		<ability1>55</ability1>
@@ -1751,7 +1700,7 @@
 		<ability2>10</ability2>
 		<ability12>120</ability12>
 		<ability22>250</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1765,8 +1714,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼,엘프 방어력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>30000000|0|30000000|0|0</openCost>
 		<skillCode1>defense_HE</skillCode1>
 		<ability1>50</ability1>
@@ -1776,7 +1724,7 @@
 		<ability2>15</ability2>
 		<ability12>186</ability12>
 		<ability22>273</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1790,8 +1738,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼,엘프 부활시간 감소|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|30000000|0|0|30000000</openCost>
 		<skillCode1>reviveTime_HE</skillCode1>
 		<ability1>80</ability1>
@@ -1801,7 +1748,7 @@
 		<ability2>20</ability2>
 		<ability12>188</ability12>
 		<ability22>274</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1815,8 +1762,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼,엘프 공격력증가|
-			퀘스트 업그레이드비용 감소
-		</desc>
+퀘스트 업그레이드비용 감소</desc>
 		<openCost>30000000|30000000|0|0|0</openCost>
 		<skillCode1>damage_HE</skillCode1>
 		<ability1>15</ability1>
@@ -1826,7 +1772,7 @@
 		<ability2>20</ability2>
 		<ability12>188</ability12>
 		<ability22>274</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1840,8 +1786,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼,엘프 체력증가|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>30000000|0|0|0|30000000</openCost>
 		<skillCode1>hp_HE</skillCode1>
 		<ability1>55</ability1>
@@ -1851,7 +1796,7 @@
 		<ability2>30</ability2>
 		<ability12>128</ability12>
 		<ability22>254</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1865,8 +1810,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>체력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|1000000000|0|1000000000|0</openCost>
 		<skillCode1>hp_A</skillCode1>
 		<ability1>96</ability1>
@@ -1876,7 +1820,7 @@
 		<ability2>85</ability2>
 		<ability12>121</ability12>
 		<ability22>190</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1890,8 +1834,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>아군타워 체력증가|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>1000000000|0|0|1000000000|0</openCost>
 		<skillCode1>ourTowerHp_A</skillCode1>
 		<ability1>100</ability1>
@@ -1901,7 +1844,7 @@
 		<ability2>89</ability2>
 		<ability12>129</ability12>
 		<ability22>198</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1915,8 +1858,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>공격력 증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|0|1000000000|0|1000000000</openCost>
 		<skillCode1>damage_A</skillCode1>
 		<ability1>88</ability1>
@@ -1926,7 +1868,7 @@
 		<ability2>86</ability2>
 		<ability12>187</ability12>
 		<ability22>235</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1940,8 +1882,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>원거리유닛 체력증가|
-			원거리유닛 공격력증가
-		</desc>
+원거리유닛 공격력증가</desc>
 		<openCost>0|0|0|1000000000|1000000000</openCost>
 		<skillCode1>hp_R</skillCode1>
 		<ability1>95</ability1>
@@ -1951,7 +1892,7 @@
 		<ability2>87</ability2>
 		<ability12>125</ability12>
 		<ability22>194</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1965,8 +1906,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>방어력 증가|
-			퀘스트 업그레이드 비용감소
-		</desc>
+퀘스트 업그레이드 비용감소</desc>
 		<openCost>1000000000|0|1000000000|0|0</openCost>
 		<skillCode1>defense_A</skillCode1>
 		<ability1>93</ability1>
@@ -1976,7 +1916,7 @@
 		<ability2>87</ability2>
 		<ability12>189</ability12>
 		<ability22>237</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -1990,8 +1930,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>부활시간 감소|
-			병사 업그레이드 비용감소
-		</desc>
+병사 업그레이드 비용감소</desc>
 		<openCost>0|1000000000|0|0|1000000000</openCost>
 		<skillCode1>reviveTime_A</skillCode1>
 		<ability1>99</ability1>
@@ -2001,7 +1940,7 @@
 		<ability2>87</ability2>
 		<ability12>189</ability12>
 		<ability22>237</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2015,8 +1954,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>근거리유닛 공격력증가|
-			근거리유닛 체력증가
-		</desc>
+근거리유닛 체력증가</desc>
 		<openCost>1000000000|1000000000|0|0|0</openCost>
 		<skillCode1>damage_M</skillCode1>
 		<ability1>87</ability1>
@@ -2026,7 +1964,7 @@
 		<ability2>95</ability2>
 		<ability12>145</ability12>
 		<ability22>214</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2040,8 +1978,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>던전 일반병사 체력감소|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>1000000000|0|0|0|1000000000</openCost>
 		<skillCode1>dungeonNormalHp_A</skillCode1>
 		<ability1>80</ability1>
@@ -2051,7 +1988,7 @@
 		<ability2>89</ability2>
 		<ability12>129</ability12>
 		<ability22>198</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2065,8 +2002,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼,엘프 공격력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|1000000000|1000000000|0|0</openCost>
 		<skillCode1>damage_HE</skillCode1>
 		<ability1>86</ability1>
@@ -2076,7 +2012,7 @@
 		<ability2>85</ability2>
 		<ability12>121</ability12>
 		<ability22>190</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2090,8 +2026,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼,엘프 방어력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|0|1000000000|1000000000|0</openCost>
 		<skillCode1>defense_HE</skillCode1>
 		<ability1>91</ability1>
@@ -2101,7 +2036,7 @@
 		<ability2>87</ability2>
 		<ability12>189</ability12>
 		<ability22>237</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2115,8 +2050,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼,엘프 체력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|1000000000|0|1000000000|0</openCost>
 		<skillCode1>hp_HE</skillCode1>
 		<ability1>94</ability1>
@@ -2126,7 +2060,7 @@
 		<ability2>86</ability2>
 		<ability12>187</ability12>
 		<ability22>235</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2140,8 +2074,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼,엘프 병사 출진시간 감소|
-			퀘스트 업그레이드비용 감소
-		</desc>
+퀘스트 업그레이드비용 감소</desc>
 		<openCost>1000000000|0|0|1000000000|0</openCost>
 		<skillCode1>unitBattleTime_HE</skillCode1>
 		<ability1>80</ability1>
@@ -2151,7 +2084,7 @@
 		<ability2>87</ability2>
 		<ability12>189</ability12>
 		<ability22>237</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2165,8 +2098,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>공중유닛 공격력증가|
-			공중유닛 치명타데미지증가
-		</desc>
+공중유닛 치명타데미지증가</desc>
 		<openCost>0|0|1000000000|0|1000000000</openCost>
 		<skillCode1>damage_S</skillCode1>
 		<ability1>106</ability1>
@@ -2176,7 +2108,7 @@
 		<ability2>106</ability2>
 		<ability12>185</ability12>
 		<ability22>233</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2190,8 +2122,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>공중유닛 방어력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|0|0|1000000000|1000000000</openCost>
 		<skillCode1>defense_S</skillCode1>
 		<ability1>112</ability1>
@@ -2201,7 +2132,7 @@
 		<ability2>85</ability2>
 		<ability12>121</ability12>
 		<ability22>190</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2215,8 +2146,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>공중유닛 체력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>1000000000|0|1000000000|0|0</openCost>
 		<skillCode1>hp_S</skillCode1>
 		<ability1>118</ability1>
@@ -2226,7 +2156,7 @@
 		<ability2>86</ability2>
 		<ability12>187</ability12>
 		<ability22>235</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2240,8 +2170,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>공중유닛 출진시간 감소|
-			퀘스트 업그레이드비용 감소
-		</desc>
+퀘스트 업그레이드비용 감소</desc>
 		<openCost>0|1000000000|0|0|1000000000</openCost>
 		<skillCode1>unitBattleTime_S</skillCode1>
 		<ability1>80</ability1>
@@ -2251,7 +2180,7 @@
 		<ability2>87</ability2>
 		<ability12>189</ability12>
 		<ability22>237</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2265,8 +2194,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>오크, 언데드 공격력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>1000000000|1000000000|0|0|0</openCost>
 		<skillCode1>damage_OU</skillCode1>
 		<ability1>86</ability1>
@@ -2276,7 +2204,7 @@
 		<ability2>85</ability2>
 		<ability12>121</ability12>
 		<ability22>190</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2290,8 +2218,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>오크, 언데드 방어력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>1000000000|0|0|0|1000000000</openCost>
 		<skillCode1>defense_OU</skillCode1>
 		<ability1>91</ability1>
@@ -2301,7 +2228,7 @@
 		<ability2>87</ability2>
 		<ability12>189</ability12>
 		<ability22>237</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2315,8 +2242,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>오크, 언데드 체력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|1000000000|1000000000|0|0</openCost>
 		<skillCode1>hp_OU</skillCode1>
 		<ability1>94</ability1>
@@ -2326,7 +2252,7 @@
 		<ability2>86</ability2>
 		<ability12>187</ability12>
 		<ability22>235</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2340,8 +2266,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>오크, 언데드 병사 출진시간 감소|
-			퀘스트 업그레이드비용 감소
-		</desc>
+퀘스트 업그레이드비용 감소</desc>
 		<openCost>0|0|1000000000|1000000000|0</openCost>
 		<skillCode1>unitBattleTime_OU</skillCode1>
 		<ability1>80</ability1>
@@ -2351,7 +2276,7 @@
 		<ability2>87</ability2>
 		<ability12>189</ability12>
 		<ability22>237</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2365,8 +2290,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 공격력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|1000000000|0|1000000000|0</openCost>
 		<skillCode1>damage_O</skillCode1>
 		<ability1>86</ability1>
@@ -2376,7 +2300,7 @@
 		<ability2>85</ability2>
 		<ability12>121</ability12>
 		<ability22>190</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2390,8 +2314,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 방어력증가|
-			퀘스트 업그레이드 비용감소
-		</desc>
+퀘스트 업그레이드 비용감소</desc>
 		<openCost>1000000000|0|0|1000000000|0</openCost>
 		<skillCode1>defense_O</skillCode1>
 		<ability1>91</ability1>
@@ -2401,7 +2324,7 @@
 		<ability2>87</ability2>
 		<ability12>189</ability12>
 		<ability22>237</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2415,8 +2338,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 체력증가|
-			오크 방어력증가
-		</desc>
+오크 방어력증가</desc>
 		<openCost>0|0|1000000000|0|1000000000</openCost>
 		<skillCode1>hp_O</skillCode1>
 		<ability1>94</ability1>
@@ -2426,7 +2348,7 @@
 		<ability2>91</ability2>
 		<ability12>135</ability12>
 		<ability22>204</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2440,8 +2362,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 병사 출진시간 감소|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>0|0|0|1000000000|1000000000</openCost>
 		<skillCode1>unitBattleTime_O</skillCode1>
 		<ability1>80</ability1>
@@ -2451,7 +2372,7 @@
 		<ability2>89</ability2>
 		<ability12>129</ability12>
 		<ability22>198</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2465,8 +2386,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>아군타워 체력증가|
-			던전 일반병사 체력감소
-		</desc>
+던전 일반병사 체력감소</desc>
 		<openCost>1000000000|0|1000000000|0|0</openCost>
 		<skillCode1>ourTowerHp_A</skillCode1>
 		<ability1>100</ability1>
@@ -2476,7 +2396,7 @@
 		<ability2>80</ability2>
 		<ability12>155</ability12>
 		<ability22>224</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2490,8 +2410,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 공격력 증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|1000000000|0|0|1000000000</openCost>
 		<skillCode1>damage_O</skillCode1>
 		<ability1>86</ability1>
@@ -2501,7 +2420,7 @@
 		<ability2>86</ability2>
 		<ability12>187</ability12>
 		<ability22>235</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2515,8 +2434,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 공격력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>1000000000|1000000000|0|0|0</openCost>
 		<skillCode1>damage_U</skillCode1>
 		<ability1>86</ability1>
@@ -2526,7 +2444,7 @@
 		<ability2>85</ability2>
 		<ability12>121</ability12>
 		<ability22>190</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2540,8 +2458,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 방어력증가|
-			퀘스트 업그레이드 비용감소
-		</desc>
+퀘스트 업그레이드 비용감소</desc>
 		<openCost>1000000000|0|0|0|1000000000</openCost>
 		<skillCode1>defense_U</skillCode1>
 		<ability1>91</ability1>
@@ -2551,7 +2468,7 @@
 		<ability2>87</ability2>
 		<ability12>189</ability12>
 		<ability22>237</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2565,8 +2482,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 체력증가|
-			언데드 방어력증가
-		</desc>
+언데드 방어력증가</desc>
 		<openCost>0|1000000000|1000000000|0|0</openCost>
 		<skillCode1>hp_U</skillCode1>
 		<ability1>94</ability1>
@@ -2576,7 +2492,7 @@
 		<ability2>91</ability2>
 		<ability12>135</ability12>
 		<ability22>204</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2590,8 +2506,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 병사 출진시간 감소|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>0|0|1000000000|1000000000|0</openCost>
 		<skillCode1>unitBattleTime_U</skillCode1>
 		<ability1>80</ability1>
@@ -2601,7 +2516,7 @@
 		<ability2>89</ability2>
 		<ability12>129</ability12>
 		<ability22>198</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2615,8 +2530,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>아군타워 체력증가|
-			던전 일반병사 체력감소
-		</desc>
+던전 일반병사 체력감소</desc>
 		<openCost>0|1000000000|0|1000000000|0</openCost>
 		<skillCode1>ourTowerHp_A</skillCode1>
 		<ability1>100</ability1>
@@ -2626,7 +2540,7 @@
 		<ability2>80</ability2>
 		<ability12>155</ability12>
 		<ability22>224</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2640,8 +2554,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 공격력 증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>1000000000|0|0|1000000000|0</openCost>
 		<skillCode1>damage_U</skillCode1>
 		<ability1>86</ability1>
@@ -2651,7 +2564,7 @@
 		<ability2>86</ability2>
 		<ability12>187</ability12>
 		<ability22>235</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2665,8 +2578,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 공격력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|0|1000000000|0|1000000000</openCost>
 		<skillCode1>damage_H</skillCode1>
 		<ability1>86</ability1>
@@ -2676,7 +2588,7 @@
 		<ability2>85</ability2>
 		<ability12>121</ability12>
 		<ability22>190</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2690,8 +2602,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 방어력증가|
-			퀘스트 업그레이드 비용감소
-		</desc>
+퀘스트 업그레이드 비용감소</desc>
 		<openCost>0|0|0|1000000000|1000000000</openCost>
 		<skillCode1>defense_H</skillCode1>
 		<ability1>91</ability1>
@@ -2701,7 +2612,7 @@
 		<ability2>87</ability2>
 		<ability12>189</ability12>
 		<ability22>237</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2715,8 +2626,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 체력증가|
-			휴먼 방어력증가
-		</desc>
+휴먼 방어력증가</desc>
 		<openCost>1000000000|0|1000000000|0|0</openCost>
 		<skillCode1>hp_H</skillCode1>
 		<ability1>94</ability1>
@@ -2726,7 +2636,7 @@
 		<ability2>91</ability2>
 		<ability12>135</ability12>
 		<ability22>204</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2740,8 +2650,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 병사 출진시간 감소|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>0|1000000000|0|0|1000000000</openCost>
 		<skillCode1>unitBattleTime_H</skillCode1>
 		<ability1>80</ability1>
@@ -2751,7 +2660,7 @@
 		<ability2>89</ability2>
 		<ability12>129</ability12>
 		<ability22>198</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2765,8 +2674,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>아군타워 체력증가|
-			던전 일반병사 체력감소
-		</desc>
+던전 일반병사 체력감소</desc>
 		<openCost>1000000000|1000000000|0|0|0</openCost>
 		<skillCode1>ourTowerHp_A</skillCode1>
 		<ability1>100</ability1>
@@ -2776,7 +2684,7 @@
 		<ability2>80</ability2>
 		<ability12>155</ability12>
 		<ability22>224</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2790,8 +2698,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 공격력 증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>1000000000|0|0|0|1000000000</openCost>
 		<skillCode1>damage_H</skillCode1>
 		<ability1>86</ability1>
@@ -2801,7 +2708,7 @@
 		<ability2>86</ability2>
 		<ability12>187</ability12>
 		<ability22>235</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2815,8 +2722,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 공격력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|1000000000|1000000000|0|0</openCost>
 		<skillCode1>damage_E</skillCode1>
 		<ability1>86</ability1>
@@ -2826,7 +2732,7 @@
 		<ability2>85</ability2>
 		<ability12>121</ability12>
 		<ability22>190</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2840,8 +2746,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 방어력증가|
-			퀘스트 업그레이드 비용감소
-		</desc>
+퀘스트 업그레이드 비용감소</desc>
 		<openCost>0|0|1000000000|1000000000|0</openCost>
 		<skillCode1>defense_E</skillCode1>
 		<ability1>91</ability1>
@@ -2851,7 +2756,7 @@
 		<ability2>87</ability2>
 		<ability12>189</ability12>
 		<ability22>237</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2865,8 +2770,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 체력증가|
-			엘프 방어력증가
-		</desc>
+엘프 방어력증가</desc>
 		<openCost>0|1000000000|0|1000000000|0</openCost>
 		<skillCode1>hp_E</skillCode1>
 		<ability1>94</ability1>
@@ -2876,7 +2780,7 @@
 		<ability2>91</ability2>
 		<ability12>135</ability12>
 		<ability22>204</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2890,8 +2794,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 병사 출진시간 감소|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>1000000000|0|0|1000000000|0</openCost>
 		<skillCode1>unitBattleTime_E</skillCode1>
 		<ability1>80</ability1>
@@ -2901,7 +2804,7 @@
 		<ability2>89</ability2>
 		<ability12>129</ability12>
 		<ability22>198</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2915,8 +2818,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>아군타워 체력증가|
-			던전 일반병사 체력감소
-		</desc>
+던전 일반병사 체력감소</desc>
 		<openCost>0|0|1000000000|0|1000000000</openCost>
 		<skillCode1>ourTowerHp_A</skillCode1>
 		<ability1>100</ability1>
@@ -2926,7 +2828,7 @@
 		<ability2>80</ability2>
 		<ability12>155</ability12>
 		<ability22>224</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2940,8 +2842,7 @@
 		<grade>6</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 공격력 증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|0|0|1000000000|1000000000</openCost>
 		<skillCode1>damage_E</skillCode1>
 		<ability1>86</ability1>
@@ -2951,7 +2852,7 @@
 		<ability2>86</ability2>
 		<ability12>187</ability12>
 		<ability22>235</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>84</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2965,8 +2866,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 체력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|0|45000000|0|45000000</openCost>
 		<skillCode1>hp_H</skillCode1>
 		<ability1>55</ability1>
@@ -2976,7 +2876,7 @@
 		<ability2>10</ability2>
 		<ability12>120</ability12>
 		<ability22>250</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -2990,8 +2890,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 방어력 증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|0|0|45000000|45000000</openCost>
 		<skillCode1>defense_H</skillCode1>
 		<ability1>40</ability1>
@@ -3001,7 +2900,7 @@
 		<ability2>20</ability2>
 		<ability12>188</ability12>
 		<ability22>274</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -3015,8 +2914,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 부활시간 감소|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>45000000|0|45000000|0|0</openCost>
 		<skillCode1>reviveTime_H</skillCode1>
 		<ability1>80</ability1>
@@ -3026,7 +2924,7 @@
 		<ability2>30</ability2>
 		<ability12>128</ability12>
 		<ability22>254</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -3040,8 +2938,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 공격력증가|
-			언데드 치명타데미지 증가
-		</desc>
+언데드 치명타데미지 증가</desc>
 		<openCost>45000000|45000000|0|0|0</openCost>
 		<skillCode1>damage_U</skillCode1>
 		<ability1>15</ability1>
@@ -3051,7 +2948,7 @@
 		<ability2>25</ability2>
 		<ability12>180</ability12>
 		<ability22>270</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -3065,8 +2962,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 방어력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>45000000|0|0|0|45000000</openCost>
 		<skillCode1>defense_U</skillCode1>
 		<ability1>40</ability1>
@@ -3076,7 +2972,7 @@
 		<ability2>10</ability2>
 		<ability12>120</ability12>
 		<ability22>250</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -3090,8 +2986,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 체력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|45000000|45000000|0|0</openCost>
 		<skillCode1>hp_U</skillCode1>
 		<ability1>55</ability1>
@@ -3101,7 +2996,7 @@
 		<ability2>15</ability2>
 		<ability12>186</ability12>
 		<ability22>273</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -3115,8 +3010,7 @@
 		<grade>5</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 병사 출진시간 감소|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|0|45000000|45000000|0</openCost>
 		<skillCode1>unitBattleTime_U</skillCode1>
 		<ability1>79</ability1>
@@ -3126,7 +3020,7 @@
 		<ability2>20</ability2>
 		<ability12>188</ability12>
 		<ability22>274</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>5</upgradeCostType>
 		<showDesc>Y</showDesc>
@@ -3140,8 +3034,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 공격력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>5000000000|0|5000000000|0|0</openCost>
 		<skillCode1>damage_H</skillCode1>
 		<ability1>160</ability1>
@@ -3151,7 +3044,7 @@
 		<ability2>159</ability2>
 		<ability12>191</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3165,8 +3058,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 공격력증가|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>0|5000000000|0|0|5000000000</openCost>
 		<skillCode1>damage_E</skillCode1>
 		<ability1>160</ability1>
@@ -3176,7 +3068,7 @@
 		<ability2>163</ability2>
 		<ability12>199</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3190,8 +3082,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 공격력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>5000000000|5000000000|0|0|0</openCost>
 		<skillCode1>damage_U</skillCode1>
 		<ability1>160</ability1>
@@ -3201,7 +3092,7 @@
 		<ability2>160</ability2>
 		<ability12>236</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3215,8 +3106,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 공격력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>5000000000|0|0|0|5000000000</openCost>
 		<skillCode1>damage_O</skillCode1>
 		<ability1>160</ability1>
@@ -3226,7 +3116,7 @@
 		<ability2>161</ability2>
 		<ability12>238</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3240,8 +3130,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 치명타데미지 증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>5000000000|0|0|0|5000000000</openCost>
 		<skillCode1>criticalDamage_H</skillCode1>
 		<ability1>160</ability1>
@@ -3251,7 +3140,7 @@
 		<ability2>159</ability2>
 		<ability12>191</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3265,8 +3154,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 치명타데미지 증가|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>0|5000000000|5000000000|0|0</openCost>
 		<skillCode1>criticalDamage_E</skillCode1>
 		<ability1>160</ability1>
@@ -3276,7 +3164,7 @@
 		<ability2>163</ability2>
 		<ability12>199</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3290,8 +3178,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 치명타데미지 증가|
-			퀘스트 업그레이드 비용감소
-		</desc>
+퀘스트 업그레이드 비용감소</desc>
 		<openCost>0|5000000000|0|5000000000|0</openCost>
 		<skillCode1>criticalDamage_U</skillCode1>
 		<ability1>160</ability1>
@@ -3301,7 +3188,7 @@
 		<ability2>161</ability2>
 		<ability12>238</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3315,8 +3202,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 치명타데미지 증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|0|5000000000|5000000000|0</openCost>
 		<skillCode1>criticalDamage_O</skillCode1>
 		<ability1>160</ability1>
@@ -3326,7 +3212,7 @@
 		<ability2>161</ability2>
 		<ability12>238</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3340,8 +3226,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 방어력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|0|5000000000|0|5000000000</openCost>
 		<skillCode1>defense_E</skillCode1>
 		<ability1>166</ability1>
@@ -3351,7 +3236,7 @@
 		<ability2>159</ability2>
 		<ability12>191</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3365,8 +3250,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 방어력증가|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>0|0|0|5000000000|5000000000</openCost>
 		<skillCode1>defense_O</skillCode1>
 		<ability1>166</ability1>
@@ -3376,7 +3260,7 @@
 		<ability2>163</ability2>
 		<ability12>199</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3390,8 +3274,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 방어력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>5000000000|0|5000000000|0|0</openCost>
 		<skillCode1>defense_H</skillCode1>
 		<ability1>166</ability1>
@@ -3401,7 +3284,7 @@
 		<ability2>160</ability2>
 		<ability12>236</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3415,8 +3298,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 방어력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|5000000000|0|0|5000000000</openCost>
 		<skillCode1>defense_U</skillCode1>
 		<ability1>166</ability1>
@@ -3426,7 +3308,7 @@
 		<ability2>161</ability2>
 		<ability12>238</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3440,8 +3322,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 치명타데미지 증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>5000000000|5000000000|0|0|0</openCost>
 		<skillCode1>criticalDamage_H</skillCode1>
 		<ability1>160</ability1>
@@ -3451,7 +3332,7 @@
 		<ability2>159</ability2>
 		<ability12>191</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3465,8 +3346,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 치명타데미지 증가|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>5000000000|0|0|0|5000000000</openCost>
 		<skillCode1>criticalDamage_E</skillCode1>
 		<ability1>160</ability1>
@@ -3476,7 +3356,7 @@
 		<ability2>163</ability2>
 		<ability12>199</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3490,8 +3370,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 치명타데미지 증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>5000000000|0|0|5000000000|0</openCost>
 		<skillCode1>criticalDamage_U</skillCode1>
 		<ability1>160</ability1>
@@ -3501,7 +3380,7 @@
 		<ability2>160</ability2>
 		<ability12>236</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3515,8 +3394,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 치명타데미지 증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|5000000000|5000000000|0|0</openCost>
 		<skillCode1>criticalDamage_O</skillCode1>
 		<ability1>160</ability1>
@@ -3526,7 +3404,7 @@
 		<ability2>161</ability2>
 		<ability12>238</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3540,8 +3418,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>공격력 증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|5000000000|0|5000000000|0</openCost>
 		<skillCode1>damage_A</skillCode1>
 		<ability1>162</ability1>
@@ -3551,7 +3428,7 @@
 		<ability2>160</ability2>
 		<ability12>236</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3565,8 +3442,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드,오크 공격력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|0|5000000000|5000000000|0</openCost>
 		<skillCode1>damage_UO</skillCode1>
 		<ability1>160</ability1>
@@ -3576,7 +3452,7 @@
 		<ability2>160</ability2>
 		<ability12>236</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3590,8 +3466,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 치명타데미지 증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|0|5000000000|0|5000000000</openCost>
 		<skillCode1>criticalDamage_H</skillCode1>
 		<ability1>160</ability1>
@@ -3601,7 +3476,7 @@
 		<ability2>160</ability2>
 		<ability12>236</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3615,8 +3490,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 치명타데미지 증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|0|0|5000000000|5000000000</openCost>
 		<skillCode1>criticalDamage_E</skillCode1>
 		<ability1>160</ability1>
@@ -3626,7 +3500,7 @@
 		<ability2>161</ability2>
 		<ability12>238</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3640,8 +3514,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 치명타데미지 증가|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>5000000000|0|5000000000|0|0</openCost>
 		<skillCode1>criticalDamage_O</skillCode1>
 		<ability1>160</ability1>
@@ -3651,7 +3524,7 @@
 		<ability2>163</ability2>
 		<ability12>199</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3665,8 +3538,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 치명타데미지 증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|5000000000|0|0|5000000000</openCost>
 		<skillCode1>criticalDamage_U</skillCode1>
 		<ability1>160</ability1>
@@ -3676,7 +3548,7 @@
 		<ability2>159</ability2>
 		<ability12>191</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3690,8 +3562,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼,엘프 공격력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>5000000000|5000000000|0|0|0</openCost>
 		<skillCode1>damage_HE</skillCode1>
 		<ability1>160</ability1>
@@ -3701,7 +3572,7 @@
 		<ability2>159</ability2>
 		<ability12>191</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3715,8 +3586,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 공격력증가|
-			퀘스트 시간단축
-		</desc>
+퀘스트 시간단축</desc>
 		<openCost>5000000000|0|0|0|5000000000</openCost>
 		<skillCode1>damage_H</skillCode1>
 		<ability1>160</ability1>
@@ -3726,7 +3596,7 @@
 		<ability2>163</ability2>
 		<ability12>199</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3740,8 +3610,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 공격력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|5000000000|5000000000|0|0</openCost>
 		<skillCode1>damage_E</skillCode1>
 		<ability1>160</ability1>
@@ -3751,7 +3620,7 @@
 		<ability2>161</ability2>
 		<ability12>238</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3765,8 +3634,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 공격력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|5000000000|0|5000000000|0</openCost>
 		<skillCode1>damage_U</skillCode1>
 		<ability1>160</ability1>
@@ -3776,7 +3644,7 @@
 		<ability2>159</ability2>
 		<ability12>191</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3790,8 +3658,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 공격력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|0|5000000000|5000000000|0</openCost>
 		<skillCode1>damage_O</skillCode1>
 		<ability1>160</ability1>
@@ -3801,7 +3668,7 @@
 		<ability2>160</ability2>
 		<ability12>236</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3815,8 +3682,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>체력증가|
-			퀘스트 업그레이드 비용감소
-		</desc>
+퀘스트 업그레이드 비용감소</desc>
 		<openCost>0|0|5000000000|0|5000000000</openCost>
 		<skillCode1>hp_A</skillCode1>
 		<ability1>172</ability1>
@@ -3826,7 +3692,7 @@
 		<ability2>161</ability2>
 		<ability12>238</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3840,8 +3706,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 치명타 공격력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|0|0|5000000000|5000000000</openCost>
 		<skillCode1>criticalDamage_O</skillCode1>
 		<ability1>160</ability1>
@@ -3851,7 +3716,7 @@
 		<ability2>160</ability2>
 		<ability12>236</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3865,8 +3730,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 체력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>5000000000|0|5000000000|0|0</openCost>
 		<skillCode1>hp_O</skillCode1>
 		<ability1>170</ability1>
@@ -3876,7 +3740,7 @@
 		<ability2>159</ability2>
 		<ability12>191</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3890,8 +3754,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 체력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|5000000000|0|0|5000000000</openCost>
 		<skillCode1>hp_H</skillCode1>
 		<ability1>170</ability1>
@@ -3901,7 +3764,7 @@
 		<ability2>159</ability2>
 		<ability12>191</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3915,8 +3778,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 치명타 공격력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>5000000000|5000000000|0|0|0</openCost>
 		<skillCode1>criticalDamage_E</skillCode1>
 		<ability1>160</ability1>
@@ -3926,7 +3788,7 @@
 		<ability2>160</ability2>
 		<ability12>236</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3940,8 +3802,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 공격력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>5000000000|0|0|0|5000000000</openCost>
 		<skillCode1>damage_E</skillCode1>
 		<ability1>160</ability1>
@@ -3951,7 +3812,7 @@
 		<ability2>161</ability2>
 		<ability12>238</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3965,8 +3826,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 공격력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|5000000000|5000000000|0|0</openCost>
 		<skillCode1>damage_H</skillCode1>
 		<ability1>160</ability1>
@@ -3976,7 +3836,7 @@
 		<ability2>161</ability2>
 		<ability12>238</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -3990,8 +3850,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 치명타 공격력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|5000000000|0|5000000000|0</openCost>
 		<skillCode1>criticalDamage_H</skillCode1>
 		<ability1>160</ability1>
@@ -4001,7 +3860,7 @@
 		<ability2>160</ability2>
 		<ability12>236</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -4015,8 +3874,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>오크 공격력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|0|5000000000|5000000000|0</openCost>
 		<skillCode1>damage_O</skillCode1>
 		<ability1>160</ability1>
@@ -4026,7 +3884,7 @@
 		<ability2>161</ability2>
 		<ability12>238</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -4040,8 +3898,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 치명타 공격력증가|
-			퀘스트 오픈골드 감소
-		</desc>
+퀘스트 오픈골드 감소</desc>
 		<openCost>0|0|5000000000|0|5000000000</openCost>
 		<skillCode1>criticalDamage_U</skillCode1>
 		<ability1>160</ability1>
@@ -4051,7 +3908,7 @@
 		<ability2>160</ability2>
 		<ability12>236</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -4065,8 +3922,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 체력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|0|0|5000000000|5000000000</openCost>
 		<skillCode1>hp_U</skillCode1>
 		<ability1>170</ability1>
@@ -4076,7 +3932,7 @@
 		<ability2>159</ability2>
 		<ability12>191</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -4090,8 +3946,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>언데드 공격력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>5000000000|0|5000000000|0|0</openCost>
 		<skillCode1>damage_U</skillCode1>
 		<ability1>160</ability1>
@@ -4101,7 +3956,7 @@
 		<ability2>161</ability2>
 		<ability12>238</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -4115,8 +3970,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>엘프 체력증가|
-			퀘스트 골드획득 증가
-		</desc>
+퀘스트 골드획득 증가</desc>
 		<openCost>0|5000000000|0|0|5000000000</openCost>
 		<skillCode1>hp_E</skillCode1>
 		<ability1>170</ability1>
@@ -4126,7 +3980,7 @@
 		<ability2>159</ability2>
 		<ability12>191</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -4140,8 +3994,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 공격력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|5000000000|5000000000|0|0</openCost>
 		<skillCode1>damage_H</skillCode1>
 		<ability1>160</ability1>
@@ -4151,7 +4004,7 @@
 		<ability2>161</ability2>
 		<ability12>119</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -4165,8 +4018,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 공격력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|5000000000|0|5000000000|0</openCost>
 		<skillCode1>damage_H</skillCode1>
 		<ability1>160</ability1>
@@ -4176,7 +4028,7 @@
 		<ability2>161</ability2>
 		<ability12>119</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -4190,8 +4042,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 공격력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|0|5000000000|5000000000|0</openCost>
 		<skillCode1>damage_H</skillCode1>
 		<ability1>160</ability1>
@@ -4201,7 +4052,7 @@
 		<ability2>161</ability2>
 		<ability12>119</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
@@ -4215,8 +4066,7 @@
 		<grade>7</grade>
 		<maxLv>20</maxLv>
 		<desc>휴먼 공격력증가|
-			병사 업그레이드비용 감소
-		</desc>
+병사 업그레이드비용 감소</desc>
 		<openCost>0|0|5000000000|0|5000000000</openCost>
 		<skillCode1>damage_H</skillCode1>
 		<ability1>160</ability1>
@@ -4226,11 +4076,442 @@
 		<ability2>161</ability2>
 		<ability12>119</ability12>
 		<ability22>0</ability22>
-		<skillCode3></skillCode3>
+		<skillCode3/>
 		<ability3>0</ability3>
 		<upgradeCostType>179</upgradeCostType>
 		<showDesc>N</showDesc>
 		<sortId>171</sortId>
 	</treasure>
+	<treasure>
+		<kindNum>172</kindNum>
+		<name>로키의 속임수</name>
+		<mainCode>X</mainCode>
+		<subCode>5</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 치명타데미지 증가|
+퀘스트 오픈골드 감소</desc>
+		<openCost>5000000000|5000000000|0|0|0</openCost>
+		<skillCode1>criticalDamage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questOpenGold_A</skillCode2>
+		<ability2>160</ability2>
+		<ability12>236</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>172</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>173</kindNum>
+		<name>프레이야의 목걸이</name>
+		<mainCode>N</mainCode>
+		<subCode>1</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 치명타데미지 증가|
+병사 업그레이드비용 감소</desc>
+		<openCost>5000000000|0|5000000000|0|0</openCost>
+		<skillCode1>criticalDamage_E</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>173</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>174</kindNum>
+		<name>오딘의 창</name>
+		<mainCode>Y</mainCode>
+		<subCode>1</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 치명타데미지 증가|
+퀘스트 시간단축</desc>
+		<openCost>0|5000000000|0|0|5000000000</openCost>
+		<skillCode1>criticalDamage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>163</ability2>
+		<ability12>199</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>174</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>175</kindNum>
+		<name>토르의 망치</name>
+		<mainCode>Y</mainCode>
+		<subCode>2</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 치명타데미지 증가|
+퀘스트 골드획득 증가</desc>
+		<openCost>5000000000|0|0|0|5000000000</openCost>
+		<skillCode1>criticalDamage_U</skillCode1>
+		<ability1>160</ability1>
+		<ability11>230</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>175</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>176</kindNum>
+		<name>운명의 물레</name>
+		<mainCode>X</mainCode>
+		<subCode>6</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 체력증가|
+퀘스트 골드획득 증가</desc>
+		<openCost>0|5000000000|5000000000|0|0</openCost>
+		<skillCode1>hp_H</skillCode1>
+		<ability1>170</ability1>
+		<ability11>213</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>176</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>177</kindNum>
+		<name>운명의 가위</name>
+		<mainCode>X</mainCode>
+		<subCode>7</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 체력증가|
+퀘스트 골드획득 증가</desc>
+		<openCost>0|5000000000|0|5000000000|0</openCost>
+		<skillCode1>hp_E</skillCode1>
+		<ability1>170</ability1>
+		<ability11>213</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>177</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>178</kindNum>
+		<name>운명의 실타래</name>
+		<mainCode>X</mainCode>
+		<subCode>8</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 체력증가|
+퀘스트 골드획득 증가</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>hp_U</skillCode1>
+		<ability1>170</ability1>
+		<ability11>213</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>178</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>179</kindNum>
+		<name>경고의 뿔피리</name>
+		<mainCode>X</mainCode>
+		<subCode>9</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 체력증가|
+퀘스트 골드획득 증가</desc>
+		<openCost>0|0|5000000000|0|5000000000</openCost>
+		<skillCode1>hp_O</skillCode1>
+		<ability1>170</ability1>
+		<ability11>213</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>179</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>180</kindNum>
+		<name>레바테인</name>
+		<mainCode>Y</mainCode>
+		<subCode>3</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>휴먼 공격력증가|
+퀘스트 업그레이드 비용감소</desc>
+		<openCost>5000000000|5000000000|0|0|0</openCost>
+		<skillCode1>damage_H</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>180</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>181</kindNum>
+		<name>미스틸테인</name>
+		<mainCode>Y</mainCode>
+		<subCode>4</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>엘프 공격력증가|
+퀘스트 시간단축</desc>
+		<openCost>0|5000000000|5000000000|0|0</openCost>
+		<skillCode1>damage_E</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questCompleteTime_A</skillCode2>
+		<ability2>163</ability2>
+		<ability12>199</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>181</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>182</kindNum>
+		<name>티르빙</name>
+		<mainCode>Y</mainCode>
+		<subCode>5</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>언데드 공격력증가|
+퀘스트 골드획득 증가</desc>
+		<openCost>5000000000|0|5000000000|0|0</openCost>
+		<skillCode1>damage_U</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>questGoldGain_A</skillCode2>
+		<ability2>159</ability2>
+		<ability12>191</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>182</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>183</kindNum>
+		<name>눈사태의 활</name>
+		<mainCode>Y</mainCode>
+		<subCode>6</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력증가|
+병사 업그레이드비용 감소</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>183</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>184</kindNum>
+		<name>지옥왕의 날개망토</name>
+		<mainCode>C</mainCode>
+		<subCode>4</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력증가|
+병사 업그레이드비용 감소</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>184</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>185</kindNum>
+		<name>지옥왕의 해골부츠</name>
+		<mainCode>S</mainCode>
+		<subCode>4</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력증가|
+병사 업그레이드비용 감소</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>185</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>186</kindNum>
+		<name>지옥왕의 해골갑옷</name>
+		<mainCode>A</mainCode>
+		<subCode>7</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력증가|
+병사 업그레이드비용 감소</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>186</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>187</kindNum>
+		<name>지옥왕의 쌍검</name>
+		<mainCode>W</mainCode>
+		<subCode>19</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력증가|
+병사 업그레이드비용 감소</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>187</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>188</kindNum>
+		<name>지옥왕의 해골투구</name>
+		<mainCode>H</mainCode>
+		<subCode>4</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력증가|
+병사 업그레이드비용 감소</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>188</sortId>
+	</treasure>
+	<treasure>
+		<kindNum>189</kindNum>
+		<name>지옥왕의 목걸이</name>
+		<mainCode>N</mainCode>
+		<subCode>2</subCode>
+		<grade>7</grade>
+		<maxLv>20</maxLv>
+		<desc>오크 공격력증가|
+병사 업그레이드비용 감소</desc>
+		<openCost>0|0|5000000000|5000000000|0</openCost>
+		<skillCode1>damage_O</skillCode1>
+		<ability1>160</ability1>
+		<ability11>193</ability11>
+		<ability21>0</ability21>
+		<skillCode2>unitUpgradeGold_A</skillCode2>
+		<ability2>161</ability2>
+		<ability12>238</ability12>
+		<ability22>0</ability22>
+		<skillCode3/>
+		<ability3>0</ability3>
+		<upgradeCostType>179</upgradeCostType>
+		<showDesc>N</showDesc>
+		<sortId>189</sortId>
+	</treasure>
 </treasureList>
-    

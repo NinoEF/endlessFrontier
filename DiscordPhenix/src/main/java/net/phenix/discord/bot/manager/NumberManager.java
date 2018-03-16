@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-public class NumberManager {
+public class NumberManager extends AbstractManager {
 
 	Logger log = Logger.getLogger(getClass());
 	

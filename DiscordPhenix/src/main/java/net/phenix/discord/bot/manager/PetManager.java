@@ -1,5 +1,6 @@
 package net.phenix.discord.bot.manager;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
@@ -16,11 +17,13 @@ import org.apache.log4j.Logger;
 import org.xml.sax.SAXException;
 
 import net.dv8tion.jda.core.entities.MessageChannel;
+import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.core.events.message.MessageUpdateEvent;
 import net.phenix.discord.bot.MainBot;
 import net.phenix.discord.bot.data.xml.PetList;
 import net.phenix.discord.bot.data.xml.PetList.Pet;
 
-public class PetManager {
+public class PetManager extends AbstractManager {
 
 	Logger log = Logger.getLogger(getClass());
 
@@ -78,12 +81,15 @@ public class PetManager {
 	}
 	
 	public void petForecast(MessageChannel channel, String content) {
+		
+		String lang = ConfigManager.getConfig(event).getLang();
+		
 		String[] args = content.split(" ");
 		
-		String exemple = "exemple : !petfc 32 3 7";
+		String exemple = bundleManager.getBundleForProperties("message.error.petfc.example", lang);
 		if (args.length != 4) {
-			channel.sendMessage("La commande est erronée.\n" 
-			+ "Veuillez saisir : !petfc <nb fragment> <lvl pet> <nb fragment/jour>\n" 
+			channel.sendMessage(bundleManager.getBundleForProperties("message.error.petfc.cmd.error", lang)+"\n" 
+			+ bundleManager.getBundleForProperties("message.error.petfc.cmd.ok", lang)+"\n" 
 			+ exemple).queue();
 			return;
 		}
@@ -94,8 +100,8 @@ public class PetManager {
 		try {
 			curFrag = Double.parseDouble(args[1]);
 		} catch (NumberFormatException e) {
-			channel.sendMessage("La commande est erronée.\n"
-					+ args[1] +" n'est pas un nombre\n"
+			channel.sendMessage(bundleManager.getBundleForProperties("message.error.petfc.cmd.error", lang)+"\n"
+					+ args[1] +" "+bundleManager.getBundleForProperties("message.error.petfc.not.number", lang)+"\n"
 					+ exemple).queue();
 			return;
 		}
@@ -103,27 +109,27 @@ public class PetManager {
 		try{
 			petLevel = Double.parseDouble(args[2]);
 		} catch (NumberFormatException e) {
-			channel.sendMessage("La commande est erronée.\n"
-					+ args[2] +" n'est pas un nombre\n"
+			channel.sendMessage(bundleManager.getBundleForProperties("message.error.petfc.cmd.error", lang)+"\n"
+					+ args[2] +" "+bundleManager.getBundleForProperties("message.error.petfc.not.number", lang)+"\n"
 					+ exemple).queue();
 			return;
 		}
 		if(petLevel < 0 || petLevel > 5){
-			channel.sendMessage("La commande est erronée.\n"
-					+ "<lvl pet> n'est pas correct, devrait être 0,1,2,3,4 ou 5").queue();
+			channel.sendMessage(bundleManager.getBundleForProperties("message.error.petfc.cmd.error", lang)+"\n"
+					+ bundleManager.getBundleForProperties("message.error.petfc.lvlpet.error", lang) ).queue();
 			return;
 		}			
 		
 		try{
 			nbFragPerDay = Double.parseDouble(args[3]);
 			if(nbFragPerDay == 0){
-				channel.sendMessage("La commande est erronée.\n"
-						+ "<nb fragment/jour> ne peut pas être 0.").queue();
+				channel.sendMessage(bundleManager.getBundleForProperties("message.error.petfc.cmd.error", lang)+"\n"
+						+ bundleManager.getBundleForProperties("message.error.petfc.frag.error", lang)).queue();
 				return;
 			}
 		} catch (NumberFormatException e) {
-			channel.sendMessage("La commande est erronée.\n"
-					+ args[3] +" n'est pas un nombre\n"
+			channel.sendMessage(bundleManager.getBundleForProperties("message.error.petfc.cmd.error", lang)+"\n"
+					+ args[3] +" "+bundleManager.getBundleForProperties("message.error.petfc.not.number", lang)+"\n"
 					+ exemple).queue();
 			return;
 		}
@@ -136,34 +142,34 @@ public class PetManager {
 		
 		
 		if(petLevel == 0){				
-			channel.sendMessage(bundleManager.formatNote(1)+" : "+ forecast1+"\n"
-					+ bundleManager.formatNote(2)+" : "+ forecast2+"\n"
-					+ bundleManager.formatNote(3)+" : "+ forecast3+"\n"
-					+ bundleManager.formatNote(4)+" : "+ forecast4+"\n"
-					+ bundleManager.formatNote(5)+" : "+ forecast5+"\n").queue();
+			channel.sendMessage(bundleManager.formatNote(1, lang)+" : "+ forecast1+"\n"
+					+ bundleManager.formatNote(2, lang)+" : "+ forecast2+"\n"
+					+ bundleManager.formatNote(3, lang)+" : "+ forecast3+"\n"
+					+ bundleManager.formatNote(4, lang)+" : "+ forecast4+"\n"
+					+ bundleManager.formatNote(5, lang)+" : "+ forecast5+"\n").queue();
 			return;
 			
 		} else if(petLevel == 1){
-			channel.sendMessage( bundleManager.formatNote(2)+" : "+ forecast2+"\n"
-					+ bundleManager.formatNote(3)+" : "+ forecast3+"\n"
-					+ bundleManager.formatNote(4)+" : "+ forecast4+"\n"
-					+ bundleManager.formatNote(5)+" : "+ forecast5+"\n").queue();
+			channel.sendMessage( bundleManager.formatNote(2, lang)+" : "+ forecast2+"\n"
+					+ bundleManager.formatNote(3, lang)+" : "+ forecast3+"\n"
+					+ bundleManager.formatNote(4, lang)+" : "+ forecast4+"\n"
+					+ bundleManager.formatNote(5, lang)+" : "+ forecast5+"\n").queue();
 			return;
 		} else if(petLevel == 2){
-			channel.sendMessage( bundleManager.formatNote(3)+" : "+ forecast3+"\n"
-					+ bundleManager.formatNote(4)+" : "+ forecast4+"\n"
-					+ bundleManager.formatNote(5)+" : "+ forecast5+"\n").queue();
+			channel.sendMessage( bundleManager.formatNote(3, lang)+" : "+ forecast3+"\n"
+					+ bundleManager.formatNote(4, lang)+" : "+ forecast4+"\n"
+					+ bundleManager.formatNote(5, lang)+" : "+ forecast5+"\n").queue();
 			return;
 			
 		} else if(petLevel == 3){
-			channel.sendMessage( bundleManager.formatNote(4)+" : "+ forecast4+"\n"
-					+ bundleManager.formatNote(5)+" : "+ forecast5+"\n").queue();
+			channel.sendMessage( bundleManager.formatNote(4, lang)+" : "+ forecast4+"\n"
+					+ bundleManager.formatNote(5, lang)+" : "+ forecast5+"\n").queue();
 			return;
 		} else if(petLevel == 4){
-			channel.sendMessage( bundleManager.formatNote(5)+" : "+ forecast5+"\n").queue();
+			channel.sendMessage( bundleManager.formatNote(5, lang)+" : "+ forecast5+"\n").queue();
 			return;
 		} else if(petLevel == 5){
-			channel.sendMessage("Tu peux pas avoir mieux :)").queue();
+			channel.sendMessage(bundleManager.getBundleForProperties("message.error.petfc.better", lang)).queue();
 			return;
 		}
 	}

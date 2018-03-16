@@ -1,6 +1,7 @@
 package net.phenix.discord.bot.manager;
 
 import java.awt.Color;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigDecimal;
@@ -25,12 +26,14 @@ import org.xml.sax.SAXException;
 
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.MessageEmbed;
+import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.core.events.message.MessageUpdateEvent;
 import net.phenix.discord.bot.data.xml.UnitList;
 import net.phenix.discord.bot.data.xml.UnitList.Unit;
 import net.phenix.discord.bot.data.xml.UnitUpGoldList;
 import net.phenix.discord.bot.data.xml.UnitUpGoldList.UnitUpGold;
 
-public class UnitManager {
+public class UnitManager extends AbstractManager {
 
 	Logger log = Logger.getLogger(getClass());
 	
@@ -118,7 +121,8 @@ public class UnitManager {
 	}
 
 	public MessageEmbed getUnitsListByRank(String rank) throws ParserConfigurationException, SAXException, IOException, XPathExpressionException {
-
+		String lang = ConfigManager.getConfig(event).getLang();
+		
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 
 		InputStream isunit = getClass().getResourceAsStream("/xml/unitbook.xml");
@@ -128,7 +132,7 @@ public class UnitManager {
 		Document xmlUnit = docbuilder.parse(isunit);
 		
 		EmbedBuilder builder = new EmbedBuilder();
-		builder.setTitle("Unité disponible : ");
+		builder.setTitle(bundleManager.getBundleForProperties("message.unit.available", lang));
 		
 		if(rank.equals("1")){
 			builder.setColor(new Color(80, 80, 80));
@@ -153,7 +157,7 @@ public class UnitManager {
 
 			int id = Integer.parseInt(nodeList.item(i).getFirstChild().getNodeValue()); 
 			if (id < 200) {
-				String unitName = bundleManager.getBundle("/main/textList/text[id='UNIT_NAME_" + id + "']/value");
+				String unitName = bundleManager.getBundle("/main/textList/text[id='UNIT_NAME_" + id + "']/value",lang);
 				builder.appendDescription(id + " - " +unitName + " " + "\n");
 			}
 		}
@@ -163,6 +167,8 @@ public class UnitManager {
 	
 	public MessageEmbed getUnitsListByTribe(String tribe) throws ParserConfigurationException, SAXException, IOException, XPathExpressionException {
 
+		String lang = ConfigManager.getConfig(event).getLang();
+		
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 
 		InputStream isunit = getClass().getResourceAsStream("/xml/unitbook.xml");
@@ -172,18 +178,18 @@ public class UnitManager {
 		Document xmlUnit = docbuilder.parse(isunit);
 
 		EmbedBuilder builder = new EmbedBuilder();
-		builder.setTitle("Unité disponible : ");
+		builder.setTitle(bundleManager.getBundleForProperties("message.unit.available", lang));
 		
-		if(tribe.equals("human")){
+		if(tribe.equals(bundleManager.getBundleForProperties("message.tribe.human", lang))){
 			builder.setColor(new Color(224, 25, 110));
 			tribe = "1";
-		} else if(tribe.equals("orc")){
+		} else if(tribe.equals(bundleManager.getBundleForProperties("message.tribe.orc", lang))){
 			builder.setColor(new Color(35, 179, 235));
 			tribe = "4";
-		} else if(tribe.equals("elf")){
+		} else if(tribe.equals(bundleManager.getBundleForProperties("message.tribe.elf", lang))){
 			builder.setColor(new Color(51, 183, 27));
 			tribe = "2";
-		} else if(tribe.equals("undead")){
+		} else if(tribe.equals(bundleManager.getBundleForProperties("message.tribe.undead", lang))){
 			builder.setColor(new Color(175, 52, 180));
 			tribe = "3";
 		}
@@ -197,7 +203,7 @@ public class UnitManager {
 
 			int id = Integer.parseInt(nodeList.item(i).getFirstChild().getNodeValue()); 
 			if (id < 200) {
-				String unitName = bundleManager.getBundle("/main/textList/text[id='UNIT_NAME_" + id + "']/value");
+				String unitName = bundleManager.getBundle("/main/textList/text[id='UNIT_NAME_" + id + "']/value",lang);
 				builder.appendDescription(id + " - " +unitName + " " + "\n");
 			}
 		}

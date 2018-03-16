@@ -20,7 +20,7 @@ import net.phenix.discord.bot.data.xml.TreasureSetList.TreasureSet;
 import net.phenix.discord.bot.data.xml.TypeList;
 import net.phenix.discord.bot.data.xml.TypeList.Type;
 
-public class TreasureManager {
+public class TreasureManager extends AbstractManager {
 
 	Logger log = Logger.getLogger(getClass());
 

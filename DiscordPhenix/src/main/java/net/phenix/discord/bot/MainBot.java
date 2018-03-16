@@ -18,8 +18,10 @@ import net.phenix.discord.bot.listener.CmdListener;
 import net.phenix.discord.bot.manager.BattleManager;
 import net.phenix.discord.bot.manager.BuildManager;
 import net.phenix.discord.bot.manager.BundleManager;
+import net.phenix.discord.bot.manager.ConfigManager;
 import net.phenix.discord.bot.manager.NumberManager;
 import net.phenix.discord.bot.manager.PetManager;
+import net.phenix.discord.bot.manager.RaidManager;
 import net.phenix.discord.bot.manager.SheetManager;
 import net.phenix.discord.bot.manager.TreasureManager;
 import net.phenix.discord.bot.manager.UnitManager;
@@ -59,13 +61,15 @@ public class MainBot {
 		BattleManager battleManager = BattleManager.getInstance();
 		TreasureManager treasureManager = TreasureManager.getInstance();
 		BuildManager buildManager = BuildManager.getInstance();
+		
+		RaidManager raidManager = RaidManager.getInstance();
 		try {
-			bundleManager.init();
 			unitManager.init(bundleManager);
 			sheetManager.init();
 			treasureManager.init();
 			petManager.init(bundleManager);
 			buildManager.init(bundleManager, unitManager, petManager, treasureManager);
+			raidManager.init(bundleManager);
 			
 			listener.setUnitManager(unitManager);
 			listener.setSheetManager(sheetManager);
@@ -74,11 +78,12 @@ public class MainBot {
 			listener.setTreasureManager(treasureManager);
 			listener.setBundleManager(bundleManager);
 			listener.setBuildManager(buildManager);
+			listener.setRaidManager(raidManager);
 			
-			 builder.addEventListener(listener);
-			 for (int i = 0; i < 5; i++) {
-			     builder.useSharding(i, 5).buildAsync();
-			 }
+			builder.addEventListener(listener);
+			for (int i = 0; i < 5; i++) {
+				builder.useSharding(i, 5).buildAsync();
+			}
 		} catch (XPathExpressionException | ParserConfigurationException | SAXException | IOException | JAXBException | LoginException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
