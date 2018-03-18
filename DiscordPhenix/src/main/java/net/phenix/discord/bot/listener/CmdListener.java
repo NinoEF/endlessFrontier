@@ -66,7 +66,6 @@ import net.phenix.discord.bot.data.UnitTeamWrap;
 import net.phenix.discord.bot.data.UnitWrap;
 import net.phenix.discord.bot.data.xml.Config;
 import net.phenix.discord.bot.data.xml.Config.ReportMedal;
-import net.phenix.discord.bot.data.xml.RaidList.Raid;
 import net.phenix.discord.bot.manager.BattleManager;
 import net.phenix.discord.bot.manager.BuildManager;
 import net.phenix.discord.bot.manager.BundleManager;
@@ -156,6 +155,13 @@ public class CmdListener extends ListenerAdapter {
 				} else if (content.startsWith("!stat")) {
 					stat(event.getAuthor(), channel, content);
 
+				} else if (content.toLowerCase().startsWith("!raid")) {
+					try {
+						raid(channel, content);
+					} catch (XPathExpressionException e) {
+						sendErrorMessage(channel, e);
+					}
+					return;
 				} else {
 					channel.sendMessage(bundleManager.getBundleForProperties("message.error.commande.inconnu", lang)).queue();
 				}
@@ -304,7 +310,7 @@ public class CmdListener extends ListenerAdapter {
 						return;
 					} else if (content.toLowerCase().startsWith("!raid")) {
 						try {
-							raid(event, channel, content);
+							raid(channel, content);
 						} catch (XPathExpressionException e) {
 							sendErrorMessage(channel, e);
 						}
@@ -331,40 +337,13 @@ public class CmdListener extends ListenerAdapter {
 		}
 	}
 
-	private void raid(MessageReceivedEvent event, MessageChannel channel, String content) throws XPathExpressionException {
+	private void raid(MessageChannel channel, String content) throws XPathExpressionException {
 		
-		content = content.substring("!raid".length());
-		String main = content.split("")[0];
-		String difficult =  content.split("")[1];
-		String sub =  content.split("")[2];
-		
-		String message  = "";
-		Raid raid = raidManager.getRaidById(main, difficult, sub );
-		if(raid != null){
-		
-			message += bundleManager.getBundle("/main/textList/text[id='UNIT_NAME_" + raid.getBossKindNum() + "']/value",lang) + "\n";
-			message += raid.getNumPet() + " fragment de " + bundleManager.getBundle("/main/textList/text[id='PET_NAME_" + raid.getPetKindNum() + "']/value",lang) + "\n";
-			if (!raid.getPetKindNum2().equals("0")) {
-				message += raid.getNumPet2() + " fragment de " + bundleManager.getBundle("/main/textList/text[id='PET_NAME_" + raid.getPetKindNum2() + "']/value",lang) + "\n";
-			}
-
-			if (!raid.getRecommendFireResist().equals("0")) {
-				message += "resistance minimum : " + raid.getRecommendFireResist() + "\n";
-			}
-			message += "son niveau : " + raid.getLevel() + "\n";
-			message += "point de vie : " + NumberManager.getEFNumber(new BigDecimal(raid.getHp())) + "\n";
-			message += "piece de raid : " + raid.getRaidCoin() + "\n";
-			message += "piece de guilde : " + raid.getGuildCoin() + "\n";
-			message += "gemmes : " + raid.getGem() + "\n";
-			
-			
-		} else {
-			message = "Raid inconnu.";
-		}
-		
-		channel.sendMessage(message).queue();
+		raidManager.displayRaid(channel, content);
 		
 	}
+
+	
 
 	public void guild(MessageReceivedEvent event, MessageChannel channel) {
 		

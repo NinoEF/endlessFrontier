@@ -1,7 +1,6 @@
 package net.phenix.discord.bot.manager;
 
 import java.awt.Color;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigDecimal;
@@ -26,8 +25,6 @@ import org.xml.sax.SAXException;
 
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.MessageEmbed;
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
-import net.dv8tion.jda.core.events.message.MessageUpdateEvent;
 import net.phenix.discord.bot.data.xml.UnitList;
 import net.phenix.discord.bot.data.xml.UnitList.Unit;
 import net.phenix.discord.bot.data.xml.UnitUpGoldList;

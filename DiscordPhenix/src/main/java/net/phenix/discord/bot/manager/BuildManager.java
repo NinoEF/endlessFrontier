@@ -1,6 +1,5 @@
 package net.phenix.discord.bot.manager;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigDecimal;
@@ -21,8 +20,6 @@ import org.apache.poi.ss.usermodel.Workbook;
 
 import com.google.api.services.sheets.v4.model.ValueRange;
 
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
-import net.dv8tion.jda.core.events.message.MessageUpdateEvent;
 import net.phenix.discord.bot.data.ArtefactSetWrap;
 import net.phenix.discord.bot.data.ArtefactWrap;
 import net.phenix.discord.bot.data.PetWrap;
@@ -556,6 +553,8 @@ public class BuildManager extends AbstractManager{
 
 	private String getSkillHtmlQuest(Skill skillOpenGold, Skill skillCompleteTime, Skill skillUpgradeGold, Skill skillGoldGain, Skill increaseMaxQuestlevel) throws XPathExpressionException {
 
+		String lang = ConfigManager.getConfig(event).getLang();
+		
 		BigDecimal baseMaxQuest = NumberManager.getNumber("2c");
 		baseMaxQuest = baseMaxQuest.add(baseMaxQuest.multiply(increaseMaxQuestlevel.getBonusPet().divide(new BigDecimal(100))));
 		
@@ -626,10 +625,6 @@ public class BuildManager extends AbstractManager{
 				+ "</tr>";
 				first = false ;
 			}
-			
-			
-			String lang = ConfigManager.getConfig(event).getLang();
-			
 			
 			result += "<tr style='color: #dcdcdc;'>"
 					+ "<td/>"

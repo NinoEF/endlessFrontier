@@ -1,6 +1,5 @@
 package net.phenix.discord.bot.manager;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
@@ -17,8 +16,6 @@ import org.apache.log4j.Logger;
 import org.xml.sax.SAXException;
 
 import net.dv8tion.jda.core.entities.MessageChannel;
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
-import net.dv8tion.jda.core.events.message.MessageUpdateEvent;
 import net.phenix.discord.bot.MainBot;
 import net.phenix.discord.bot.data.xml.PetList;
 import net.phenix.discord.bot.data.xml.PetList.Pet;

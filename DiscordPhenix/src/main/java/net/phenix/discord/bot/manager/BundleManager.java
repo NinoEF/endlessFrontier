@@ -27,7 +27,7 @@ public class BundleManager extends AbstractManager{
 			Document xml = docbuilder.parse(is);
 			XPath xPathName = XPathFactory.newInstance().newXPath();
 			String value = xPathName.compile(path).evaluate(xml, XPathConstants.STRING).toString();
-			return value;
+			return value.trim();
 		} catch (Exception e){
 			return "";
 		}
@@ -40,7 +40,7 @@ public class BundleManager extends AbstractManager{
 			Properties prop = new Properties();
 			prop.load(properties);	
 			String value = prop.getProperty(name);
-			return value;
+			return value.trim();
 		} catch (Exception e){
 			return "";
 		}

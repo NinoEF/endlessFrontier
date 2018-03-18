@@ -2,10 +2,8 @@ package net.phenix.discord.bot.manager;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
+import java.math.BigDecimal;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import javax.xml.bind.JAXBContext;
@@ -18,10 +16,7 @@ import org.apache.log4j.Logger;
 import org.xml.sax.SAXException;
 
 import net.dv8tion.jda.core.entities.MessageChannel;
-import net.phenix.discord.bot.MainBot;
-import net.phenix.discord.bot.data.xml.PetList;
 import net.phenix.discord.bot.data.xml.RaidList;
-import net.phenix.discord.bot.data.xml.PetList.Pet;
 import net.phenix.discord.bot.data.xml.RaidList.Raid;
 
 public class RaidManager extends AbstractManager {
@@ -50,7 +45,43 @@ public class RaidManager extends AbstractManager {
 
 	}
 	
+	public void displayRaid(MessageChannel channel, String content) {
+		
+		String lang = ConfigManager.getConfig(event).getLang();
+		
+		content = content.substring("!raid".length());
+		String main = content.split("")[0];
+		String difficult =  content.split("")[1];
+		String sub =  content.split("")[2];
+		
+		String message  = "";
+		Raid raid = getRaidById(main, difficult, sub );
+		if(raid != null){
+		
+			message += bundleManager.getBundle("/main/textList/text[id='UNIT_NAME_" + raid.getBossKindNum() + "']/value",lang) + "\n";
+			
+			message += bundleManager.getBundleForProperties("message.info.raid.nbfrag", lang) +" "+ bundleManager.getBundle("/main/textList/text[id='PET_NAME_" + raid.getPetKindNum() + "']/value",lang)+ " : "+raid.getNumPet() + "\n";
+			if (!raid.getPetKindNum2().equals("0")) {
+				message += bundleManager.getBundleForProperties("message.info.raid.nbfrag", lang) +" "+ bundleManager.getBundle("/main/textList/text[id='PET_NAME_" + raid.getPetKindNum2() + "']/value",lang) + " : "+raid.getNumPet2()+"\n";
+			}
 
+			if (!raid.getRecommendFireResist().equals("0")) {
+				message += bundleManager.getBundleForProperties("message.info.raid.minresit", lang)+" : " + raid.getRecommendFireResist() + "\n";
+			}
+			message +=  bundleManager.getBundleForProperties("message.info.raid.lvl", lang)+" : " + raid.getLevel() + "\n";
+			message +=  bundleManager.getBundleForProperties("message.info.raid.hp", lang)+" : " + NumberManager.getEFNumber(new BigDecimal(raid.getHp())) + "\n";
+			message +=  bundleManager.getBundleForProperties("message.info.raid.raidcoin", lang)+" : " + raid.getRaidCoin() + "\n";
+			message +=  bundleManager.getBundleForProperties("message.info.raid.guildcoin", lang)+" : " + raid.getGuildCoin() + "\n";
+			message += bundleManager.getBundleForProperties("message.info.raid.gem", lang)+" : " + raid.getGem() + "\n";
+			
+			
+		} else {
+			message = "Raid inconnu.";
+		}
+		
+		channel.sendMessage(message).queue();
+	}
+	
 	public BundleManager getBundleManager() {
 		return bundleManager;
 	}

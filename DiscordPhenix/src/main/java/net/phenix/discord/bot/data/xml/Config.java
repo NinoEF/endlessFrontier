@@ -1,6 +1,7 @@
 package net.phenix.discord.bot.data.xml;
 
 import java.io.Serializable;
+import java.util.List;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementRef;
@@ -19,6 +20,8 @@ public class Config implements Serializable {
 	private ReportKL reportKL;
 
 	private ReportMedal reportMedal;
+	
+	private Webhooks webhooks;
 	
 	public Config() {
 		lang = "fr";
@@ -94,6 +97,104 @@ public class Config implements Serializable {
 			this.rangePercent = rangePercent;
 		}
 	}
+	
+	@XmlRootElement(name = "webhooks")
+	public static class Webhooks implements Serializable {
+		
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 7597244543169955233L;
+		List<Webhook> webhooks;
+		
+		@XmlRootElement(name = "webhook")
+		public static class Webhook implements Serializable {
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = 1997814694630601460L;
+			String url;
+			String botname;
+			String content;
+			String time;
+			
+			Every every;
+			
+			@XmlRootElement(name = "every")
+			public static class Every implements Serializable {
+				/**
+				 * 
+				 */
+				private static final long serialVersionUID = -8924393510145014376L;
+				Integer value;
+				Integer unit;
+				
+				public Integer getValue() {
+					return value;
+				}
+				@XmlElement
+				public void setValue(Integer value) {
+					this.value = value;
+				}
+				public Integer getUnit() {
+					return unit;
+				}
+				@XmlElement
+				public void setUnit(Integer unit) {
+					this.unit = unit;
+				}
+				
+			}
+
+			public String getUrl() {
+				return url;
+			}
+			@XmlElement
+			public void setUrl(String url) {
+				this.url = url;
+			}
+
+			public String getBotname() {
+				return botname;
+			}
+			@XmlElement
+			public void setBotname(String botname) {
+				this.botname = botname;
+			}
+
+			public String getContent() {
+				return content;
+			}
+			@XmlElement
+			public void setContent(String content) {
+				this.content = content;
+			}
+
+			public String getTime() {
+				return time;
+			}
+			@XmlElement
+			public void setTime(String time) {
+				this.time = time;
+			}
+			@XmlElementRef()
+			public Every getEvery() {
+				return every;
+			}
+
+			public void setEvery(Every every) {
+				this.every = every;
+			}
+		}
+		@XmlElementRef()
+		public List<Webhook> getWebhooks() {
+			return webhooks;
+		}
+
+		public void setWebhooks(List<Webhook> webhooks) {
+			this.webhooks = webhooks;
+		}
+	}
 
 	public String getLang() {
 		return lang;
@@ -120,5 +221,13 @@ public class Config implements Serializable {
 
 	public void setReportMedal(ReportMedal reportMedal) {
 		this.reportMedal = reportMedal;
+	}
+	@XmlElementRef()
+	public Webhooks getWebhooks() {
+		return webhooks;
+	}
+
+	public void setWebhooks(Webhooks webhooks) {
+		this.webhooks = webhooks;
 	}
 }
