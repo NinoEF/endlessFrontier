@@ -46,6 +46,7 @@ import com.google.api.services.sheets.v4.model.ValueRange;
 import com.google.common.io.Files;
 
 import gui.ava.html.image.generator.HtmlImageGenerator;
+import javafx.scene.chart.NumberAxis;
 import net.dv8tion.jda.core.entities.Member;
 import net.dv8tion.jda.core.entities.Message;
 import net.dv8tion.jda.core.entities.Message.Attachment;
@@ -70,6 +71,7 @@ import net.phenix.discord.bot.manager.BattleManager;
 import net.phenix.discord.bot.manager.BuildManager;
 import net.phenix.discord.bot.manager.BundleManager;
 import net.phenix.discord.bot.manager.ConfigManager;
+import net.phenix.discord.bot.manager.GraphManager;
 import net.phenix.discord.bot.manager.NumberManager;
 import net.phenix.discord.bot.manager.PetManager;
 import net.phenix.discord.bot.manager.RaidManager;
@@ -178,7 +180,7 @@ public class CmdListener extends ListenerAdapter {
 	public void onMessageReceived(MessageReceivedEvent event) {
 		if (event.getAuthor().isBot())
 			return;
-			
+		
 		config = ConfigManager.getConfig(event);
 		
 		lang = config.getLang();
@@ -408,6 +410,19 @@ public class CmdListener extends ListenerAdapter {
 		MessageAction action = channel.sendFile(is, "Guild_" + sdf.format(new Date()) + ".png");
 		action.queue();
 
+		os = new ByteArrayOutputStream();
+		try {
+			ImageIO.write(GraphManager.getGraph(), "png", os);
+		} catch (IOException e) {
+			sendErrorMessage(channel, e);
+			return;
+		}
+		is = new ByteArrayInputStream(os.toByteArray());
+
+		sdf = new SimpleDateFormat("yyyyMMdHHmmss");
+		action = channel.sendFile(is, "Guild_" + sdf.format(new Date()) + ".png");
+		action.queue();
+		
 		// répartition des kl par tranche de 10
 
 		Map<Integer, Integer> partGraph = new TreeMap();
@@ -538,7 +553,6 @@ public class CmdListener extends ListenerAdapter {
 				MessageAction action = channel.sendFile(is, "Guild_Medal_" + sdf.format(new Date()) + ".png");
 				action.queue();
 				
-				
 				final DefaultCategoryDataset dataset2 = new DefaultCategoryDataset();
 				partGraphPercent = partGraphPercent.entrySet().stream().sorted(Map.Entry.comparingByValue(new Comparator<Double>() {
 					public int compare(Double o1, Double o2) {
@@ -558,17 +572,18 @@ public class CmdListener extends ListenerAdapter {
 					dataset2.addValue(partGraphPercent.get(key), setName, key);      
 				}
 	
+				
+				
+				barChart = ChartFactory.createBarChart(bundleManager.getBundleForProperties("message.report.guild.progression", lang), bundleManager.getBundleForProperties("message.report.guild.member", lang), "%", dataset2, PlotOrientation.VERTICAL, true, true, false);
 				/* Get instance of CategoryPlot */
 				CategoryPlot plot = barChart.getCategoryPlot();
 
 				/* Change Bar colors */
 				BarRenderer renderer = (BarRenderer) plot.getRenderer();
 
-				renderer.setSeriesPaint(0, Color.red);
-				renderer.setSeriesPaint(1, Color.green);
-				renderer.setSeriesPaint(2, Color.blue);
-				
-				barChart = ChartFactory.createBarChart(bundleManager.getBundleForProperties("message.report.guild.progression", lang), bundleManager.getBundleForProperties("message.report.guild.member", lang), "%", dataset2, PlotOrientation.VERTICAL, true, true, false);
+				renderer.setSeriesPaint(0, Color.green);
+				renderer.setSeriesPaint(1, Color.orange);
+				renderer.setSeriesPaint(2, Color.red);
 				axis = barChart.getCategoryPlot().getDomainAxis();
 				axis.setCategoryLabelPositions(CategoryLabelPositions.UP_90);
 				

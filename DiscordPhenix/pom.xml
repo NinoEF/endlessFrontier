@@ -14,8 +14,6 @@
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 
-
-
 			<!-- download source code in Eclipse, best practice -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
