@@ -55,8 +55,10 @@ public class Config implements Serializable {
 		private String excel;
 		private String sheet;
 		private String rangeMedal;
+		private String rangeMedalEF;
 		private String rangePercent;
 		private String rangeName;
+		private String rangeKL;
 
 		public String getExcel() {
 			return excel;
@@ -96,6 +98,20 @@ public class Config implements Serializable {
 		public void setRangePercent(String rangePercent) {
 			this.rangePercent = rangePercent;
 		}
+		public String getRangeKL() {
+			return rangeKL;
+		}
+		@XmlElement
+		public void setRangeKL(String rangeKL) {
+			this.rangeKL = rangeKL;
+		}
+		public String getRangeMedalEF() {
+			return rangeMedalEF;
+		}
+		@XmlElement
+		public void setRangeMedalEF(String rangeMedalEF) {
+			this.rangeMedalEF = rangeMedalEF;
+		}
 	}
 	
 	@XmlRootElement(name = "webhooks")
@@ -116,7 +132,10 @@ public class Config implements Serializable {
 			String url;
 			String botname;
 			String content;
+			String excel;
+			String cell;
 			String time;
+			String date;
 			
 			Every every;
 			
@@ -170,9 +189,34 @@ public class Config implements Serializable {
 				this.content = content;
 			}
 
+			public String getExcel() {
+				return excel;
+			}
+			@XmlElement
+			public void setExcel(String excel) {
+				this.excel = excel;
+			}
+			
+			public String getCell() {
+				return cell;
+			}
+			@XmlElement
+			public void setCell(String cell) {
+				this.cell = cell;
+			}
+			
+			public String getDate() {
+				return date;
+			}
+			@XmlElement
+			public void setDate(String date) {
+				this.date = date;
+			}
+			
 			public String getTime() {
 				return time;
 			}
+			
 			@XmlElement
 			public void setTime(String time) {
 				this.time = time;

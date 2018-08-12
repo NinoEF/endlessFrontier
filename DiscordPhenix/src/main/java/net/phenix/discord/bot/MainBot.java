@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -25,6 +26,8 @@ import org.apache.http.protocol.HTTP;
 import org.apache.log4j.Logger;
 import org.json.JSONObject;
 import org.xml.sax.SAXException;
+
+import com.google.api.services.sheets.v4.model.ValueRange;
 
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDABuilder;
@@ -128,10 +131,9 @@ public class MainBot {
 
 			if(config.getWebhooks().getWebhooks() != null){
 				for (Webhook webhook : config.getWebhooks().getWebhooks()) {
-					
+					Calendar time = Calendar.getInstance();
 					SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
 					Date date = sdf.parse(webhook.getTime());
-					Calendar time = Calendar.getInstance();
 					time.setTime(date);
 					
 					Calendar cal = Calendar.getInstance();
@@ -146,6 +148,7 @@ public class MainBot {
 					
 					MyTimeTask task = new MyTimeTask();
 					task.setWebhook(webhook);
+					task.setSheetManager(sheetManager);
 					timer.schedule(task, cal.getTime());
 				}
 			}
@@ -153,20 +156,20 @@ public class MainBot {
 
 	}
 
-	private static void sendMessage(String url, String username, String content) throws IOException {
+	public static void sendMessage(String url, String username, String content) throws IOException {
 		
 		JSONObject json = new JSONObject();
 		json.put("username", username);
 		json.put("content", content); 
 		
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
-
+		CloseableHttpResponse response = null;
 		try {
 			HttpPost request = new HttpPost(url);
 		    StringEntity params = new StringEntity(json.toString());
 		    params.setContentType(new BasicHeader(HTTP.CONTENT_TYPE, "application/json"));
 		    request.setEntity(params);
-		    CloseableHttpResponse response =  httpClient.execute(request);
+		    response =  httpClient.execute(request);
 		// handle response here...
 		} catch (Exception ex) {
 			ex.printStackTrace();
@@ -176,16 +179,31 @@ public class MainBot {
 		}
 	}
 
-
 	static Timer timer = new Timer();
 
 	private static class MyTimeTask extends TimerTask {
 
 		private Webhook webhook;
 
+		private SheetManager sheetManager;
+		
 		public void run() {
 			try {
-				sendMessage(webhook.getUrl(), webhook.getBotname(), webhook.getContent());
+				String content = webhook.getContent();
+				if(webhook.getContent() == null){
+					ValueRange response = null;
+					List<List<Object>> values = null;
+					response = sheetManager.getService().spreadsheets().values().get(webhook.getExcel(), webhook.getCell()).execute();
+					values = response.getValues();
+					if (values != null) {
+						for (List<Object> row : values) {
+							if (row.size() == 1) {
+								content = (String) row.get(0);
+							}
+						}
+					}
+				}
+				sendMessage(webhook.getUrl(), webhook.getBotname(), content);
 			} catch (IOException e) {
 			}
 			
@@ -199,6 +217,10 @@ public class MainBot {
 
 		public void setWebhook(Webhook webhook) {
 			this.webhook = webhook;
+		}
+
+		public void setSheetManager(SheetManager sheetManager) {
+			this.sheetManager = sheetManager;
 		}
 	}
 

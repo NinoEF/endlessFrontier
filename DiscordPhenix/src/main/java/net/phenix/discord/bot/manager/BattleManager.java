@@ -17,43 +17,46 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
 
-public class BattleManager extends AbstractManager{
+public class BattleManager extends AbstractManager {
 
 	Logger log = Logger.getLogger(getClass());
-	
-	public static BattleManager getInstance(){
+
+	public static BattleManager getInstance() {
 		return new BattleManager();
 	}
-	
+
 	public BigDecimal getRevivalMedalsQuantity(Integer floor, BigDecimal bonus) throws ParserConfigurationException, SAXException, IOException, XPathExpressionException {
+		try {
+			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 
-		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+			InputStream is = getClass().getResourceAsStream("/xml/revivestatbook.xml");
 
-		InputStream is = getClass().getResourceAsStream("/xml/revivestatbook.xml");
-		
-		DocumentBuilder builder = factory.newDocumentBuilder();
-		//Pour windows quand il y a des espace dans le chemin
-		Document xml = builder.parse(is);
+			DocumentBuilder builder = factory.newDocumentBuilder();
+			// Pour windows quand il y a des espace dans le chemin
+			Document xml = builder.parse(is);
 
-		Element root = xml.getDocumentElement();
-		XPathFactory xpf = XPathFactory.newInstance();
-		XPath path = xpf.newXPath();
-		
-		//pour arrondir à la dizaine inférieur
-		floor = floor/10;
-		floor = floor*10;
-		
-		String floorPath = "/main/reviveStarList/reviveStar[floor="+floor+"]/star";
-		BigDecimal medals = new BigDecimal((String) path.evaluate(floorPath,root));
+			Element root = xml.getDocumentElement();
+			XPathFactory xpf = XPathFactory.newInstance();
+			XPath path = xpf.newXPath();
 
-		BigDecimal total = medals.multiply(bonus.divide(new BigDecimal(100)));
-		
-		return total;
+			// pour arrondir à la dizaine inférieur
+			floor = floor / 10;
+			floor = floor * 10;
+
+			String floorPath = "/main/reviveStarList/reviveStar[floor=" + floor + "]/star";
+			BigDecimal medals = new BigDecimal((String) path.evaluate(floorPath, root));
+
+			BigDecimal total = medals.multiply(bonus.divide(new BigDecimal(100)));
+			return total;
+		} catch (Exception e) {
+			return new BigDecimal(0);
+		}
+
 	}
 
 	public BigDecimal getRevivalSpiritRest(Integer floor, BigDecimal bonus, Double time) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException {
 		BigDecimal medals = getRevivalMedalsQuantity(floor, bonus);
-		
+
 		BigDecimal sr = medals.divide(new BigDecimal(time), RoundingMode.CEILING);
 		return sr;
 	}

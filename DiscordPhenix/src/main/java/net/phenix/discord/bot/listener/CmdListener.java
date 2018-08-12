@@ -36,6 +36,7 @@ import org.jfree.chart.ChartFactory;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.CategoryAxis;
 import org.jfree.chart.axis.CategoryLabelPositions;
+import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.plot.CategoryPlot;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.renderer.category.BarRenderer;
@@ -46,7 +47,7 @@ import com.google.api.services.sheets.v4.model.ValueRange;
 import com.google.common.io.Files;
 
 import gui.ava.html.image.generator.HtmlImageGenerator;
-import javafx.scene.chart.NumberAxis;
+import net.dv8tion.jda.core.entities.ChannelType;
 import net.dv8tion.jda.core.entities.Member;
 import net.dv8tion.jda.core.entities.Message;
 import net.dv8tion.jda.core.entities.Message.Attachment;
@@ -71,7 +72,6 @@ import net.phenix.discord.bot.manager.BattleManager;
 import net.phenix.discord.bot.manager.BuildManager;
 import net.phenix.discord.bot.manager.BundleManager;
 import net.phenix.discord.bot.manager.ConfigManager;
-import net.phenix.discord.bot.manager.GraphManager;
 import net.phenix.discord.bot.manager.NumberManager;
 import net.phenix.discord.bot.manager.PetManager;
 import net.phenix.discord.bot.manager.RaidManager;
@@ -98,178 +98,34 @@ public class CmdListener extends ListenerAdapter {
 	private BuildManager buildManager;
 
 	private RaidManager raidManager;
-	
+
 	private String lang = "";
-	
+
 	private Config config;
 
 	@Override
 	public void onMessageUpdate(MessageUpdateEvent event) {
 		if (event.getAuthor().isBot())
 			return;
+		if (!event.getGuild().getId().equals("417637669556715520")) {
 
-		config = ConfigManager.getConfig(event);
-		
-		lang = config.getLang();
-		
-		unitManager.setEvent(event);
-		sheetManager.setEvent(event);
-		battleManager.setEvent(event);
-		petManager.setEvent(event);
-		treasureManager.setEvent(event);
-		bundleManager.setEvent(event);
-		buildManager.setEvent(event);
-		raidManager.setEvent(event);
-		
-		MessageChannel channel = event.getChannel();
+			config = ConfigManager.getConfig(event);
 
-		// We don't want to respond to other bot accounts, including ourself
-		Message message = event.getMessage();
-		String content = message.getContentRaw();
-		if (content.startsWith("!")) {
-			log.info(event.getAuthor().getName() + " : " + content);
-			if (channel.getName().startsWith("cmds") || (channel instanceof PrivateChannelImpl) || channel.getName().startsWith("dev")) {
+			lang = config.getLang();
 
-				// getRawContent() is an atomic getter
-				// getContent() is a lazy getter which modifies the content for
-				// e.g.
-				// console view (strip discord formatting)
-				if (content.equals("!help")) {
-					help(channel);
+			unitManager.setEvent(event);
+			sheetManager.setEvent(event);
+			battleManager.setEvent(event);
+			petManager.setEvent(event);
+			treasureManager.setEvent(event);
+			bundleManager.setEvent(event);
+			buildManager.setEvent(event);
+			raidManager.setEvent(event);
 
-				} else if (content.equals("!ping")) {
-					// Important to call .queue() on the RestAction returned by
-					// sendMessage(...)
-					channel.sendMessage("Pong!").queue();
+			MessageChannel channel = event.getChannel();
 
-				} else if (content.startsWith("!petfc")) {
-					petManager.petForecast(channel, content);
-
-				} else if (content.startsWith("!revive")) {
-					revive(channel, content);
-
-				} else if (content.startsWith("!unit")) {
-					unit(channel, content);
-
-				} else if (content.startsWith("!stat init")) {
-					statInit(event.getAuthor(), channel, content);
-
-				} else if (content.startsWith("!stat")) {
-					stat(event.getAuthor(), channel, content);
-
-				} else if (content.toLowerCase().startsWith("!raid")) {
-					try {
-						raid(channel, content);
-					} catch (XPathExpressionException e) {
-						sendErrorMessage(channel, e);
-					}
-					return;
-				} else {
-					channel.sendMessage(bundleManager.getBundleForProperties("message.error.commande.inconnu", lang)).queue();
-				}
-			} else if (channel.getName().startsWith("progres") || channel.getName().startsWith("dev")) {
-
-				progres(event.getGuild().getName(), channel, content);
-			} else {
-				channel.sendMessage(bundleManager.getBundleForProperties("message.error.mauvais.channel", lang)).queue();
-			}
-		}
-	}
-
-	@Override
-	public void onMessageReceived(MessageReceivedEvent event) {
-		if (event.getAuthor().isBot())
-			return;
-		
-		config = ConfigManager.getConfig(event);
-		
-		lang = config.getLang();
-		
-		unitManager.setEvent(event);
-		sheetManager.setEvent(event);
-		battleManager.setEvent(event);
-		petManager.setEvent(event);
-		treasureManager.setEvent(event);
-		bundleManager.setEvent(event);
-		buildManager.setEvent(event);
-		raidManager.setEvent(event);
-		
-		MessageChannel channel = event.getChannel();
-
-		// We don't want to respond to other bot accounts, including ourself
-		Message message = event.getMessage();
-		if (!message.getAttachments().isEmpty()) {
-			if (message.getAttachments().size() != 1) {
-				channel.sendMessage(bundleManager.getBundleForProperties("message.error.only.one.file", lang)).queue();
-			} else {
-				String content = message.getContentRaw();
-				if (content.toLowerCase().startsWith("!config")) {
-					
-					File file = new File("/home/pi/discord/config/"+event.getGuild().getId()+".xml");
-					try {
-						InputStream is = message.getAttachments().get(0).getInputStream();
-						byte[] buffer = new byte[is.available()];
-						is.read(buffer);					 
-						Files.write(buffer, file);
-						
-					} catch (IOException e) {
-						sendErrorMessage(channel, e);
-					}
-					
-				} else if (content.toLowerCase().startsWith("!stat")) {
-
-					Attachment attachment = message.getAttachments().get(0);
-					try {
-
-						List<ArtefactWrap> arte = new ArrayList<>();
-						List<ArtefactSetWrap> arteSet = new ArrayList<>();
-						List<UnitWrap> unitsTimeShop = new ArrayList<>();
-						List<UnitWrap> unitsTeamRevive = new ArrayList<>();
-						List<UnitTeamWrap> unitsTeams = new ArrayList<>();
-
-						List<PetWrap> pets = new ArrayList<>();
-
-						Workbook workbook = new XSSFWorkbook(attachment.getInputStream());
-						buildManager.build(arte, arteSet, pets, unitsTimeShop, unitsTeamRevive, unitsTeams, sheetManager, treasureManager, petManager, null, workbook);
-
-						// Quest Data
-						String result = "";
-						try {
-							result = buildManager.computeQuest(arte, arteSet, pets, unitsTimeShop, unitsTeamRevive);
-							sendImage(event.getAuthor().getName(), channel, result);
-						} catch (Exception e) {
-							sendErrorMessage(channel, e);
-							return;
-						}
-
-						// Other
-						result = "";
-						try {
-							result = buildManager.computeMedal(arte, arteSet, pets, unitsTimeShop, unitsTeamRevive);
-							sendImage(event.getAuthor().getName(), channel, result);
-						} catch (Exception e) {
-							sendErrorMessage(channel, e);
-							return;
-						}
-
-						result = "";
-						try {
-							result = buildManager.compute(arte, arteSet, pets, unitsTimeShop, unitsTeamRevive);
-							sendImage(event.getAuthor().getName(), channel, result);
-						} catch (Exception e) {
-							sendErrorMessage(channel, e);
-							return;
-						}
-
-					} catch (FileNotFoundException e) {
-						e.printStackTrace();
-					} catch (IOException e) {
-						e.printStackTrace();
-					}
-				}
-			}
-
-		} else {
+			// We don't want to respond to other bot accounts, including ourself
+			Message message = event.getMessage();
 			String content = message.getContentRaw();
 			if (content.startsWith("!")) {
 				log.info(event.getAuthor().getName() + " : " + content);
@@ -282,34 +138,28 @@ public class CmdListener extends ListenerAdapter {
 					// console view (strip discord formatting)
 					if (content.equals("!help")) {
 						help(channel);
-						return;
+
 					} else if (content.equals("!ping")) {
 						// Important to call .queue() on the RestAction returned
 						// by
 						// sendMessage(...)
 						channel.sendMessage("Pong!").queue();
-						return;
-					} else if (content.toLowerCase().startsWith("!petfc")) {
+
+					} else if (content.startsWith("!petfc")) {
 						petManager.petForecast(channel, content);
-						return;
-					} else if (content.toLowerCase().startsWith("!revive")) {
+
+					} else if (content.startsWith("!revive")) {
 						revive(channel, content);
-						return;
-					} else if (content.toLowerCase().startsWith("!unit")) {
+
+					} else if (content.startsWith("!unit")) {
 						unit(channel, content);
-						return;
-					} else if (content.toLowerCase().startsWith("!stat init")) {
+
+					} else if (content.startsWith("!stat init")) {
 						statInit(event.getAuthor(), channel, content);
-						return;
+
 					} else if (content.startsWith("!stat")) {
 						stat(event.getAuthor(), channel, content);
-						return;
-					} else if (content.toLowerCase().startsWith("!kl ")) {
-						kl(event, channel, content);
-						return;
-					} else if (content.toLowerCase().startsWith("!guild")) {
-						guild(event, channel);
-						return;
+
 					} else if (content.toLowerCase().startsWith("!raid")) {
 						try {
 							raid(channel, content);
@@ -317,21 +167,12 @@ public class CmdListener extends ListenerAdapter {
 							sendErrorMessage(channel, e);
 						}
 						return;
-					} else if (content.toLowerCase().startsWith("!config")) {
-						
-						File file = new File(String.valueOf("/home/pi/discord/config/"+event.getGuild().getId()+".xml"));
-						
-						MessageAction action = channel.sendFile(file, "config.xml");
-						action.queue();
-					} else if (content.toLowerCase().startsWith("!growth")) {
-						growth(event, channel, content);
-					} else	{
+					} else {
 						channel.sendMessage(bundleManager.getBundleForProperties("message.error.commande.inconnu", lang)).queue();
-						return;
 					}
 				} else if (channel.getName().startsWith("progres") || channel.getName().startsWith("dev")) {
-					progres(event.getGuild().getName(), channel, content);
 
+					progres(event.getGuild().getName(), channel, content);
 				} else {
 					channel.sendMessage(bundleManager.getBundleForProperties("message.error.mauvais.channel", lang)).queue();
 				}
@@ -339,16 +180,195 @@ public class CmdListener extends ListenerAdapter {
 		}
 	}
 
-	private void raid(MessageChannel channel, String content) throws XPathExpressionException {
-		
-		raidManager.displayRaid(channel, content);
-		
+	@Override
+	public void onMessageReceived(MessageReceivedEvent event) {
+		if (event.getAuthor().isBot())
+			return;
+
+		if ((event.getGuild() != null && !event.getGuild().getId().equals("417637669556715520")) || event.isFromType(ChannelType.PRIVATE)) {
+
+			config = ConfigManager.getConfig(event);
+
+			lang = config.getLang();
+
+			unitManager.setEvent(event);
+			sheetManager.setEvent(event);
+			battleManager.setEvent(event);
+			petManager.setEvent(event);
+			treasureManager.setEvent(event);
+			bundleManager.setEvent(event);
+			buildManager.setEvent(event);
+			raidManager.setEvent(event);
+
+			MessageChannel channel = event.getChannel();
+
+			// We don't want to respond to other bot accounts, including ourself
+			Message message = event.getMessage();
+			if (!message.getAttachments().isEmpty()) {
+				if (message.getAttachments().size() != 1) {
+					channel.sendMessage(bundleManager.getBundleForProperties("message.error.only.one.file", lang)).queue();
+				} else {
+					String content = message.getContentRaw();
+					if (content.toLowerCase().startsWith("!config")) {
+
+						File file = new File("/home/pi/discord/config/" + event.getGuild().getId() + ".xml");
+						try {
+							InputStream is = message.getAttachments().get(0).getInputStream();
+							byte[] buffer = new byte[is.available()];
+							is.read(buffer);
+							Files.write(buffer, file);
+
+						} catch (IOException e) {
+							sendErrorMessage(channel, e);
+						}
+
+					} else if (content.toLowerCase().startsWith("!stat")) {
+
+						Attachment attachment = message.getAttachments().get(0);
+						try {
+
+							List<ArtefactWrap> arte = new ArrayList<>();
+							List<ArtefactSetWrap> arteSet = new ArrayList<>();
+							List<UnitWrap> unitsTimeShop = new ArrayList<>();
+							List<UnitWrap> unitsTeamRevive = new ArrayList<>();
+							List<UnitTeamWrap> unitsTeams = new ArrayList<>();
+
+							List<PetWrap> pets = new ArrayList<>();
+
+							Workbook workbook = new XSSFWorkbook(attachment.getInputStream());
+							buildManager.build(arte, arteSet, pets, unitsTimeShop, unitsTeamRevive, unitsTeams, sheetManager, treasureManager, petManager, null, workbook);
+
+							// Quest Data
+							String result = "";
+							try {
+								result = buildManager.computeQuest(arte, arteSet, pets, unitsTimeShop, unitsTeamRevive);
+								sendImage(event.getAuthor().getName(), channel, result);
+							} catch (Exception e) {
+								sendErrorMessage(channel, e);
+								return;
+							}
+
+							// Other
+							result = "";
+							try {
+								result = buildManager.computeMedal(arte, arteSet, pets, unitsTimeShop, unitsTeamRevive);
+								sendImage(event.getAuthor().getName(), channel, result);
+							} catch (Exception e) {
+								sendErrorMessage(channel, e);
+								return;
+							}
+
+							result = "";
+							try {
+								result = buildManager.compute(arte, arteSet, pets, unitsTimeShop, unitsTeamRevive);
+								sendImage(event.getAuthor().getName(), channel, result);
+							} catch (Exception e) {
+								sendErrorMessage(channel, e);
+								return;
+							}
+
+						} catch (FileNotFoundException e) {
+							e.printStackTrace();
+						} catch (IOException e) {
+							e.printStackTrace();
+						}
+					}
+				}
+
+			} else {
+				String content = message.getContentRaw();
+				if (content.startsWith("!")) {
+					log.info(event.getAuthor().getName() + " : " + content);
+					if (channel.getName().startsWith("cmds") || (channel instanceof PrivateChannelImpl) || channel.getName().startsWith("dev")) {
+
+						// getRawContent() is an atomic getter
+						// getContent() is a lazy getter which modifies the
+						// content
+						// for
+						// e.g.
+						// console view (strip discord formatting)
+						if (content.equals("!help")) {
+							help(channel);
+							return;
+						} else if (content.equals("!ping")) {
+							// Important to call .queue() on the RestAction
+							// returned
+							// by
+							// sendMessage(...)
+							channel.sendMessage("Pong!").queue();
+							return;
+						} else if (content.toLowerCase().startsWith("!petfc")) {
+							petManager.petForecast(channel, content);
+							return;
+						} else if (content.toLowerCase().startsWith("!revive")) {
+							revive(channel, content);
+							return;
+						} else if (content.toLowerCase().startsWith("!unit")) {
+							unit(channel, content);
+							return;
+						} else if (content.toLowerCase().startsWith("!stat init")) {
+							statInit(event.getAuthor(), channel, content);
+							return;
+						} else if (content.startsWith("!stat")) {
+							stat(event.getAuthor(), channel, content);
+							return;
+						} else if (content.toLowerCase().startsWith("!kl ")) {
+							kl(event, channel, content);
+							return;
+						} else if (content.toLowerCase().startsWith("!guild")) {
+							guild(event, channel);
+							return;
+						} else if (content.toLowerCase().startsWith("!raid")) {
+							try {
+								raid(channel, content);
+							} catch (XPathExpressionException e) {
+								sendErrorMessage(channel, e);
+							}
+							return;
+						} else if (content.toLowerCase().startsWith("!config")) {
+
+							File file = new File(String.valueOf("/home/pi/discord/config/" + event.getGuild().getId() + ".xml"));
+
+							MessageAction action = channel.sendFile(file, "config.xml");
+							action.queue();
+						} else if (content.toLowerCase().startsWith("!growth")) {
+							growth(event, channel, content);
+						} else {
+							channel.sendMessage(bundleManager.getBundleForProperties("message.error.commande.inconnu", lang)).queue();
+							return;
+						}
+					} else if (channel.getName().startsWith("progres") || channel.getName().startsWith("dev")) {
+						progres(event.getGuild().getName(), channel, content);
+
+					} else {
+						channel.sendMessage(bundleManager.getBundleForProperties("message.error.mauvais.channel", lang)).queue();
+					}
+				}
+			}
+		} else {
+			// Pour Zeda02 
+			Message message = event.getMessage();
+			String content = message.getContentRaw();
+			if (content.startsWith("!")) {
+				log.info(event.getAuthor().getName() + " : " + content);
+				MessageChannel channel = event.getChannel();
+
+				if (content.toLowerCase().startsWith("!ms ")) {
+					ms(event, channel, content);
+					return;
+				}
+			}
+		}
 	}
 
-	
+	private void raid(MessageChannel channel, String content) throws XPathExpressionException {
+
+		raidManager.displayRaid(channel, content);
+
+	}
 
 	public void guild(MessageReceivedEvent event, MessageChannel channel) {
-		
+
 		Map<String, Integer> kls = new TreeMap<>();
 		Integer klmin = 1000;
 		Integer klmax = 0;
@@ -365,7 +385,7 @@ public class CmdListener extends ListenerAdapter {
 				}
 			}
 
-			String coupe = bundleManager.getBundleForProperties("coupe",lang);
+			String coupe = bundleManager.getBundleForProperties("coupe", lang);
 			int index = name == null ? -1 : name.indexOf(coupe);
 			if (index != -1 && !vip) {
 				Number value = NumberManager.getNumber(name.substring(index + 2).trim());
@@ -382,19 +402,33 @@ public class CmdListener extends ListenerAdapter {
 				kls.put(name.substring(0, index - 1), kl);
 			}
 		}
-		
 
 		klmoy = klmoy / kls.size();
+
+		createReportGuild(event, channel, kls, klmin, klmax, klmoy);
+	}
+
+	private void createReportGuild(MessageReceivedEvent event, MessageChannel channel, Map<String, Integer> kls, Integer klmin, Integer klmax, Double klmoy) {
+
+		kls = kls.entrySet().stream().sorted(Map.Entry.comparingByValue(new Comparator<Integer>() {
+			public int compare(Integer o1, Integer o2) {
+				return o2.compareTo(o1);
+			};
+		})).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e2, e1) -> e1, LinkedHashMap::new));
 
 		final DefaultCategoryDataset dataset = new DefaultCategoryDataset();
 		for (String name : kls.keySet()) {
 			dataset.addValue(kls.get(name), event.getGuild().getName(), name);
 		}
 
-		JFreeChart barChart = ChartFactory.createBarChart(bundleManager.getBundleForProperties("message.report.guild.level",lang), bundleManager.getBundleForProperties("message.report.guild.member",lang), "Kl", dataset, PlotOrientation.VERTICAL, true, true, false);
+		JFreeChart barChart = ChartFactory.createBarChart(bundleManager.getBundleForProperties("message.report.guild.level", lang),
+				bundleManager.getBundleForProperties("message.report.guild.member", lang), "Kl", dataset, PlotOrientation.VERTICAL, true, true, false);
 		CategoryAxis axis = barChart.getCategoryPlot().getDomainAxis();
 		axis.setCategoryLabelPositions(CategoryLabelPositions.UP_90);
-		
+		CategoryPlot plot = (CategoryPlot) barChart.getPlot();
+		NumberAxis rangeAxis = (NumberAxis) plot.getRangeAxis();
+		rangeAxis.setRange(klmin - 5, klmax + 5);
+
 		BufferedImage img = barChart.createBufferedImage(1000, 500);
 
 		ByteArrayOutputStream os = new ByteArrayOutputStream();
@@ -410,19 +444,6 @@ public class CmdListener extends ListenerAdapter {
 		MessageAction action = channel.sendFile(is, "Guild_" + sdf.format(new Date()) + ".png");
 		action.queue();
 
-		os = new ByteArrayOutputStream();
-		try {
-			ImageIO.write(GraphManager.getGraph(), "png", os);
-		} catch (IOException e) {
-			sendErrorMessage(channel, e);
-			return;
-		}
-		is = new ByteArrayInputStream(os.toByteArray());
-
-		sdf = new SimpleDateFormat("yyyyMMdHHmmss");
-		action = channel.sendFile(is, "Guild_" + sdf.format(new Date()) + ".png");
-		action.queue();
-		
 		// répartition des kl par tranche de 10
 
 		Map<Integer, Integer> partGraph = new TreeMap();
@@ -447,7 +468,8 @@ public class CmdListener extends ListenerAdapter {
 			dataset2.addValue(partGraph.get(key), event.getGuild().getName(), key);
 		}
 
-		barChart = ChartFactory.createBarChart(bundleManager.getBundleForProperties("message.report.repartition",lang), "KL", bundleManager.getBundleForProperties("message.report.repartition.number",lang), dataset2, PlotOrientation.VERTICAL, true, true, false);
+		barChart = ChartFactory.createBarChart(bundleManager.getBundleForProperties("message.report.repartition", lang), "KL",
+				bundleManager.getBundleForProperties("message.report.repartition.number", lang), dataset2, PlotOrientation.VERTICAL, true, true, false);
 		img = barChart.createBufferedImage(1000, 500);
 
 		os = new ByteArrayOutputStream();
@@ -463,118 +485,238 @@ public class CmdListener extends ListenerAdapter {
 		action = channel.sendFile(is, "Guild_" + sdf.format(new Date()) + ".png");
 		action.queue();
 
-		
-		//formatter:off
-		channel.sendMessage(
-			bundleManager.getBundleForProperties("message.report.kl.min",lang)+" : " + klmin + "\n"
-		+ bundleManager.getBundleForProperties("message.report.kl.max",lang)+" : " + klmax + "\n" 
-		+ bundleManager.getBundleForProperties("message.report.kl.average",lang)+" : " + klmoy + "\n").queue();
-		//formatter:on
+		// formatter:off
+		channel.sendMessage(bundleManager.getBundleForProperties("message.report.kl.min", lang) + " : " + klmin + "\n" + bundleManager.getBundleForProperties("message.report.kl.max", lang) + " : "
+				+ klmax + "\n" + bundleManager.getBundleForProperties("message.report.kl.average", lang) + " : " + klmoy + "\n").queue();
+		// formatter:on
 	}
 
 	private void growth(MessageReceivedEvent event, MessageChannel channel, String content) {
-		try{
+		try {
 			String lang = config.getLang();
 			String spreadsheetId = config.getReportMedal().getExcel();
-			ValueRange responseName;
-			ValueRange responseMedal;
-			ValueRange responsePercent;
+			ValueRange responseName = null;
+			ValueRange responseMedal = null;
+			ValueRange responseMedalEF = null;
+			ValueRange responsePercent = null;
+			ValueRange responseKL = null;
 			List<List<Object>> valuesName = null;
 			List<List<Object>> valuesMedal = null;
+			List<List<Object>> valuesMedalEF = null;
 			List<List<Object>> valuesPercent = null;
+			List<List<Object>> valuesKL = null;
+
+			Map<String, Integer> kls = new TreeMap<>();
+			Integer klmin = 1000;
+			Integer klmax = 0;
+			Double klmoy = 0.0;
+
 			if (spreadsheetId != null) {
 				ReportMedal reportMedal = config.getReportMedal();
-				responseName = sheetManager.getService().spreadsheets().values().get(spreadsheetId, reportMedal.getSheet()+"!"+reportMedal.getRangeName()).execute();
-				responseMedal = sheetManager.getService().spreadsheets().values().get(spreadsheetId, reportMedal.getSheet()+"!"+reportMedal.getRangeMedal()).execute();
-				responsePercent = sheetManager.getService().spreadsheets().values().get(spreadsheetId, reportMedal.getSheet()+"!"+reportMedal.getRangePercent()).execute();
-				
+				responseName = sheetManager.getService().spreadsheets().values().get(spreadsheetId, reportMedal.getSheet() + "!" + reportMedal.getRangeName()).execute();
+				if (reportMedal.getRangeMedal() != null && !reportMedal.getRangeMedal().isEmpty())
+					responseMedal = sheetManager.getService().spreadsheets().values().get(spreadsheetId, reportMedal.getSheet() + "!" + reportMedal.getRangeMedal()).execute();
+
+				if (reportMedal.getRangeMedalEF() != null && !reportMedal.getRangeMedalEF().isEmpty())
+					responseMedalEF = sheetManager.getService().spreadsheets().values().get(spreadsheetId, reportMedal.getSheet() + "!" + reportMedal.getRangeMedalEF()).execute();
+
+				responsePercent = sheetManager.getService().spreadsheets().values().get(spreadsheetId, reportMedal.getSheet() + "!" + reportMedal.getRangePercent()).execute();
+
+				if (reportMedal.getRangeKL() != null && !reportMedal.getRangeKL().isEmpty())
+					responseKL = sheetManager.getService().spreadsheets().values().get(spreadsheetId, reportMedal.getSheet() + "!" + reportMedal.getRangeKL()).execute();
+
 				valuesName = responseName.getValues();
-				valuesMedal = responseMedal.getValues();
+				if (responseMedal != null)
+					valuesMedal = responseMedal.getValues();
+
+				if (responseMedalEF != null)
+					valuesMedalEF = responseMedalEF.getValues();
+
 				valuesPercent = responsePercent.getValues();
-			} 
-			if (valuesName != null && valuesMedal != null) {
-				
+
+				if (responseKL != null)
+					valuesKL = responseKL.getValues();
+			}
+
+			/** Medal **/
+
+			if (valuesName != null) {
+
 				Map<String, Double> partGraphMedal = new TreeMap();
+				Map<String, String> partGraphMedalEF = new TreeMap();
 				Map<String, Double> partGraphPercent = new TreeMap();
+				Map<String, Double> partGraphKL = new TreeMap();
 				int i = 0;
 				for (List<Object> row : valuesName) {
-					
-					String name = (String) row.get(0);
-					Double medal = 0.0;
-					Double percent = 0.0;
-					try{
-						String smedal = ((String)valuesMedal.get(i).get(0)).replaceAll(",", ".").replaceAll("[^0-9\\.]", "");
-						
-						if(!smedal.isEmpty()){
-							medal = Double.parseDouble(smedal.replace(",", ""));
+					if (row.size() == 1) {
+						String name = (String) row.get(0);
+						Double medal = 0.0;
+						Double percent = 0.0;
+						Double kl = 0.0;
+						try {
+							String smedal = ((String) valuesMedal.get(i).get(0)).replaceAll(",", ".").replaceAll("[^0-9\\.]", "");
+
+							if (!smedal.isEmpty()) {
+								medal = Double.parseDouble(smedal.replace(",", ""));
+							}
+
+						} catch (Exception e) {
+
 						}
-						
-					} catch (Exception e){
-						
-					}
-					try {
-						String spercent = ((String) valuesPercent.get(i).get(0)).replaceAll(",", ".").replaceAll("[^0-9\\.]", "");
-						if (!spercent.isEmpty()) {
-							percent = Double.parseDouble(spercent.replace(",", ""));
+						try {
+							String spercent = ((String) valuesPercent.get(i).get(0)).replaceAll(",", ".").replaceAll("[^0-9\\.]", "");
+							if (!spercent.isEmpty()) {
+								percent = Double.parseDouble(spercent.replace(",", ""));
+							}
+						} catch (Exception e) {
+
 						}
-					} catch (Exception e) {
+
+						try {
+							String skl = ((String) valuesKL.get(i).get(0)).replaceAll(",", ".").replaceAll("[^0-9\\.]", "");
+							if (!skl.isEmpty()) {
+								kl = Double.parseDouble(skl.replace(",", ""));
+
+								Integer klInt = kl.intValue();
+								if (klmax < klInt) {
+									klmax = klInt;
+								}
+								if (klmin > klInt) {
+									klmin = klInt;
+								}
+
+								klmoy += klInt;
+
+								kls.put(name, klInt);
+
+							}
+						} catch (Exception e) {
+
+						}
+
+						try {
+							String value = ((String) valuesMedalEF.get(i).get(0));
+							if (responseMedalEF != null)
+								partGraphMedalEF.put(name, value);
+						} catch (Exception e) {
+
+						}
+
+						if (responseMedal != null)
+							partGraphMedal.put(name, medal);
+
+						partGraphPercent.put(name, percent);
+
+						if (responseKL != null)
+							partGraphKL.put(name, kl);
 
 					}
-					partGraphMedal.put(name, medal);
-					partGraphPercent.put(name, percent);
 					i++;
 				}
-	
+
 				final DefaultCategoryDataset dataset = new DefaultCategoryDataset();
-				partGraphMedal = partGraphMedal.entrySet().stream().sorted(Map.Entry.comparingByValue(new Comparator<Double>() {
-					public int compare(Double o1, Double o2) {
-						return o2.compareTo(o1);};
-				})).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e2, e1) -> e1, LinkedHashMap::new));
-				for (String key : partGraphMedal.keySet()) {
-					dataset.addValue(partGraphMedal.get(key), event.getGuild().getName(), key);
+				JFreeChart barChart = null;
+				CategoryAxis axis = null;
+				BufferedImage img = null;
+				ByteArrayOutputStream os = null;
+				InputStream is = null;
+				SimpleDateFormat sdf = null;
+				MessageAction action = null;
+
+				if (!partGraphMedal.isEmpty()) {
+					partGraphMedal = partGraphMedal.entrySet().stream().sorted(Map.Entry.comparingByValue(new Comparator<Double>() {
+						public int compare(Double o1, Double o2) {
+							return o2.compareTo(o1);
+						};
+					})).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e2, e1) -> e1, LinkedHashMap::new));
+					for (String key : partGraphMedal.keySet()) {
+						dataset.addValue(partGraphMedal.get(key), event.getGuild().getName(), key);
+					}
+
+					barChart = ChartFactory.createBarChart(bundleManager.getBundleForProperties("message.report.guild.medal", lang),
+							bundleManager.getBundleForProperties("message.report.guild.member", lang), "Medal", dataset, PlotOrientation.VERTICAL, true, true, false);
+					axis = barChart.getCategoryPlot().getDomainAxis();
+					axis.setCategoryLabelPositions(CategoryLabelPositions.UP_90);
+
+					img = barChart.createBufferedImage(1000, 500);
+
+					os = new ByteArrayOutputStream();
+					try {
+						ImageIO.write(img, "png", os);
+					} catch (IOException e) {
+						sendErrorMessage(channel, e);
+						return;
+					}
+					is = new ByteArrayInputStream(os.toByteArray());
+
+					sdf = new SimpleDateFormat("yyyyMMdHHmmss");
+					action = channel.sendFile(is, "Guild_Medal_" + sdf.format(new Date()) + ".png");
+					action.queue();
 				}
-	
-				JFreeChart barChart = ChartFactory.createBarChart(bundleManager.getBundleForProperties("message.report.guild.medal",lang), bundleManager.getBundleForProperties("message.report.guild.member",lang), "Medal", dataset, PlotOrientation.VERTICAL, true, true, false);
-				CategoryAxis axis = barChart.getCategoryPlot().getDomainAxis();
-				axis.setCategoryLabelPositions(CategoryLabelPositions.UP_90);
-				
-				BufferedImage img = barChart.createBufferedImage(1000, 500);
-	
-				ByteArrayOutputStream os = new ByteArrayOutputStream();
-				try {
-					ImageIO.write(img, "png", os);
-				} catch (IOException e) {
-					sendErrorMessage(channel, e);
-					return;
+
+				if (!partGraphMedalEF.isEmpty()) {
+					partGraphMedalEF = partGraphMedalEF.entrySet().stream().sorted(Map.Entry.comparingByValue(new Comparator<String>() {
+						public int compare(String o1, String o2) {
+							BigDecimal bo1 = NumberManager.getNumber(o1);
+							BigDecimal bo2 = NumberManager.getNumber(o2);
+
+							return bo2.compareTo(bo1);
+						};
+					})).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e2, e1) -> e1, LinkedHashMap::new));
+
+					final DefaultCategoryDataset datasetEF = new DefaultCategoryDataset();
+					for (String key : partGraphMedalEF.keySet()) {
+						String value = partGraphMedalEF.get(key);
+
+						String letter = value.replaceAll("[^a-z]", "");
+						String number = value.replaceAll(",", ".").replaceAll("[^0-9\\.]", "");
+						datasetEF.addValue(Double.parseDouble(number), letter, key);
+					}
+
+					barChart = ChartFactory.createBarChart(bundleManager.getBundleForProperties("message.report.guild.medal", lang),
+							bundleManager.getBundleForProperties("message.report.guild.member", lang), "Medal", datasetEF, PlotOrientation.VERTICAL, true, true, false);
+					axis = barChart.getCategoryPlot().getDomainAxis();
+					axis.setCategoryLabelPositions(CategoryLabelPositions.UP_90);
+
+					img = barChart.createBufferedImage(1000, 500);
+
+					os = new ByteArrayOutputStream();
+					try {
+						ImageIO.write(img, "png", os);
+					} catch (IOException e) {
+						sendErrorMessage(channel, e);
+						return;
+					}
+					is = new ByteArrayInputStream(os.toByteArray());
+
+					sdf = new SimpleDateFormat("yyyyMMdHHmmss");
+					action = channel.sendFile(is, "Guild_Medal_" + sdf.format(new Date()) + ".png");
+					action.queue();
 				}
-				InputStream is = new ByteArrayInputStream(os.toByteArray());
-	
-				SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdHHmmss");
-				MessageAction action = channel.sendFile(is, "Guild_Medal_" + sdf.format(new Date()) + ".png");
-				action.queue();
-				
+				/** Percent **/
+
 				final DefaultCategoryDataset dataset2 = new DefaultCategoryDataset();
 				partGraphPercent = partGraphPercent.entrySet().stream().sorted(Map.Entry.comparingByValue(new Comparator<Double>() {
 					public int compare(Double o1, Double o2) {
-						return o2.compareTo(o1);};
+						return o2.compareTo(o1);
+					};
 				})).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e2, e1) -> e1, LinkedHashMap::new));
 				for (String key : partGraphPercent.keySet()) {
-					
+
 					Double percent = partGraphPercent.get(key);
 					String setName = event.getGuild().getName();
-					if(percent < 30 ){
+					if (percent < 30) {
 						setName += " <30%";
-					} else if(30 < percent && percent < 50) {
+					} else if (30 < percent && percent < 50) {
 						setName += " 30%-50%";
 					} else {
 						setName += " >50% ";
 					}
-					dataset2.addValue(partGraphPercent.get(key), setName, key);      
+					dataset2.addValue(partGraphPercent.get(key), setName, key);
 				}
-	
-				
-				
-				barChart = ChartFactory.createBarChart(bundleManager.getBundleForProperties("message.report.guild.progression", lang), bundleManager.getBundleForProperties("message.report.guild.member", lang), "%", dataset2, PlotOrientation.VERTICAL, true, true, false);
+
+				barChart = ChartFactory.createBarChart(bundleManager.getBundleForProperties("message.report.guild.progression", lang),
+						bundleManager.getBundleForProperties("message.report.guild.member", lang), "%", dataset2, PlotOrientation.VERTICAL, true, true, false);
 				/* Get instance of CategoryPlot */
 				CategoryPlot plot = barChart.getCategoryPlot();
 
@@ -586,9 +728,8 @@ public class CmdListener extends ListenerAdapter {
 				renderer.setSeriesPaint(2, Color.red);
 				axis = barChart.getCategoryPlot().getDomainAxis();
 				axis.setCategoryLabelPositions(CategoryLabelPositions.UP_90);
-				
 				img = barChart.createBufferedImage(1000, 500);
-	
+
 				os = new ByteArrayOutputStream();
 				try {
 					ImageIO.write(img, "png", os);
@@ -597,29 +738,77 @@ public class CmdListener extends ListenerAdapter {
 					return;
 				}
 				is = new ByteArrayInputStream(os.toByteArray());
-	
+
 				sdf = new SimpleDateFormat("yyyyMMdHHmmss");
 				action = channel.sendFile(is, "Guild_Percent_" + sdf.format(new Date()) + ".png");
 				action.queue();
+
+				/** KL **/
+				if (!kls.isEmpty()) {
+					klmoy = klmoy / kls.size();
+					createReportGuild(event, channel, kls, klmin, klmax, klmoy);
+				}
 			}
-		}catch (Exception e){
+		} catch (Exception e) {
 			sendErrorMessage(channel, e);
 		}
 	}
-	
+
 	public void kl(MessageReceivedEvent event, MessageChannel channel, String content) {
-		content = content.substring("!kl ".length());    
+		content = content.substring("!kl ".length());
 		GuildController controller = new GuildController(event.getGuild());
 		String name = event.getMember().getNickname();
 		if (name == null) {
 			name = event.getAuthor().getName();
 		}
-		
+
 		String coupe = bundleManager.getBundleForProperties("coupe", lang);
 		if (name.contains(coupe)) {
 			name = name.split(coupe)[0].trim();
 		}
-		controller.setNickname(event.getMember(), name + " "+coupe+" " + content).submit();
+		controller.setNickname(event.getMember(), name + " " + coupe + " " + content).submit();
+		String plus = "";
+		try {
+			Integer kl = Integer.parseInt(content);
+			if (kl % 10 == 0) {
+				plus = ":raised_hands: ";
+			}
+			if(kl>=270){
+				Role role = null;
+				for(Role r : event.getGuild().getRoles()){
+					if(r.getName().equals("270+")){
+						role = r;
+					}
+				}
+				if (role != null){
+					for (Role rl : event.getMember().getRoles()) {
+						if (rl.getName().equals(config.getReportKL().getRole())) {
+							controller.addSingleRoleToMember(event.getMember(), role).submit();
+						}
+					}
+				}
+			}
+		} catch (NumberFormatException e) {
+			System.out.println("eee");
+		}
+
+		channel.sendMessage(name + " " + bundleManager.getBundleForProperties("message.update.kl", lang) + content + " " + plus).queue();
+		return;
+	}
+
+	public void ms(MessageReceivedEvent event, MessageChannel channel, String content) {
+		content = content.substring("!ms ".length());
+		GuildController controller = new GuildController(event.getGuild());
+		String name = event.getMember().getNickname();
+		if (name == null) {
+			name = event.getAuthor().getName();
+		}
+
+		String coupe = " | " ;
+		if (name.contains(coupe)) {
+			name = name.split(coupe)[0].trim();
+		}
+		controller.setNickname(event.getMember(), name + " " + coupe + " " + content).submit();
 		String plus = "";
 		try {
 			Integer kl = Integer.parseInt(content);
@@ -630,12 +819,12 @@ public class CmdListener extends ListenerAdapter {
 
 		}
 
-		channel.sendMessage(name + " " + bundleManager.getBundleForProperties("message.update.kl", lang)+ content + " " + plus).queue();
+		channel.sendMessage(name + " a atteint l'etage "+content+" " + plus).queue();
 		return;
 	}
 
 	public void progres(String guildName, MessageChannel channel, String content) {
-		
+
 		File directory = new File(String.valueOf("/home/pi/discord/progres"));
 		File file = new File(directory.getPath() + "/" + guildName + ".txt");
 
@@ -734,8 +923,8 @@ public class CmdListener extends ListenerAdapter {
 			sendErrorMessage(channel, e);
 			return;
 		}
-	}	
-	
+	}
+
 	public void stat(User author, MessageChannel channel, String content) {
 		try {
 			String[] args = content.split(" ");
@@ -854,10 +1043,10 @@ public class CmdListener extends ListenerAdapter {
 		try {
 			String[] args = content.split(" ");
 			Integer floor = Integer.parseInt(args[1]);
-			if (floor > 30000) {
-				channel.sendMessage(bundleManager.getBundleForProperties("message.error.revive.max", lang)).queue();
-				return;
-			}
+//			if (floor > 30000) {
+//				channel.sendMessage(bundleManager.getBundleForProperties("message.error.revive.max", lang)).queue();
+//				return;
+//			}
 
 			BigDecimal bonus = new BigDecimal(Integer.parseInt(args[2]));
 

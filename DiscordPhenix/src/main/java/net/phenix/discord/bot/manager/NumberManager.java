@@ -46,4 +46,9 @@ public class NumberManager extends AbstractManager {
 		return power;
 		
 	}
+	
+	public static void main(String[] args) {
+		BigDecimal bg = new BigDecimal("2.74791795298035E+21");
+		System.out.println(getEFNumber(bg));
+	}
 }
